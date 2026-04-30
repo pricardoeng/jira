@@ -5,8 +5,17 @@ import { parse } from 'csv-parse/sync';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(request) {
   try {
+    // Basic Security: Check for Auth Token
+    const authToken = process.env.DASHBOARD_AUTH_TOKEN;
+    if (authToken) {
+      const authHeader = request.headers.get('Authorization');
+      if (authHeader !== `Bearer ${authToken}`) {
+        return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+      }
+    }
+
     const filePath = path.join(process.cwd(), 'bd.csv');
     
     if (!fs.existsSync(filePath)) {

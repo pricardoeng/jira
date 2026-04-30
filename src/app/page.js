@@ -5,7 +5,7 @@ import { fetchDashboardData } from '../services/dashboardService';
 import styles from './page.module.css';
 import { 
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, Cell,
-  PieChart, Pie, LineChart, Line, CartesianGrid, ComposedChart
+  PieChart, Pie, LineChart, Line, CartesianGrid, ComposedChart, ReferenceLine
 } from 'recharts';
 import { Loader2, AlertCircle } from 'lucide-react';
 
@@ -231,6 +231,12 @@ export default function Dashboard() {
                 <XAxis dataKey="name" stroke="#64748b" tick={{fontSize: 10}} interval={0} angle={-15} textAnchor="end" height={50} />
                 <YAxis stroke="#64748b" tick={{fontSize: 12}} />
                 <Tooltip contentStyle={{background: '#1e293b', border: 'none'}} cursor={{fill: 'rgba(255,255,255,0.05)'}} />
+                <ReferenceLine 
+                  y={45} 
+                  stroke="#ef4444" 
+                  strokeDasharray="5 5" 
+                  label={{ value: 'Meta: 45h', position: 'right', fill: '#ef4444', fontSize: 11, fontWeight: 'bold' }} 
+                />
                 <Bar 
                   dataKey="totalPoints" 
                   fill="#1e3a8a" 
@@ -254,7 +260,7 @@ export default function Dashboard() {
         <div className={`${styles.card} ${styles.areaCard}`}>
           <div className={styles.cardHeader}>
             <span className={styles.cardTitle}>INVESTIMENTO POR ÁREA (LABELS)</span>
-            <span className={styles.cardTitleSub}>horas estimadas totais</span>
+            <span className={styles.cardTitleSub}>total: {areas.reduce((acc, curr) => acc + curr.value, 0)}h</span>
           </div>
           <div className={styles.chartWrapper} style={{ height: '300px', marginTop: '20px' }}>
             <ResponsiveContainer width="100%" height="100%">
@@ -279,33 +285,8 @@ export default function Dashboard() {
         </div>
       </section>
 
-      {/* BOTTOM ROW 2: Detailed Health */}
-      <section className={styles.bottomRow}>
-        <div className={`${styles.card} ${styles.personListCard}`}>
-          <div className={styles.cardHeader}>
-            <span className={styles.cardTitle}>EFICIÊNCIA INDIVIDUAL</span>
-            <span className={styles.cardTitleSub}>% de horas entregues</span>
-          </div>
-          <div className={styles.personList}>
-            {assignees.map((a, i) => {
-              const perc = a.totalPoints > 0 ? Math.round((a.donePoints / a.totalPoints) * 100) : 0;
-              const color = perc > 70 ? '#10b981' : perc > 40 ? '#3b82f6' : perc > 20 ? '#f59e0b' : '#ef4444';
-              return (
-                <div key={a.name} className={styles.personItem}>
-                  <div className={styles.personAvatar}>{a.name.substring(0,2).toUpperCase()}</div>
-                  <div className={styles.personName}>{a.name}</div>
-                  <div className={styles.personBarWrapper}>
-                    <div className={styles.personBarBg}>
-                      <div className={styles.personBarFill} style={{ width: `${perc}%`, background: color }} />
-                    </div>
-                  </div>
-                  <div className={styles.personPerc} style={{ color }}>{perc}%</div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
+      {/* BOTTOM ROW 3: Project Health */}
+      <section className={styles.fullRow}>
         <div className={`${styles.card} ${styles.projectsCard}`}>
           <div className={styles.cardHeader}>
             <span className={styles.cardTitle}>SAÚDE DOS PROJETOS (EPICS S*)</span>

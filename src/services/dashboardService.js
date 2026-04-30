@@ -247,6 +247,14 @@ function processData(issues) {
   const remainingDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   
   const daysElapsed = Math.ceil((today - startDate) / (1000 * 60 * 60 * 24)) || 1;
+  const assignees = Array.from(assigneesMap.values())
+    .map(a => ({
+      ...a,
+      allocation: Math.round((a.totalPoints / 45) * 100)
+    }))
+    .sort((a, b) => b.totalPoints - a.totalPoints)
+    .filter(a => a.name !== 'Unassigned');
+
   const velocity = Math.round((metrics.donePoints / daysElapsed) * 10) / 10;
 
   return {
@@ -256,7 +264,7 @@ function processData(issues) {
       velocity
     },
     burndownData,
-    assignees: Array.from(assigneesMap.values()).sort((a, b) => b.totalPoints - a.totalPoints).filter(a => a.name !== 'Unassigned'),
+    assignees,
     epics: Array.from(epicsMap.values())
       .filter(e => e.id !== 'No Parent' && e.name && e.name.trim().toUpperCase().startsWith('S'))
       .sort((a, b) => a.name.localeCompare(b.name)),
