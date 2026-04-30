@@ -195,9 +195,10 @@ function processData(issues) {
   });
 
   // Burndown calculation
-  const startDate = new Date(2026, 3, 22); // April 22
+  const startDate = new Date(2026, 3, 20); // April 20
   const endDate = new Date(2026, 4, 4);   // May 4
-  const today = new Date(2026, 3, 30);   // simulated today
+  const today = new Date();
+  today.setHours(0,0,0,0);
   
   const burndownData = [];
   const days = [];
