@@ -1,0 +1,835 @@
+Issue Type,Key,Epic Name,Summary,Epic Link,Pilar,Start date,Due date,Fonte,Labels,Components,Sprint,Actual end,Actual start,Description,Pair with,Pairing with,Pairing with,Pairing with,Pairing with...,Checklist Progress,Checklist Progress %,Epic Status,Status,Story Points,Assignee,Team,Priority,parent,Parent Link,Linked Issues,Progress,Resolved,Due date,End date,Resignation date,Fix versions,Epic Link.Name,Linked Issues.linkName,Solicitante.displayName,Stakeholders.displayName,Liderança Solicitante.displayName,Dono da demanda.displayName,Labels
+Task,RVO-6588,,"Ajuste no relatório de de plano de ação, tirar usuários inativos",RVO-129,,30/04/2026,30/04/2026,,CSM,,The Big Bang Theory,,,Alterado os relatórios para filtrar somente para usuários ativos.,,,,,,,0,,Concluído,1,Tiago Neves,,Medium,RVO-129,,,0,30/04/2026 18:44:20,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6583,,[Carteirização] - Alterações de Coprime,RVO-24,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Em andamento,2,Gabriel Pires,,Medium,RVO-24,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6581,,Forecast - Analisar valores errados,RVO-129,,29/04/2026,30/04/2026,,Vendas,,The Big Bang Theory,,,"Analisar o pq os valores estão dando errado para alguns usuários, tentar ajustar a lógica para funcionar
+
+----
+
+Estou refazendo a lógica do Forecast para que funcione de qualquer maneira.",,,,,,,0,,Concluído,6,Tiago Neves,,Medium,RVO-129,,,0,30/04/2026 14:33:47,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6580,,Ajuste das descrições de macro motivos e micro motivos de TA - P0,RVO-4920,,29/04/2026,30/04/2026,,CH,,The Big Bang Theory,,,"Planilha onde tem as descrições novas
+
+[https://docs.google.com/spreadsheets/d/1-DBD1_oeiAnGAcUy_58utAbh6ps2S9i9X_Z352ZCaGc/edit?pli=1&gid=1279265627#gid=1279265627|https://docs.google.com/spreadsheets/d/1-DBD1_oeiAnGAcUy_58utAbh6ps2S9i9X_Z352ZCaGc/edit?pli=1&gid=1279265627#gid=1279265627|smart-link] 
+
+----
+
+Para cada uma testar para entender como ela se comporta na classificação.",,,,,,,0,,Em andamento,5,Tiago Neves,,Highest,RVO-4920,,,0,,,,,,,,[no field found],,,[no field found],
+Story,RVO-6578,,Nova Segmentação de contas,RVO-129,,,30/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Em andamento,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Story,RVO-6577,,Alterações de carteira,,,,29/04/2026,,,,The Big Bang Theory,,,"Subir em carga alterações de AE, Co-Prime e BDR Ecossistema nas contas",,,,,,,0,,Concluído,3,david oliveira soares,,Medium,,,,0,29/04/2026 12:40:21,,,,,,,[no field found],,,[no field found],
+Task,RVO-6576,,Validação - Dash Arquitetura de Soluções,RVO-105,,04/05/2026,05/05/2026,,,,The Big Bang Theory,,,Reuniões de validação do dashboard.,,,,,,,0,,BACKLOG,,Lana Reis,,Medium,RVO-105,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6575,,Subida Leads - Webinar,RVO-129,,,,,,,The Big Bang Theory,,,[https://docs.google.com/spreadsheets/d/1GgLUt444dPSmZobLIXoZUn30SWd6V2RfUz7YXGAVeF4/edit?gid=2054435572#gid=2054435572|https://docs.google.com/spreadsheets/d/1GgLUt444dPSmZobLIXoZUn30SWd6V2RfUz7YXGAVeF4/edit?gid=2054435572#gid=2054435572],,,,,,,0,,Concluído,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,29/04/2026 19:36:49,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6574,,Material Reunião RV Q1,RVO-5317,,27/04/2026,29/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Em andamento,4,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6571,,"Ajuste dos planos de ação antigos, marcar todos como não realizado",RVO-5054,,28/04/2026,28/04/2026,,CSM,,The Big Bang Theory,,,"Puxar todos os planos de ação antigos e marcar todos como não realizados
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|[https://docs.google.com/spreadsheets/d/1MDdu_MYJXY-b21pZ5UFUYmjU-1XJ5aTPV59kwmNakTo/edit?gid=0#gid=0|https://docs.google.com/spreadsheets/d/1MDdu_MYJXY-b21pZ5UFUYmjU-1XJ5aTPV59kwmNakTo/edit?gid=0#gid=0|smart-link]|Google Sheets|Planilha onde está listada os planos de ação que tiveram o status alterado para Não realizada|
+| | | |",,,,,,,0,,Concluído,1,Tiago Neves,,High,RVO-5054,,,0,28/04/2026 18:06:40,,,,,,,[no field found],,,[no field found],
+Task,RVO-6570,,Ajuste do dashboard para colocar uma coluna da meta,RVO-5054,,28/04/2026,28/04/2026,,CSM,,The Big Bang Theory,,,"A ideia é ajustar os dashboards da gerência para colocar a informação da meta no plano de ação.
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|[https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000o34FBUAY/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000o34FBUAY/view?queryScope=userFolders|smart-link]|Relatório|Adiciona as colunas de Quarter Priorizado e Riscos principais mapeados|
+|[https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000o32wXUAQ/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000o32wXUAQ/view?queryScope=userFolders|smart-link]|Relatório|Adiciona as colunas de Quarter Priorizado e Riscos principais mapeados|
+|[https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000o0rdpUAA/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000o0rdpUAA/view?queryScope=userFolders|smart-link]|Relatório|Adiciona as colunas de Quarter Priorizado e Riscos principais mapeados|
+
+
+",,,,,,,0,,Concluído,1,Tiago Neves,,Highest,RVO-5054,,,0,28/04/2026 17:49:00,,,,,,,[no field found],,,[no field found],
+Task,RVO-6569,,Analisar valores negativos do Forecast para Co-Prime,RVO-129,,30/04/2026,30/04/2026,,Vendas,,The Big Bang Theory,,,"!image-20260428-173456.png|width=662,alt=""image-20260428-173456.png""!
+
+Analisar esses valores negativos para o time de co-prime",,,,,,,0,,Concluído,1,Tiago Neves,,Medium,RVO-129,,,0,30/04/2026 14:40:12,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6568,,"Ajuste da estrutura do prompt, olhar primeiro o motivo macro e depois buscar nos micros",RVO-4920,,28/04/2026,29/04/2026,,CH,,The Big Bang Theory,,,"Ajustar a estrutura do prompt e lógica do prompt para que após tenha encontrado o motivo macro, incluir o valor encontrado para o motivo micro e assim fazer o filtro nos motivos micros e buscar encima desses valores.
+Assim performando melhor no RAG.
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|[https://gupy2.app.n8n.cloud/workflow/eKId7iGlj3VhKREJ|https://gupy2.app.n8n.cloud/workflow/eKId7iGlj3VhKREJ|smart-link]|Workflow da N8N|Ajustado o prompt para que comece a buscar o macro motivo e depois o micro motivo com base no macro motivo.|
+| | | |",,,,,,,0,,Concluído,6,Tiago Neves,,Highest,RVO-4920,,,0,29/04/2026 13:05:01,,,,,,,[no field found],,,[no field found],
+Task,RVO-6566,,Dados do produto de TA e TM,RVO-5450,,28/04/2026,28/04/2026,,RevOps,,The Big Bang Theory,,,Começar a puxar dados dos produtos.,,,,,,,0,,Em andamento,3,Tiago Neves,,Medium,RVO-5450,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6565,,Alimentação da base de campanhas,RVO-129,,,,,,,The Big Bang Theory,,,"Importação em massa das associações das contas para com a campanha FGC MVP MM.
+",,,,,,,0,,Concluído,1,Alan Dantas Bernardo,,Medium,RVO-129,,,0,28/04/2026 12:11:39,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6564,,FIX - Limpeza do campo descrição antes de colocar na ia para comparar,RVO-4920,,27/04/2026,28/04/2026,,CH,,The Big Bang Theory,,,"Fazer a limpeza do campo descrição antes de colocar para IA avaliar.
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|[https://gupy2.app.n8n.cloud/workflow/eKId7iGlj3VhKREJ/457322|https://gupy2.app.n8n.cloud/workflow/eKId7iGlj3VhKREJ/457322|smart-link]|Workflow da N8N|Adicionado um agente para que ocorra a limpeza do corpo de e-mail, assim o agente sempre vai conseguir tratar o dado o mais limpo possível.|
+|[https://docs.google.com/spreadsheets/d/1rz325v_IXVPVOm4YiY5ksLvgzNdcnyesIULBZpyUZxQ/edit?gid=2098713099#gid=2098713099|https://docs.google.com/spreadsheets/d/1rz325v_IXVPVOm4YiY5ksLvgzNdcnyesIULBZpyUZxQ/edit?gid=2098713099#gid=2098713099|smart-link]|Google Sheet|Planilha usada para o teste, foram feitos testes em 10 tickets e todos passaram com confiança alta.|
+|[https://gupy-io.atlassian.net/wiki/spaces/PBI/pages/5279285253/Triagem+Autom+tica+de+Tickets+Agente+CH|https://gupy-io.atlassian.net/wiki/spaces/PBI/pages/5279285253/Triagem+Autom+tica+de+Tickets+Agente+CH|smart-link]|Página do confluence|Documentação sobre o workflow do agente de CH.|
+| | | |",,,,,,,0,,Concluído,3,Tiago Neves,,Highest,RVO-4920,,,0,28/04/2026 15:41:52,,,,,,,[no field found],,,[no field found],
+Task,RVO-6563,,Informações Co-prime,RVO-5317,,24/04/2026,24/04/2026,,,,The Big Bang Theory,,,"Levantamento de dados para suporte nas decisões das metas de Co-prime, demanda vinda da Sabrina, liderança do time. ",,,,,,,0,,Concluído,3,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,27/04/2026 14:11:35,,,,,,,[no field found],,,[no field found],
+Task,RVO-6561,,Ajuste do valor no Forecast commit,RVO-129,,27/04/2026,27/04/2026,,Vendas,,The Big Bang Theory,,,"Ajustar o valor do commit dos usuários e remover Alexandre Rosa do Forecast
+
+
+
+----
+
+Link da planilha com os ajustes
+[https://docs.google.com/spreadsheets/d/15yss-lI5B2w9FN2LXOBLienGRdEJxgXl0a3lZoD1eJY/edit?gid=1169998514#gid=1169998514|https://docs.google.com/spreadsheets/d/15yss-lI5B2w9FN2LXOBLienGRdEJxgXl0a3lZoD1eJY/edit?gid=1169998514#gid=1169998514]",,,,,,,0,,Concluído,3,Tiago Neves,,Highest,RVO-129,,,0,27/04/2026 13:35:14,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6560,,Construção das páginas - Dash Arquitetura de Soluções,RVO-105,,29/04/2026,30/04/2026,,,,The Big Bang Theory,,,Construção das páginas do dashboard de Arquitetura de Soluções.,,,,,,,0,,Em andamento,6,Lana Reis,,Medium,RVO-105,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6559,,Construção das Métricas - Dash Arquitetura de Soluções,RVO-105,,24/04/2026,29/04/2026,,,,The Big Bang Theory,,,Construção das métricas do dashboard de Arquitetura de Soluções.,,,,,,,0,,Concluído,10,Lana Reis,,Medium,RVO-105,,,0,29/04/2026 21:52:19,,,,,,,[no field found],,,[no field found],
+Task,RVO-6557,,Construção de dashboard - Fonte,RVO-129,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,5,Alan Dantas Bernardo,,Medium,RVO-129,,,0,29/04/2026 19:37:08,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6555,,[Carteirização] - Painel de Acompanhamento da Carteira,RVO-24,,,,,,,The Big Bang Theory,,,"Documento com um check de sanidade sobre quais contas tem AE, BDR, Coprime…
+Conseguir acompanhar a saúde do processo de carteirização.
+Ex.: [https://docs.google.com/spreadsheets/d/1RokEjncLtHX3CUyPHpGh-XB05SiCcNlmBvlRwWdy86o/edit?gid=1110019014#gid=1110019014|https://docs.google.com/spreadsheets/d/1RokEjncLtHX3CUyPHpGh-XB05SiCcNlmBvlRwWdy86o/edit?gid=1110019014#gid=1110019014|smart-link] ",,,,,,,0,,Concluído,4,Gabriel Pires,,Medium,RVO-24,,,0,30/04/2026 15:10:38,,,,,,,[no field found],,,[no field found],
+Task,RVO-6554,,[Carteirização] - Organização da Reunião de acompanhamento de Carteiras,RVO-24,,,,,,,The Big Bang Theory,,,,,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-24,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6553,,[Carteirização] - Alteração de Tempo de Posse,RVO-24,,,,,,,The Big Bang Theory,,,,,,,,,,0,,BACKLOG,1,Gabriel Pires,,Medium,RVO-24,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6552,,[Carteirização] - Revisão da documentação e Processos,RVO-24,,,,,,,The Big Bang Theory,,,,,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-24,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6551,,[Carteirização] - Revisão de Carteira e Metas,RVO-24,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Em andamento,3,Gabriel Pires,,Medium,RVO-24,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6550,,Modelagem dos Dados - Dashboard Arquitetura de Soluções,RVO-105,,23/04/2026,24/04/2026,,,,The Big Bang Theory,,,Fazer a modelagem dos dados do dashboard de Arquitetura de Soluções,,,,,,,0,,Concluído,12,Lana Reis,,Medium,RVO-105,,,0,24/04/2026 20:05:27,,,,,,,[no field found],,,[no field found],
+Story,RVO-6549,,Subida Alteração de carteira - Carga Inhire,RVO-129,,,24/04/2026,,,,The Big Bang Theory,,,"Atualização na carteira de algumas contas, atualização de AE, BDR Ecossistema e Co-prime",,,,,,,0,,Concluído,3,david oliveira soares,,Medium,RVO-129,,,0,24/04/2026 12:47:02,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6548,,[Carteirização] - Alterações de AM (Key Account),RVO-24,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,2,Gabriel Pires,,Medium,RVO-24,,,0,24/04/2026 14:42:31,,,,,,,[no field found],,,[no field found],
+Story,RVO-6547,,Subir atualizações do número de funcionários das contas Unimed,RVO-129,,,27/04/2026,,,,The Big Bang Theory,,,Atualizar número de funcionários das contas da Unimed e atualizar o porte.,,,,,,,0,,Concluído,3,david oliveira soares,,Medium,RVO-129,,,0,28/04/2026 12:00:06,,,,,Governança [CRM],,[no field found],,,[no field found],
+Story,RVO-6546,,Atualizar contas no SF sem domínio,RVO-129,,,01/05/2026,,,,The Big Bang Theory,,,"Configurar as contas no SF que estão sem domínio, puxar os domínios mais predominantes e atualizar",,,,,,,0,,Pronto para Iniciar,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6545,,Impulsionar vagas no dashboard do AE Farmer e C360,RVO-105,,23/04/2026,24/04/2026,,,,The Big Bang Theory,,,"h3. Resumo
+
+Adicionar informações sobre clientes que utilizam a funcionalidade de impulsionar vagas no dashboard do AE Farmer, com  detalhes numéricos da funcionalidade no dashboard para melhor visualização e análise.
+
+h3. Outras informações
+
+N/A",,,,,,,0,,Concluído,4,Williane Fernandes,,Medium,RVO-105,,,0,24/04/2026 17:44:53,,,,,,,[no field found],,,[no field found],
+Story,RVO-6544,,Subir atualizações de contas - número de funcionários,RVO-129,,,28/04/2026,,,,The Big Bang Theory,,,Atualizar número de funcionários das contas da Unimed e corrigir o porte.,,,,,,,0,,Concluído,3,david oliveira soares,,Medium,RVO-129,,,0,28/04/2026 11:59:39,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6542,,Ajuste dos dados da Central de Empresa do cliente Solar,RVO-129,,23/04/2026,23/04/2026,,Vendas,,The Big Bang Theory,,,"Ajustado o produto de R&S, adicionado o produto de ADM e adicionado o produto de P&D na central de empresas",,,,,,,0,,Concluído,2,Tiago Neves,,Highest,RVO-129,,,0,23/04/2026 16:43:43,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6541,,Alinhamento de próximos passos [Onboarding de parceiros],RVO-5025,,29/04/2026,29/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Pronto para Iniciar,,Heloisa Spigolon,,Medium,RVO-5025,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6540,,Revisão Scorecards de IS,RVO-5025,,27/04/2026,29/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Pronto para Iniciar,4,Heloisa Spigolon,,High,RVO-5025,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6527,,Associação em massa das campaign com determinadas account,RVO-129,,,,,,,The Big Bang Theory,,,"Inclusão de determinadas contas nas campanhas:
+NR-1
+Atratividade
+Treinamento",,,,,,,0,,Concluído,1,Alan Dantas Bernardo,,Medium,RVO-129,,,0,23/04/2026 12:53:56,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6526,,Empresa Elecnor não está apresentando o plano de ação corretamente,RVO-129,,23/04/2026,24/04/2026,,CSM,,The Big Bang Theory,,,"Nahaly informou que a empresa Elecnor não está apresentando os dados do plano de ação corretamente.
+
+----
+
+
+
+[https://gupy.slack.com/archives/C0ASBHMJUF9/p1776886243562599|https://gupy.slack.com/archives/C0ASBHMJUF9/p1776886243562599]",,,,,,,0,,Concluído,1,Tiago Neves,,Highest,RVO-129,,,0,23/04/2026 13:04:46,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6525,,Ajuste de planos de ação de contas revertidas erradas,RVO-5054,,23/04/2026,24/04/2026,,CSM,,The Big Bang Theory,,,"Será necessário ajustar o plano de ação e reversão e risco para as contas: 
+
+
+* Associação Amigos dos Metroviá
+* AZ Armaturen
+* Betunel
+* Caloi
+* Castrillon Autopeças
+* Cesbe
+* Clínica Rio de Janeiro
+* CNN Brasil
+* Cooperativa Aurora Alimentos
+* Dcgroupsaude
+* Grupo Gondaski
+* Grupo Telles
+* Grupo Trigo
+* Ielusc
+* Lojas Ramsons
+* Market4u
+* NetSecurity
+* Omint
+* Park Car One
+* PIF PAF
+* Renault Group
+* Sicoob Unimais Rio
+* Smurfit Westrock
+* Suno Research
+* Unicred SC/PR
+* Unimed Belém
+* VIAGENS CVC
+* Webmotors (Webmotors S.a.)",,,,,,,0,,Concluído,2,Tiago Neves,,Highest,RVO-5054,,,0,23/04/2026 14:35:50,,,,,,,[no field found],,,[no field found],
+Task,RVO-6522,,Documentação do processo,RVO-6510,,,,,,,The Big Bang Theory,,,,,,,,,,0,,BACKLOG,3,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6520,,Estudar modelo de Bases/Extratos enviados hoje,RVO-6510,,23/04/2026,04/05/2026,,,,The Big Bang Theory,,,"h3. Resumo
+
+Estudar os arquivos e modelos de cálculos utilizados atualmente pela Priscila Pereira e sua equipe de G&G.
+
+h3. Contexto
+
+O objetivo é mapear o escopo e as expectativas da entrega relacionada aos modelos de bases/extratos.
+
+h3. Critérios de aceitação
+
+* Estudar os arquivos atuais.
+* Analisar os modelos de cálculos feitos pela Priscila Pereira e equipe.
+* Mapear o escopo da entrega.
+* Definir as expectativas para a entrega.
+
+h3. Outras informações
+
+N/A",,,,,,,0,,Concluído,3,Williane Fernandes,,Medium,RVO-6510,,,0,24/04/2026 12:14:30,,,,,,,[no field found],,,[no field found],
+Task,RVO-6519,,Validação dos resultados e testes de ponta a ponta,RVO-6510,,23/04/2026,04/05/2026,,,,The Big Bang Theory,,,"Realizar testes completos de ponta a ponta para validar o cálculo, extrato, automações e integrações, garantindo que todos os critérios de sucesso sejam atendidos.",,,,,,,0,,Em andamento,4,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6517,,Estruturação da tabela de exceções em conjunto com a Marcela,RVO-6510,,23/04/2026,04/05/2026,,,,The Big Bang Theory,,,"Trabalhar em colaboração com a Marcela para definir e estruturar a tabela de exceções, garantindo que todos os casos especiais estejam contemplados no processo.",,,,,,,0,,Concluído,2,Williane Fernandes,,Medium,RVO-6510,,,0,24/04/2026 12:14:56,,,,,,,[no field found],,,[no field found],
+Task,RVO-6515,,Criação do modelo de RLS,RVO-6510,,23/04/2026,04/05/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,2,Williane Fernandes,,Medium,RVO-6510,,,0,30/04/2026 13:44:29,,,,,,,[no field found],,,[no field found],
+Task,RVO-6514,,Consulta e integração das bases de dados para remuneração variável,RVO-6510,,23/04/2026,04/05/2026,,,,The Big Bang Theory,,,"Identificar, mapear e integrar as bases de dados necessárias (incluindo salários, resultados e exceções) para o cálculo de remuneração variável no Tableau, garantindo acesso e atualização automática.",,,,,,,0,,Concluído,4,Williane Fernandes,,Medium,RVO-6510,,,0,27/04/2026 17:38:21,,,,,,,[no field found],,,[no field found],
+Task,RVO-6513,,Construção e implementação do cálculo de remuneração variável no Tableau,RVO-6510,,23/04/2026,04/05/2026,,,,The Big Bang Theory,,,"Desenvolver e validar o cálculo de remuneração variável utilizando as regras de negócio definidas, assegurando precisão e aderência aos critérios estabelecidos.",,,,,,,0,,Concluído,7,Williane Fernandes,,Medium,RVO-6510,,,0,30/04/2026 13:44:18,,,,,,,[no field found],,,[no field found],
+Task,RVO-6512,,Automação dos disparos,RVO-6510,,23/04/2026,04/05/2026,,,,The Big Bang Theory,,,"Implementar a automação dos disparos de extratos e comunicados para a equipe de vendas, utilizando os modelos de arquivos atuais e integrando com o Tableau.",,,,,,,0,,BACKLOG,2,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,,,,[no field found],,,[no field found],
+Epic,RVO-6510,,Construção do Cálculo de RV no Tableau,,,23/04/2026,04/05/2026,,,,The Big Bang Theory,,,"h3. Objetivo
+
+Desenvolver o cálculo de remuneração variável no Tableau.
+
+h3. Contexto
+
+Este projeto envolve a apuração de resultados e a criação de uma tabela multiplicadora de salários. Também inclui a construção de um extrato e a automação de disparos para a equipe de vendas.
+
+h3. Escopo
+
+* Inclusões:
+** Cálculo de remuneração variável.
+** Tabela multiplicadora de salários.
+** Construção do extrato.
+** Disparos automáticos para a equipe de vendas.
+** Estruturação da tabela de exceções com a Marcela.
+** Criação de campanhas para rastreamento e contabilização.
+* Exclusões:
+** N/A
+
+h3. Critérios de sucesso
+
+* Cálculo de remuneração variável implementado com precisão.
+* Tabela multiplicadora de salários funcionando corretamente.
+* Extrato gerado conforme esperado.
+* Disparos automáticos realizados sem falhas.
+* Tabela de exceções e campanhas estruturadas adequadamente.
+
+h3. Riscos e dependências
+
+* Dependência de colaboração com a Marcela para a tabela de exceções e envio dos modelos de arquivos que sao disparados hoje pela Priscila Pereira.
+* Liberação do Rafael a base de salários para cálculo no usuário disponibilizado para conexao tableau <> BQ G&G.
+* Risco de atrasos na implementação se houver falta de dados.
+
+h3. Outras informações
+
+Materiais de remuneração variável serão criados no Tableau.",,,,,,,0,To Do,BACKLOG,,Williane Fernandes,,Medium,,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6509,,Adicionar as tarefas do Modelo HealthScore para os planos que não tem as tarefas,RVO-5054,,22/04/2026,23/04/2026,,CSM,,The Big Bang Theory,,,"Alguns planos de ações não foram inseridas as tarefas modelos do plano de ação do Health Score. 
+
+Adicionar as tarefas dentro do plano de ação.",,,,,,,0,,Concluído,2,Tiago Neves,,Highest,RVO-5054,,,0,22/04/2026 20:26:51,,,,,,,[no field found],,,[no field found],
+Task,RVO-6508,,Ativação da priorização de chamado,RVO-129,,,,,,,The Big Bang Theory,,,"Ativação do motivo priorização de chamado, além de ajustes na listview e relatórios relacionados.",,,,,,,0,,Concluído,1,Alan Dantas Bernardo,,Medium,RVO-129,,,0,22/04/2026 18:52:08,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6507,,Subida dos dados do HealthScore utilizando o Data Cloud,RVO-5054,,27/04/2026,29/04/2026,,CSM,,The Big Bang Theory,,,"# Deve puxar o dado semanalmente e dar um upsert na tabela de Health Score da conta
+
+
+
+----
+
+[https://gupy.slack.com/archives/C0APCAJ9KF1/p1776888024850519|https://gupy.slack.com/archives/C0APCAJ9KF1/p1776888024850519]
+
+
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|[https://gupy.lightning.force.com/lightning/r/DataStream/1dsbJ000000157JQAQ/view|https://gupy.lightning.force.com/lightning/r/DataStream/1dsbJ000000157JQAQ/view]|Registro|DataSteam da conexão Zero Copy com a base de health score no Trino|
+|HealthScoreBatch|Apex class|Usado para puxar os dados do Data Cloud relacionado ao Health Score.|
+|HealthScoreBatchTest|Apex Class|Classe de teste da classe HealthScoreBatch|
+| | | |
+| | | |",,,,,,,0,,Concluído,6,Tiago Neves,,Medium,RVO-5054,,,0,30/04/2026 14:40:40,,,,,,,[no field found],,,[no field found],
+Task,RVO-6506,,Melhoria no flow de créditos de Admissão,RVO-129,,,,,,,The Big Bang Theory,,,Implementação das seguintes melhorias ao fluxo de créditos adm: Tickets criados a partir desse processo precisam ser direcionados diretamente para o time de N2 Produto.,,,,,,,0,,Concluído,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,22/04/2026 18:50:33,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6504,,Melhorias Agente CS,RVO-105,,27/04/2026,30/04/2026,,,,The Big Bang Theory,,,"Após feedback dos testes feitos pelos times de CS, fazer melhorias no agente para melhor atender as necessidades deles de acordo com o escopo que este agente de IA terá no dia-a-dia de trabalho.",,,,,,,0,,BACKLOG,8,Lana Reis,,Medium,RVO-105,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6503,,[ECONOMICS] - Melhoria na modelagem,RVO-1182,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,3,Gabriel Pires,,Medium,RVO-1182,,,0,24/04/2026 12:43:05,,,,,[Projeto] Economics + NetLex,,[no field found],,,[no field found],
+Task,RVO-6502,,[ECONOMICS] - Melhorias no acompanhamento,RVO-1182,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Pronto para Iniciar,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,,[Projeto] Economics + NetLex,,[no field found],,,[no field found],
+Task,RVO-6501,,[ECONOMICS] - Validação dos dados,RVO-1182,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,6,Gabriel Pires,,Medium,RVO-1182,,,0,29/04/2026 21:37:27,,,,,[Projeto] Economics + NetLex,,[no field found],,,[no field found],
+Task,RVO-6500,,[ECONOMICS] - Validação de Deals (4° Semana),RVO-1182,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,3,Gabriel Pires,,Medium,RVO-1182,,,0,29/04/2026 21:37:26,,,,,[Projeto] Economics + NetLex,,[no field found],,,[no field found],
+Task,RVO-6499,,[ECONOMICS] - Validação de Deals (3° Semana),RVO-1182,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,3,Gabriel Pires,,Medium,RVO-1182,,,0,24/04/2026 14:42:55,,,,,[Projeto] Economics + NetLex,,[no field found],,,[no field found],
+Task,RVO-6498,,[Carteirização] - Projeto Fabbrica (MVP Middle),RVO-24,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,5,Gabriel Pires,,Medium,RVO-24,,,0,28/04/2026 20:46:05,,,,,,,[no field found],,,[no field found],
+Task,RVO-6497,,[Carteirização] - Projeto Inhire,RVO-24,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,4,Gabriel Pires,,Medium,RVO-24,,,0,22/04/2026 19:56:50,,,,,,,[no field found],,,[no field found],
+Task,RVO-6496,,"Histórico dos planos de ação, tarefa e subtarefa",RVO-5054,,22/04/2026,22/04/2026,,CSM,,The Big Bang Theory,,,"Tales solicitou alguns logs de alteração do Plano de Ação, Tarefa e Subtarefa. 
+Alterei alguns acompanhamentos no Salesforce e gerei algumas CSVs para ele.",,,,,,,0,,Concluído,1,Tiago Neves,,Highest,RVO-5054,,,0,22/04/2026 14:57:40,,,,,,,[no field found],,,[no field found],
+Task,RVO-6494,,Analisar mínimo da conta ciranda cultural,RVO-129,,22/04/2026,22/04/2026,,ISM,,The Big Bang Theory,,,"o mínimo ""Publicou o mínimo de posições?"", do cliente [ciranda cultural|https://gupy.lightning.force.com/lightning/r/MinimoAtivacao__c/a08bJ00000gTIgHQAW/view?ws=%2Flightning%2Fr%2FAccount%2F001bJ000003M9cWQAS%2Fview], ainda consta como não realizado, mas já foi publicada uma vaga. eles contrataram 50 posições.
+
+poderiam verificar?
+
+----",,,,,,,0,,Concluído,1,Tiago Neves,,Highest,RVO-129,,,0,22/04/2026 13:00:57,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6493,,Criar um documento de atividades de P&P <> FP&A,RVO-5317,,,30/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Em refinamento,2,Agnes Nogueira Canciam,,Medium,RVO-5317,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6492,,Reverter planos de ação das contas da Nathaly,RVO-129,,22/04/2026,22/04/2026,,CS,,The Big Bang Theory,,,"Reverter a reversão de risco das contas Perbras, Transpanorama, Transportes Della Volpe",,,,,,,0,,Concluído,1,Tiago Neves,,Highest,RVO-129,,,0,22/04/2026 12:54:26,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6491,,Revisão de metas ,RVO-5317,,22/04/2026,24/04/2026,,,,The Big Bang Theory,,,"*Descrição da atividade:*
+Realizar a revisão das metas dos colaboradores que tiveram seus baselines modificados, garantindo que os novos valores estejam corretamente refletidos e alinhados com os objetivos definidos. A atividade também contempla a validação e atualização dessas metas nos relatórios de Gente e de Metas, assegurando consistência entre as diferentes fontes de informação e confiabilidade dos dados reportados.
+
+----
+
+🧩 *O que é preciso para iniciar? (DoR)*
+
+* Lista de colaboradores com baseline atualizado.
+* Definição dos critérios e regras para ajuste de metas.
+* Acesso aos relatórios de Gente e de Metas.
+* Base atualizada com metas vigentes por colaborador.
+
+----
+
+🏆 *O que deve ser entregue? (DoD)*
+
+* Metas revisadas e ajustadas para todos os colaboradores com baseline modificado.
+* Atualização consistente das metas nos relatórios de Gente e de Metas.
+* Garantia de alinhamento entre baseline, metas e indicadores de acompanhamento.
+* Registro das alterações realizadas para rastreabilidade e auditoria.",,,,,,,0,,Concluído,6,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,27/04/2026 12:07:39,,,,,,,[no field found],,,[no field found],
+Task,RVO-6490,,Avaliar contrato da empresa JRCA,RVO-129,,22/04/2026,22/04/2026,,,,The Big Bang Theory,,,"Ótimo dia, pessoal! Tudo bem?
+O cliente JRCA  (ID Gupy 78544) relatou e mandou um print que esta aparecendo uma notificação de que ja ultrapassou os créditos de R&S contratados, mas no tableau só consta o uso de 49%, oque pode ser?
+Cliente diz que some a aparece essa notificação, esta confusa.",,,,,,,0,,Concluído,1,Tiago Neves,,Highest,RVO-129,,,0,22/04/2026 13:16:40,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6484,,Análises RV (Q1 25 x 26),RVO-5317,,,29/04/2026,,,,The Big Bang Theory,,,"*Descrição da atividade:*
+Realizar a análise dos resultados de Remuneração Variável (RV), comparando o desempenho do Q1 2025 com o Q1 2026. A atividade contempla a avaliação da evolução dos resultados, identificação de variações relevantes e análise da aderência da atual tabela de multiplicadores salariais aos resultados obtidos. Além disso, inclui a revisão da documentação vigente, garantindo clareza, consistência e alinhamento com a prática atual.
+
+----
+
+🧩 *O que é preciso para iniciar? (DoR)*
+
+* Base consolidada e confiável dos resultados de RV de Q1 2025 e Q1 2026.
+* Tabela atual de multiplicadores salariais documentada.
+* Regras e políticas de RV vigentes.
+* Definição dos critérios de comparação (ex: elegibilidade, metas, atingimento).
+
+----
+
+🏆 *O que deve ser entregue? (DoD)*
+
+* Análise comparativa entre Q1 2025 e Q1 2026, com destaque para principais variações.
+* Avaliação crítica da efetividade da tabela de multiplicadores salariais.
+* Identificação de possíveis distorções ou oportunidades de ajuste na política de RV.
+* Documentação revisada, atualizada e padronizada.",,,,,,,0,,Em andamento,14,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6483,,[Estudo] Criação de Dashboards com IA,RVO-105,,20/04/2026,30/04/2026,,,,The Big Bang Theory,,,O objetivo é estudar quais são as melhores práticas para criação de dashboards com IA. Claude AI é a que daremos foco por ser a nova ferramenta de IA que a Gupy contratou.,,,,,,,0,,Em andamento,10,Lana Reis,,Medium,RVO-105,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6482,,Flow de tela para contatos,RVO-129,,,,,,,The Big Bang Theory,,,,,,,,,,0,,BACKLOG,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6481,,Apoio férias Dudu,RVO-5025,,21/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Tempo destinado para demandas de comunicados e páginas via fluxo de solicitação do Slack
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Comunicados feitos
+* Páginas atualizadas e/ou criadas",,,,,,,0,,Em andamento,2,Taina Labarba,,Medium,RVO-5025,,RVO-6458,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6480,,Férias Du,RVO-5025,,20/04/2026,30/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,BACKLOG,6,Heloisa Spigolon,,High,RVO-5025,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6479,,Atualização em massa da Carteirização BPBKO,RVO-129,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,27/04/2026 18:23:09,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6478,,Ajuste na automação de reabertura em tickets,RVO-129,,,,,,,The Big Bang Theory,,,"Atualmente temos um fluxo de reabertura de tickets onde após o encerramento, caso o candidato abra um novo ticket, é criado um novo vinculando ao anterior. Entretanto, preciso de um ajuste onde, o ticket só poderá ser reaberto/criado um novo dentro de 15 dias após o encerramento. Caso seja um período superior, enviar a resposta ao candidato:
+
+Olá!
+
+O ticket que você tentou responder (colocar o número do ticket) já foi encerrado e, por isso, não conseguimos mais receber novas mensagens por lá.
+
+Mas não se preocupe! Para que a gente continue te ajudando, você pode abrir um novo ticket em nossa Central de Ajuda. Assim que fizer isso, nossa equipe entrará em contato com você por e-mail para dar sequência ao atendimento.
+
+Qualquer dúvida, a gente tá por aqui.
+
+Atenciosamente,
+Equipe Gupy",,,,,,,0,,Concluído,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,30/04/2026 14:27:42,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6477,,Validação automated process,RVO-129,,,,,,,The Big Bang Theory,,,,,,,,,,0,,BACKLOG,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6476,,Mudar conceito de FCR para reabertura em B2B e B2C,RVO-129,,,,,,,The Big Bang Theory,,,,,,,,,,0,,BACKLOG,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6475,,Criação de novo fluxo de pausas para PB de PMO,RVO-129,,,,,,,The Big Bang Theory,,,,,,,,,,0,,Em refinamento,4,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6474,,Reestruturação da automação que trata tickets de B2C,RVO-129,,,,,,,The Big Bang Theory,,,"Ajuste dos textos das automações do formulário B2C, com base na seguinte documentação:
+[https://docs.google.com/document/d/1vsWw3kO4igbk-NvwIVqwhDCWFcSWlAjiEL2asbRRkic/edit?pli=1&tab=t.0|https://docs.google.com/document/d/1vsWw3kO4igbk-NvwIVqwhDCWFcSWlAjiEL2asbRRkic/edit?pli=1&tab=t.0|smart-link] ",,,,,,,0,,Concluído,5,Alan Dantas Bernardo,,Medium,RVO-129,,,0,27/04/2026 17:53:49,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6473,,Tratamento de tickets B2C - Semana 2,RVO-129,,,,,,,The Big Bang Theory,,,"Levantamento de tickets com base nas necessidades atuais indicadas por Luiz Araujo. A partir desse levantamento, os dados serão inseridos na automação para tratamento em massa, considerando os respectivos macro e micromotivos.",,,,,,,0,,Concluído,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,28/04/2026 12:11:37,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6472,,Tratamento de tickets B2C - Semana 1,RVO-129,,,,,,,The Big Bang Theory,,,"Levantamento de tickets com base nas necessidades atuais indicadas por Luiz Araujo. A partir desse levantamento, os dados serão inseridos na automação para tratamento em massa, considerando os respectivos macro e micromotivos.",,,,,,,0,,Concluído,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,24/04/2026 12:04:57,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6471,,CRM Ajuda - Semana 2,RVO-129,,,,,,,The Big Bang Theory,,,Card destinado a rotina do CRM Ajuda durante a segunda semana da sprint.,,,,,,,0,,Concluído,6,Alan Dantas Bernardo,,Medium,RVO-129,,,0,30/04/2026 12:29:05,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6470,,CRM Ajuda - Semana 1,RVO-129,,,,,,,The Big Bang Theory,,,Card destinado a rotina do CRM Ajuda durante a primeira semana da sprint.,,,,,,,0,,Concluído,6,Alan Dantas Bernardo,,Medium,RVO-129,,,0,27/04/2026 11:56:34,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6469,,[RevOps] Ajuste da automação de validação para evitar opp de churn,RVO-129,,24/04/2026,27/04/2026,,RevOps,,The Big Bang Theory,,,"Queria te fazer um pedido para essa sprint, se possível tirar do fluxo de reprovação automática todos os negócios do tipo Churn, assim como os dessa lista:
+[https://docs.google.com/spreadsheets/d/1ZgDejf_3C5nKLhTZVELYZPWSGWk_snR8ZLKQ4Wx9bJo/edit?gid=0#gid=0|https://docs.google.com/spreadsheets/d/1ZgDejf_3C5nKLhTZVELYZPWSGWk_snR8ZLKQ4Wx9bJo/edit?gid=0#gid=0|smart-link] 
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|Sales_Valida_o_de_Ganhos|Flow|Alterado para não validar em opps de churn onde ocorre somente o churn.|
+| | | |",,,,,,,0,,Concluído,2,Tiago Neves,,High,RVO-129,,,0,27/04/2026 18:05:24,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6468,,Bug/Ajuste Clientes sem Admissão [Discovery e Resolução],RVO-129,,29/04/2026,01/05/2026,,,,The Big Bang Theory,,,"Time, os clientes estão vindo sem o admissão habilitado nas plataformas, estamos solicitando via ticket suporte. Isso impacta a operação, pois muitas vezes o produto não é habilitado a tempo para kick off com o cliente.
+
+Segue tickets abertos
+
+Digibee 00666005
+Tesa 00675229
+Colibri Capital 00690797
+Kamino 00705969
+Vissimo 00703426
+Costa Brasil 00835260
+Ioasys 00785216
+Pacto Global 00750624
+VZAN 00824015
+Evoltz 00847803",,,,,,,0,,Concluído,3,Iago Jants David,,Medium,RVO-129,,,0,24/04/2026 12:41:51,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6467,,Bug/Ajuste Regra de Validação - Fluxo de Precificação [Discovery e Resolução],RVO-129,,28/04/2026,01/05/2026,,,,The Big Bang Theory,,,"!image-20260420-192337.png|width=479,alt=""image-20260420-192337.png""!
+
+Erro de bloqueio mesmo com campos preenchidos.",,,,,,,0,,Concluído,2,Iago Jants David,,Medium,RVO-129,,,0,30/04/2026 11:59:08,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6466,,Bug/Ajuste Contato WhatsApp [Discovery e Resolução],RVO-129,,27/04/2026,01/05/2026,,,,The Big Bang Theory,,,"Time, boa tarde. Uma cliente está tentando me chamar no whatsapp, mas não veio para mim e agora não consigo acionar ela. Podem me ajudar para eu tentar chamá-la?
+
+Links:
+
+[https://gupy.lightning.force.com/lightning/r/Contact/003bJ00000jRBGwQAO/view|https://gupy.lightning.force.com/lightning/r/Contact/003bJ00000jRBGwQAO/view|smart-card]",,,,,,,0,,Concluído,3,Iago Jants David,,Medium,RVO-129,,,0,27/04/2026 12:33:05,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6465,,Perdido em massa - Negócios Ana,RVO-129,,24/04/2026,01/05/2026,,,,The Big Bang Theory,,,"Listas de contas para perdido:
+
+[https://gupy.my.salesforce.com/006bJ00000JE7En|https://gupy.my.salesforce.com/006bJ00000JE7En]
+[https://gupy.my.salesforce.com/006bJ00000QRlFB|https://gupy.my.salesforce.com/006bJ00000QRlFB]
+[https://gupy.my.salesforce.com/006bJ00000Qcn16|https://gupy.my.salesforce.com/006bJ00000Qcn16]
+[https://gupy.my.salesforce.com/006bJ00000QczJf|https://gupy.my.salesforce.com/006bJ00000QczJf]
+[https://gupy.my.salesforce.com/006bJ00000Qd33z|https://gupy.my.salesforce.com/006bJ00000Qd33z]
+[https://gupy.my.salesforce.com/006bJ00000JE7En|https://gupy.my.salesforce.com/006bJ00000JE7En]
+[https://gupy.my.salesforce.com/006bJ00000Qd8jV|https://gupy.my.salesforce.com/006bJ00000Qd8jV]
+[https://gupy.my.salesforce.com/006bJ00000QdFQ2|https://gupy.my.salesforce.com/006bJ00000QdFQ2]
+[https://gupy.my.salesforce.com/006bJ00000QfT7X|https://gupy.my.salesforce.com/006bJ00000QfT7X]
+[https://gupy.my.salesforce.com/006bJ00000QfT7X|https://gupy.my.salesforce.com/006bJ00000QfT7X]
+[https://gupy.my.salesforce.com/006bJ00000QfXfR|https://gupy.my.salesforce.com/006bJ00000QfXfR]
+[https://gupy.my.salesforce.com/006bJ00000QooPc|https://gupy.my.salesforce.com/006bJ00000QooPc]
+[https://gupy.my.salesforce.com/006bJ00000Qv7z1|https://gupy.my.salesforce.com/006bJ00000Qv7z1]
+[https://gupy.my.salesforce.com/006bJ00000Qvywb|https://gupy.my.salesforce.com/006bJ00000Qvywb]
+[https://gupy.my.salesforce.com/006bJ00000R2Q3z|https://gupy.my.salesforce.com/006bJ00000R2Q3z]
+[https://gupy.my.salesforce.com/006bJ00000R5P1S|https://gupy.my.salesforce.com/006bJ00000R5P1S]
+[https://gupy.my.salesforce.com/006bJ00000RBj8v|https://gupy.my.salesforce.com/006bJ00000RBj8v]
+[https://gupy.my.salesforce.com/006bJ00000RTojV|https://gupy.my.salesforce.com/006bJ00000RTojV]
+[https://gupy.my.salesforce.com/006bJ00000SMDme|https://gupy.my.salesforce.com/006bJ00000SMDme]
+[https://gupy.my.salesforce.com/006bJ00000SQBir|https://gupy.my.salesforce.com/006bJ00000SQBir]
+[https://gupy.my.salesforce.com/006bJ00000SQEU2|https://gupy.my.salesforce.com/006bJ00000SQEU2]
+[https://gupy.my.salesforce.com/006bJ00000SogkX|https://gupy.my.salesforce.com/006bJ00000SogkX]
+[https://gupy.my.salesforce.com/006bJ00000SzTRn|https://gupy.my.salesforce.com/006bJ00000SzTRn]
+[https://gupy.my.salesforce.com/006bJ00000TemGg|https://gupy.my.salesforce.com/006bJ00000TemGg]
+[https://gupy.my.salesforce.com/006bJ00000TfP1t|https://gupy.my.salesforce.com/006bJ00000TfP1t]
+[https://gupy.my.salesforce.com/006bJ00000ThbAF|https://gupy.my.salesforce.com/006bJ00000ThbAF]
+[https://gupy.my.salesforce.com/006bJ00000Thg3T|https://gupy.my.salesforce.com/006bJ00000Thg3T]
+[https://gupy.my.salesforce.com/006bJ00000Thn1a|https://gupy.my.salesforce.com/006bJ00000Thn1a]
+[https://gupy.my.salesforce.com/006bJ00000Tl4pL|https://gupy.my.salesforce.com/006bJ00000Tl4pL]
+[https://gupy.my.salesforce.com/006bJ00000Txqmf|https://gupy.my.salesforce.com/006bJ00000Txqmf]
+[https://gupy.my.salesforce.com/006bJ00000Ugp86|https://gupy.my.salesforce.com/006bJ00000Ugp86]
+[https://gupy.my.salesforce.com/006bJ00000Uh9hu|https://gupy.my.salesforce.com/006bJ00000Uh9hu]
+[https://gupy.my.salesforce.com/006bJ00000UhBi7|https://gupy.my.salesforce.com/006bJ00000UhBi7]
+[https://gupy.my.salesforce.com/006bJ00000UhBi7|https://gupy.my.salesforce.com/006bJ00000UhBi7]
+[https://gupy.my.salesforce.com/006bJ00000VEMoW|https://gupy.my.salesforce.com/006bJ00000VEMoW]
+[https://gupy.my.salesforce.com/006bJ00000VtQoN|https://gupy.my.salesforce.com/006bJ00000VtQoN]",,,,,,,0,,Concluído,4,Iago Jants David,,Medium,RVO-129,,,0,30/04/2026 11:59:11,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6464,,Início como Enabler CSM,RVO-5025,,21/04/2026,01/05/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Iniciar atividades oficialmente como Enabler do time de CSM como, por exemplo, sinergias com lideranças, estudo das necessidades de CS e etc.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Realização das primeiras sinergias com coordenações e supervisões
+* Análise dos dados da Meetrox para tirar inisghts
+* Assistir pelo menos 3 reuniões de cada tipo de reunião da jornada
+* Estudar Scorecards
+* ",,,,,,,0,,Em andamento,5,Taina Labarba,,High,RVO-5025,,RVO-6452,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6463,,Ajustes e Testes - Fluxo PP,RVO-129,,23/04/2026,01/05/2026,,,,The Big Bang Theory,,,"Verificar conversa para entender o envio de material para PP
+
+Verificar oportunidades sendo atribuidas fora de horário
+
+Verificar conversa para entender o não enquadramento no fluxo PP
+
+Ajustar Copy",,,,,,,0,,Em andamento,5,Iago Jants David,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6462,,CRM Ajuda - Semana 2,RVO-129,,27/04/2026,01/05/2026,,,,The Big Bang Theory,,,Card semanal destinado a ajustes do CRM Ajuda,,,,,,,0,,Concluído,6,Iago Jants David,,Medium,RVO-129,,,0,30/04/2026 11:59:10,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6461,,CRM Ajuda - Semana 1,RVO-129,,20/04/2026,24/04/2026,,,,The Big Bang Theory,,,Card semanal destinado a ajustes do CRM Ajuda,,,,,,,0,,Concluído,6,Iago Jants David,,Medium,RVO-129,,,0,27/04/2026 12:33:07,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6460,,Capacitação IA,RVO-4966,,20/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Estratégia de certificação sobre IA para operação Comercial e de CS
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Definição da estrutura, tempos e formatos.",,,,,,,0,,Em andamento,2,Heloisa Spigolon,,Medium,RVO-4966,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6459,,Sinergia com Líderes,RVO-5025,,20/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Reunião de sinergia com líderes de IS e CH para governança de enablement
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Agenda com Mariá
+* Agenda com Mateus
+* Agenda com Marina e Amanda (Lary de férias)",,,,,,,0,,Em andamento,2,Heloisa Spigolon,,Medium,RVO-5025,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6458,,[Governança] Comunicados e solicitações,RVO-5025,,21/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Tempo destinado para demandas de comunicados e páginas via fluxo de solicitação do Slack
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Comunicados feitos
+* Páginas atualizadas e/ou criadas",,,,,,,0,,Em andamento,3,Taina Labarba,,Medium,RVO-5025,,RVO-6325;RVO-6481,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6458,,[Governança] Comunicados e solicitações,RVO-5025,,21/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Tempo destinado para demandas de comunicados e páginas via fluxo de solicitação do Slack
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Comunicados feitos
+* Páginas atualizadas e/ou criadas",,,,,,,0,,Em andamento,3,Taina Labarba,,Medium,RVO-5025,,RVO-6325;RVO-6481,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6457,,Lançamento IAra,RVO-4965,,20/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Preparação do que falta para que a IAra seja lançada para a Operação.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* Aguardando Xavier/Turri
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Entrada nas agendas dos times - alinhar com lideranças",,,,,,,0,,Em andamento,5,Heloisa Spigolon,,Highest,RVO-4965,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6455,,Atualização de páginas Hub de Operações,RVO-4963,,21/04/2026,01/05/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Criação de novas páginas para compor a base de conhecimento
+
+
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* Alinhamento da demanda com stakeholders
+* Solicitar que gravem vídeo explicativo
+
+
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Criar página de RACI Revops com base no documento compartilhado pelo Lucca
+* Criar página Health Score com base nos documentos compartilhados pela Agnes
+* Comunicação sobre nova página RV
+
+
+
+📑 *Materiais de Apoio:*
+
+[https://docs.google.com/spreadsheets/d/19Z6vM42dtGRgGNroUTTfCGMiezLYYIPLJxDAFOk313Y/edit?gid=0#gid=0|https://docs.google.com/spreadsheets/d/19Z6vM42dtGRgGNroUTTfCGMiezLYYIPLJxDAFOk313Y/edit?gid=0#gid=0|smart-link] 
+
+[https://docs.google.com/presentation/d/1Lr6XjzK4gPxqgv2eHtZpE7hSmm3UkK358bAq1M1bbjM/edit?slide=id.g37261a49192_0_0&pli=1#slide=id.g37261a49192_0_0|https://docs.google.com/presentation/d/1Lr6XjzK4gPxqgv2eHtZpE7hSmm3UkK358bAq1M1bbjM/edit?slide=id.g37261a49192_0_0&pli=1#slide=id.g37261a49192_0_0|smart-link]
+[^FGC_CS_GY_Healthscore_Lana_learning_v1.pdf] 
+
+[https://docs.google.com/document/d/1x3gE2ql5qz8V-OBeafI9iBdVgFXnqzPn2uuuNZUwhmQ/edit?usp=sharing|https://docs.google.com/document/d/1x3gE2ql5qz8V-OBeafI9iBdVgFXnqzPn2uuuNZUwhmQ/edit?usp=sharing|smart-link]",,,,,,,0,,Em andamento,8,Taina Labarba,,Low,RVO-4963,,RVO-6330,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6454,,Lançamento Iara,RVO-4965,,27/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Preparação de todas as pendências que precisam ser resolvidas para que a IAra seja lançada para a Operação.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* Atualização da base para subir todas as páginas do Hub (224) - Aguardando Xavier
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Entrada nas agendas dos times - alinhar com lideranças
+* Elaborar base de perguntas padrão pra validarmos toda vez que subir uma nova versão dela
+* Dashboard Looker com dados
+
+📑 *Materiais de Apoio:*",,,,,,,0,,Em andamento,2,Taina Labarba,,Medium,RVO-4965,,RVO-6329,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6453,,[Onboarding] Isabella e Marllon,RVO-5025,,21/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Acompanhamento do cronograma de Onboarding dos dois novos pares, bem como realização das agendas ao vivo.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Conclusão das semanas 01 e semana 02, início da semana 03.
+
+[https://docs.google.com/spreadsheets/d/1yv7_k45XUjx8rdliZ6rkDpCKQaivdQDsVeckTzwNIbs/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1yv7_k45XUjx8rdliZ6rkDpCKQaivdQDsVeckTzwNIbs/edit?usp=sharing|smart-link] 
+
+[https://docs.google.com/spreadsheets/d/1Gh7gsffZKibwDw3GyBzfEKZWXdV5IkgaWZYQUlJ6JyY/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1Gh7gsffZKibwDw3GyBzfEKZWXdV5IkgaWZYQUlJ6JyY/edit?usp=sharing|smart-link] ",,,,,,,0,,Em andamento,8,Taina Labarba,,Highest,RVO-5025,,RVO-6388,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6452,,[Onboarding] Isabela Ciccio e Kerolaine Nascimento,RVO-5025,,21/04/2026,01/05/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Acompanhamento do cronograma de Onboarding das duas novas CSMs.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Conclusão das semanas 01 e semana 02, início da semana 03.
+
+[https://docs.google.com/spreadsheets/d/1XSK7L2HQqnMild8b_v9PxTUlAgfqeVW0t2N92kVV5ow/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1XSK7L2HQqnMild8b_v9PxTUlAgfqeVW0t2N92kVV5ow/edit?usp=sharing|smart-link]  
+
+[https://docs.google.com/spreadsheets/d/1Z6qTtSPqhbmLIQzfJPD4Y0yLNOg3WqrQIDci3nNDMSU/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1Z6qTtSPqhbmLIQzfJPD4Y0yLNOg3WqrQIDci3nNDMSU/edit?usp=sharing|smart-link] ",,,,,,,0,,Em andamento,6,Taina Labarba,,High,RVO-5025,,RVO-6377;RVO-6464;RVO-6582,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6452,,[Onboarding] Isabela Ciccio e Kerolaine Nascimento,RVO-5025,,21/04/2026,01/05/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Acompanhamento do cronograma de Onboarding das duas novas CSMs.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Conclusão das semanas 01 e semana 02, início da semana 03.
+
+[https://docs.google.com/spreadsheets/d/1XSK7L2HQqnMild8b_v9PxTUlAgfqeVW0t2N92kVV5ow/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1XSK7L2HQqnMild8b_v9PxTUlAgfqeVW0t2N92kVV5ow/edit?usp=sharing|smart-link]  
+
+[https://docs.google.com/spreadsheets/d/1Z6qTtSPqhbmLIQzfJPD4Y0yLNOg3WqrQIDci3nNDMSU/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1Z6qTtSPqhbmLIQzfJPD4Y0yLNOg3WqrQIDci3nNDMSU/edit?usp=sharing|smart-link] ",,,,,,,0,,Em andamento,6,Taina Labarba,,High,RVO-5025,,RVO-6377;RVO-6464;RVO-6582,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6452,,[Onboarding] Isabela Ciccio e Kerolaine Nascimento,RVO-5025,,21/04/2026,01/05/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Acompanhamento do cronograma de Onboarding das duas novas CSMs.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Conclusão das semanas 01 e semana 02, início da semana 03.
+
+[https://docs.google.com/spreadsheets/d/1XSK7L2HQqnMild8b_v9PxTUlAgfqeVW0t2N92kVV5ow/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1XSK7L2HQqnMild8b_v9PxTUlAgfqeVW0t2N92kVV5ow/edit?usp=sharing|smart-link]  
+
+[https://docs.google.com/spreadsheets/d/1Z6qTtSPqhbmLIQzfJPD4Y0yLNOg3WqrQIDci3nNDMSU/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1Z6qTtSPqhbmLIQzfJPD4Y0yLNOg3WqrQIDci3nNDMSU/edit?usp=sharing|smart-link] ",,,,,,,0,,Em andamento,6,Taina Labarba,,High,RVO-5025,,RVO-6377;RVO-6464;RVO-6582,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6451,,Onboarding Carol Rosa,RVO-5025,,20/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Acompanhamento do cronograma de Onboarding da nova CSM Carol.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* Conclusão do onboarding institucional
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Conclusão das semanas 01 e semana 02, início da semana 03.
+
+
+
+[https://docs.google.com/spreadsheets/d/1jOaclj7jjyNigPHeHWAiRS01qLStPHzn3_YAxlBz7TU/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1jOaclj7jjyNigPHeHWAiRS01qLStPHzn3_YAxlBz7TU/edit?usp=sharing|smart-card]",,,,,,,0,,Em andamento,6,Heloisa Spigolon,,High,RVO-5025,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6450,,Onboarding Marllon e Bella,RVO-5025,,20/04/2026,30/04/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Acompanhamento do cronograma de Onboarding dos dois novos pares, bem como realização das agendas ao vivo.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* Onboarding institucional concluído
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Conclusão das semanas 01 e semana 02, início da semana 03.
+
+[https://docs.google.com/spreadsheets/d/1yv7_k45XUjx8rdliZ6rkDpCKQaivdQDsVeckTzwNIbs/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1yv7_k45XUjx8rdliZ6rkDpCKQaivdQDsVeckTzwNIbs/edit?usp=sharing|smart-link] 
+
+[https://docs.google.com/spreadsheets/d/1Gh7gsffZKibwDw3GyBzfEKZWXdV5IkgaWZYQUlJ6JyY/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1Gh7gsffZKibwDw3GyBzfEKZWXdV5IkgaWZYQUlJ6JyY/edit?usp=sharing|smart-link] ",,,,,,,0,,Em andamento,8,Heloisa Spigolon,,Highest,RVO-5025,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6438,,Jornada Ágil - Preço de Integração distinto,RVO-129,,30/04/2026,04/05/2026,,,,The Big Bang Theory,,,Criar campo DH e ajustar assignment e pricing rule dos itens one shote de integração,,,,,,,0,,BACKLOG,2,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6437,,Melhorias processos de Serviços,RVO-4922,,27/04/2026,28/04/2026,,,,The Big Bang Theory,,,"* Tratativa de Status para assignment ou não dos itens de serviços - caso cancelado não incluir. 1h
+* Tratativa da aba de subscription para receber esses fluxos customizados na renovação 3h
+* ajuste de aplicação de período 2h",,,,,,,0,,Concluído,6,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,30/04/2026 12:30:29,,,,,,,[no field found],,,[no field found],
+Task,RVO-6436,,Reorganização das tabelas de preços no PDF,RVO-4922,,23/04/2026,24/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,4,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,24/04/2026 20:33:13,,,,,,,[no field found],,,[no field found],
+Task,RVO-6435,,Ajustar assignment dos fluxos padrões e retirar seleção manual,RVO-4922,,23/04/2026,23/04/2026,,,,The Big Bang Theory,,,"# Retirar seleção manual 10min ok
+# Ajuste de assignment de fluxos padrões 50min ok e descritivo sf",,,,,,,0,,Concluído,1,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,27/04/2026 01:20:56,,,,,,,[no field found],,,[no field found],
+Task,RVO-6434,,Tratativa com nova coluna de descritivo custom do produto,RVO-4922,,22/04/2026,23/04/2026,,,,The Big Bang Theory,,,"# Inclusão na repeat table 1h ok
+# Inclusão proposal atribute, sumary e salesforce 2h  ok
+#  Inclusão no PDF 1h ok",,,,,,,0,,Concluído,4,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,24/04/2026 02:59:05,,,,,,,[no field found],,,[no field found],
+Task,RVO-6433,,Assignment de Produtos One Shot,RVO-4922,,22/04/2026,22/04/2026,,,,The Big Bang Theory,,,"# Ajuste no Assigment do que é Integração One Shot 1h ok
+# Tratativa de Assignment de Implementação 3h em andamento",,,,,,,0,,Concluído,8,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,23/04/2026 17:37:45,,,,,,,[no field found],,,[no field found],
+Task,RVO-6432,,Fechamento,RVO-129,,29/04/2026,30/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Em andamento,4,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6431,,CRM Ajuda Semana 2,RVO-129,,27/04/2026,01/05/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Em andamento,3,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6427,,"Subida das flags de concorrência, Qualitativo e Health Score fora de Q2",RVO-5054,,27/04/2026,29/04/2026,,CS,,The Big Bang Theory,,,"Bom dia, pessoal! Tudo certo?
+
+Estou enviando uma lista contendo os clientes com flag em concorrência, qualitativo (Decisão do CS) e Health Score (apenas clientes fora da meta de Q2). Processo para esses clientes seria o mesmo para o clientes dentro de Q2 (risco Q2): Ter botões que o CSM possa clicar e ver as listas. O ideal é que o CSM possa clicar em mais de uma opção e observar clientes com mais de uma flag, incluindo os que já foram criados de ""risco Q2"". [@T Neves|https://gupy.slack.com/team/U07CEM4AG8H] [@Nati|https://gupy.slack.com/team/U047X17MHDW]
+
+Link: [https://docs.google.com/spreadsheets/d/1MIOBYUv0jOSR_q3oZTcxhoovg-AQVt56Ox92Zqre3iU/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1MIOBYUv0jOSR_q3oZTcxhoovg-AQVt56Ox92Zqre3iU/edit?usp=sharing|smart-link] 
+
+
+
+Link da solicitação: [https://gupy.slack.com/archives/C0APCAJ9KF1/p1776352287696909|https://gupy.slack.com/archives/C0APCAJ9KF1/p1776352287696909|smart-link] 
+
+
+
+[https://gupy.slack.com/archives/C0APCAJ9KF1/p1776888024850519|https://gupy.slack.com/archives/C0APCAJ9KF1/p1776888024850519]",,,,,,,0,,Concluído,6,Tiago Neves,,Medium,RVO-5054,,,0,28/04/2026 16:03:07,,,,,,,[no field found],,,[no field found],
+Task,RVO-6426,,Revisão do processo de criação de ticket de módulo de atração,RVO-129,,23/04/2026,24/04/2026,,CH,,The Big Bang Theory,,,"Analisar as formas de entradas do módulo de atração. 
+
+Gerar um ticket para CH sempre que entrar uma nova solicitação de Módulo de atração. 
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|CH_Criar_ticket_Modulo_de_Atracao|Flow|Usado para criar os tickets de módulo de atração. 
+Esse flow leva em consideração que as subscriptions já esteja criada, então alterei a ordem de execução desse flow para ficar depois do flow que cria as subscriptions.|
+| | | |",,,,,,,0,,Concluído,4,Tiago Neves,,High,RVO-129,,,0,27/04/2026 11:50:39,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6425,,Mudar temperatura para frio no perdido,RVO-4926,,23/04/2026,24/04/2026,,Vendas,,The Big Bang Theory,,,"Se a oportunidade ficar como perdida, então deve ser alterado a temperatura para frio.
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|SAL_OPP_UPD_Temperatura_quando_perdido|Flow|Mudar a temperatura da oportunidade para Frio quando perdido|
+|[https://gupy-io.atlassian.net/wiki/spaces/PBI/pages/5261656119/SAL_OPP_UPD_Temperatura+quando+perdido|https://gupy-io.atlassian.net/wiki/spaces/PBI/pages/5261656119/SAL_OPP_UPD_Temperatura+quando+perdido|smart-link]|Documentação|Documentação do Flow|",,,,,,,0,,Concluído,2,Tiago Neves,,Highest,RVO-4926,,,0,23/04/2026 18:28:49,,,,,,,[no field found],,,[no field found],
+Task,RVO-6424,,Bloqueio de mudanças do valor no Commit fora do horário,RVO-4926,,23/04/2026,24/04/2026,,Vendas,,The Big Bang Theory,,,"Caso esteja fora do horário para realizar mudanças no valor do commit, então deve ocorrer o bloqueio. 
+
+Esse bloqueio deve ser direcionado somente para os vendedores, as lideranças não podem acontecer tal bloqueio. 
+
+
+
+----
+
+Link da verificação do bloqueio do campo ACV
+[https://gupy.slack.com/archives/C0A9RM4LUEP/p1776965158674509|https://gupy.slack.com/archives/C0A9RM4LUEP/p1776965158674509]
+
+----
+
+Link da documentação: 
+[https://gupy-io.atlassian.net/wiki/spaces/PBI/pages/5261852688/Forecast+Bloqueio+Temperatura+Fora+do+Hor+rio|https://gupy-io.atlassian.net/wiki/spaces/PBI/pages/5261852688/Forecast+Bloqueio+Temperatura+Fora+do+Hor+rio]",,,,,,,0,,Concluído,5,Tiago Neves,,Highest,RVO-4926,,,0,27/04/2026 12:11:21,,,,,,,[no field found],,,[no field found],
+Task,RVO-6382,,Bug - Negócios do Gabriel Tavares estão contabilizando errado,RVO-4926,,27/04/2026,27/04/2026,,Vendas,,The Big Bang Theory,,,Ajustado os valores do Gabriel Tavares,,,,,,,0,,Concluído,3,Tiago Neves,,Medium,RVO-4926,,,0,27/04/2026 18:06:18,,,,,,,[no field found],,,[no field found],
+Task,RVO-6379,,Bloquear upload de contratos no formato ZIP,RVO-129,,,,,,,The Big Bang Theory;Suits,,,,,,,,,,0,,Em andamento,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,,Governança [CRM],,[no field found],,,[no field found],
+Story,RVO-6355,,Melhorias CRM Ajuda,RVO-129,,,24/04/2026,,,,The Big Bang Theory;Suits,,,*Conta - Mais de uma fase por produto*,,,,,,,0,,Concluído,5,david oliveira soares,,Medium,RVO-129,,,0,24/04/2026 12:22:07,,,,,Governança [CRM],,[no field found],,,[no field found],
+Story,RVO-6354,,CRM Ajuda - Ajustes em contas,RVO-5779,,,30/04/2026,,,,The Big Bang Theory;Suits,,,Alterar os AEs Principais pois estão diferentes dos AE-E/AM,,,,,,,0,,Em andamento,4,david oliveira soares,,Medium,RVO-5779,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6335,,Cloud run Job,RVO-4965,,13/04/2026,16/04/2026,,,,The Big Bang Theory;Suits,,,,,,,,,,0,,BACKLOG,18,Luis Bueno,,Medium,RVO-4965,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6331,,[GTMs] Acompanhamento Meetrox,RVO-5025,,20/04/2026,01/05/2026,,,,The Big Bang Theory,,,"📝 *Descrição da atividade*
+
+* Com base no slide criado pelos PMMs, criar a pg. do Hub, prompt da Meetrox, batalha, revisar pitch e etc.
+
+🧩 *O que é preciso para iniciar a tarefa? (Definition of Ready)*
+
+* Receber materiais dos PMMs
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Conclusão dos treinamentos e deploy do GTM
+
+!image (7).png|width=903,alt=""image (7).png""!
+
+📑 *Materiais de Apoio:*
+
+[https://docs.google.com/spreadsheets/d/1cRux5UBX-qe_5sBMY1KLQEZI66LfaRDr968q_S-fSxI/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1cRux5UBX-qe_5sBMY1KLQEZI66LfaRDr968q_S-fSxI/edit?usp=sharing|smart-link] 
+
+[https://docs.google.com/presentation/d/1Y0O5HO6CDo5kwLkbPWIQZoEPBlJJy_2fMCGDY5rZ6j0/edit?usp=sharing|https://docs.google.com/presentation/d/1Y0O5HO6CDo5kwLkbPWIQZoEPBlJJy_2fMCGDY5rZ6j0/edit?usp=sharing|smart-link] 
+
+[https://docs.google.com/spreadsheets/d/1x0zpr9WPDgt-5NeunE-gkgM0pX-XIDGVHMDkui6RHDU/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1x0zpr9WPDgt-5NeunE-gkgM0pX-XIDGVHMDkui6RHDU/edit?usp=sharing|smart-link] 
+
+[https://drive.google.com/file/d/1pwclYZXjyRYrl2oLyn3mxtiY7s-vKcBO/view?usp=sharing|https://drive.google.com/file/d/1pwclYZXjyRYrl2oLyn3mxtiY7s-vKcBO/view?usp=sharing|smart-link] ",,,,,,,0,,Em andamento,3,Taina Labarba,,Medium,RVO-5025,,RVO-6193,0,,,,,,,Cloners,[no field found],,,[no field found],
+Task,RVO-6295,,Estrutura de priorização de chamados CH,RVO-129,,,,,,,Stranger Things;The Big Bang Theory;Suits,,,,,,,,,,0,,Concluído,6,Iago Jants David,,Medium,RVO-129,,,0,28/04/2026 02:16:08,,,,,Governança [CRM],,[no field found],,,[no field found],
+Story,RVO-6293,,CRM Ajuda - Tickets,RVO-129,,,24/04/2026,,,,Stranger Things;The Big Bang Theory;Suits,,,Responder os tickets do crm ajuda,,,,,,,0,,Concluído,3,david oliveira soares,,Medium,RVO-129,,,0,24/04/2026 12:21:41,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6268,,Reestruturar Fluxo de Abertura de Playbook,RVO-129,,22/04/2026,01/05/2026,,,,Stranger Things;The Big Bang Theory,,,"Será criado os playbooks assim que a conta se tornar ativa. 
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|Playbook.Carteira__c|Campo customizado|Usado para informar a carteira do PlaybookTemplate|
+|Playbook.Produto__c|Campo customizado|Usado para informar o produto em que o playbook template está atuando|
+|CS_OpenPlaybook_Implantacao_UpsellCrosssell|Flow|Usado para criar os playbooks dinamicamente.|",,,,,,,0,,Concluído,6,Tiago Neves,,Highest,RVO-129,,,0,22/04/2026 18:29:40,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6253,,CRM Ajuda Semana 1,RVO-129,,24/04/2026,24/04/2026,,,,The Big Bang Theory,,,,,,,,,,0,,Concluído,3,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-129,,,0,24/04/2026 20:33:19,,,,,Governança [CRM],,[no field found],,,[no field found],
+Task,RVO-6238,,Alteração do processo de Equipe do Negócio,RVO-4922,,29/04/2026,30/04/2026,,,,The Big Bang Theory,,,Permitir role duplicada apenas para “Estratégia de Relacionamento”,,,,,,,0,,Em andamento,3,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6237,,Estudo de Alavancas de Crescimento - P1A,RVO-5317,,24/03/2026,01/05/2026,,,,Stranger Things;The Big Bang Theory,,,"*Descrição da atividade:*
+Realizar um estudo estratégico das alavancas de crescimento com base nos resultados do primeiro trimestre da Gupy, avaliando seus impactos no desempenho do H1. A atividade envolve analisar os principais drivers de receita, identificar oportunidades de crescimento e entender como os resultados atuais influenciam a projeção de receita esperada.
+
+🧩 *O que é preciso para iniciar? (DoR)*
+Resultados consolidados do primeiro trimestre disponíveis.
+Projeção de receita para o H1 definida.
+Definição dos principais drivers de crescimento (ex: geração de oportunidades, conversão, ticket médio).
+
+🏆 *O que deve ser entregue? (DoD)*
+Análise estratégica das alavancas de crescimento baseada nos resultados de Q1.
+Identificação dos principais impactos no atingimento da receita projetada para o H1.
+Recomendações claras de oportunidades e ações para impulsionar o crescimento.",,,,,,,0,,Pronto para Iniciar,6,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6232,,Análise de GAP e impactos - P1A,RVO-5317,,24/03/2026,01/05/2026,,,,Stranger Things;The Big Bang Theory,,,"*Descrição da atividade:*
+Realizar a análise de GAP e impactos do resultado do Q1 em relação ao orçamento, identificando desvios e suas causas. A atividade envolve analisar os principais drivers de resultado, como oportunidades geradas, taxa de conversão e ticket médio, além de avaliar os impactos desses fatores no atingimento das metas ao longo do ano.
+
+🧩 *O que é preciso para iniciar? (DoR)*
+Orçamento anual e metas de Q1 definidos e disponíveis.
+Base de resultados reais de Q1 consolidada e confiável.
+Definição dos principais indicadores de análise (oportunidades, conversão, ticket médio).
+
+🏆 *O que deve ser entregue? (DoD)*
+Análise consolidada dos GAPs entre realizado e orçamento de Q1.
+Identificação dos principais drivers de impacto (oportunidades, conversão e ticket médio).
+Avaliação dos impactos no resultado anual, com visão clara dos riscos e oportunidades.",,,,,,,0,,Em andamento,6,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6226,,Cruzamento Matriz com Metas,RVO-4966,,23/03/2026,31/03/2026,,,,Stranger Things;The Big Bang Theory;Suits,,,"*O que é a atividade*
+Realizar o cruzamento entre a matriz de competências e as metas definidas, com o objetivo de identificar relações, lacunas e oportunidades de desenvolvimento alinhadas aos resultados esperados.
+
+*O que precisa para começar*
+Matriz de competências estruturada e metas previamente definidas, além de clareza sobre os critérios de avaliação e priorização.
+
+*Definição de feito*
+Análise concluída com os principais insights do cruzamento (gaps, correlações e oportunidades), consolidada em material acessível e acionável para tomada de decisão.",,,,,,,0,,Em andamento,5,Isabela Vannucchi,,Medium,RVO-4966,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6158,,Verificar Schema Trino,RVO-105,,,,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,,,,,,,,0,,BACKLOG,,Williane Fernandes,,Medium,RVO-105,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6121,,Revisão das ações de Risco pré-mapeadas e consolidação de próximos passos,RVO-5054,,17/03/2026,20/03/2026,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,,,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-5054,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6118,,"Análise dos itens ""Estruturantes"" da planilha War Room",RVO-5054,,11/03/2026,17/03/2026,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,,,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-5054,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6113,,Levantamento de Riscos a serem sanitizados,RVO-5054,,11/03/2026,17/03/2026,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,,,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-5054,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6112,,Semanal: atualização do War Room (Risco),RVO-5054,,16/03/2026,20/03/2026,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,,,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-5054,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6105,,Diário: atualização do War Room (LMs),RVO-5054,,11/03/2026,20/03/2026,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,,,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-5054,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6100,,Planilha do War Room,RVO-5054,,11/03/2026,13/03/2026,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,,,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-5054,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-6095,,View de Planos de Ação para CS,RVO-5054,,11/03/2026,17/03/2026,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,,,,,,,,0,,Em andamento,,Natália Oliveira,,Medium,RVO-5054,,,0,,,,,,,,[no field found],,,[no field found],
+Story,RVO-5912,,⭐️ Peaky Blinders: conclusão da etapa de análise do Assessment,RVO-4966,,,,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,"Conclusão da etapa de análise;
+
+Cruzamento de dados para definição do melhor modelo para clusterização de indivíduos;
+
+Definição de modelo para a clusterização e aplicação do modelo.
+
+Entregável:
+Documentação de Clusters e listagem dos indivíduos que os compõem. ",,,,,,,0,,BACKLOG,,,,Medium,RVO-4966,,,0,,,,,,,,[no field found],,,[no field found],
+Story,RVO-5872,,⭐️ The Big Bang Theory: Piloto e validação,RVO-4964,,,,,,,The Big Bang Theory,,,"# Seleção e Preparação do Grupo Piloto
+
+Escolher 1 ou 2 times/áreas representativos da operação (variedade de perfis de consumo de informação)
+
+Briefing com os líderes do grupo piloto sobre o novo modelo
+
+# Execução do Piloto (≈ 1,5 semana)
+
+Aplicar o modelo de canais, frequências e templates com o grupo selecionado
+
+Desativar (ou arquivar) os canais redundantes dentro do escopo do piloto
+
+Testar pelo menos 2 tipos diferentes de comunicado (ex: 1 crítico + 1 recorrente)
+
+# Coleta de Evidências contra os Critérios de Sucesso
+
+📊 Rodar a pesquisa de Índice de Sentimento e Clareza (meta: ≥ 4.5/5)
+
+📋 Verificar Conformidade de Canal dentro do grupo piloto
+
+🧠 Aplicar o método de Assimilação definido na Sprint 1 e validar se o formato é viável
+
+# Diagnóstico de Fricções
+
+Registrar o que gerou resistência, confusão ou não funcionou como esperado
+
+Classificar as fricções em: ajuste de modelo vs. ajuste de comportamento (o segundo é escopo da Sprint 3)
+
+# Refinamento do Modelo e Consolidação do Playbook
+
+Incorporar os aprendizados do piloto no modelo TO BE
+
+Consolidar um Playbook de Comunicação pronto para ser usado na Sprint 3:
+
+Política completa de canais
+
+Guia de uso por canal
+
+Templates validados
+
+Rituais de comunicação (cadências, responsáveis, formatos)",,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-4964,,,0,,,,,,,,[no field found],,,[no field found],
+Story,RVO-5870,,⭐️ Suits: Lançamento e governança,RVO-4965,,,,,,,The Big Bang Theory;Suits,,,"Métricas consolidadas;
+
+Integração Salesforce;
+
+Roadmap de expansão.",,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-4965,,,0,,,,,,,,[no field found],,,[no field found],
+Story,RVO-5869,,⭐️ Stranger Things: Ativação IA,RVO-4965,,,,,,,Stranger Things;The Big Bang Theory;Suits,,,"IA ativada (condicional);
+
+Embeddings ativos;
+
+Beta com a operação.",,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-4965,,,0,,,,,,,,[no field found],,,[no field found],
+Story,RVO-5868,,⭐️ Peaky Blinders: Infraestrutura de IA,RVO-4965,,,,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders,,,"Modelagem de dados;
+
+Estrutura de prompts;
+
+Integração SF (desenho).",,,,,,,0,,BACKLOG,,Valéria de Araújo,,Medium,RVO-4965,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-5782,,Consolidado de Opps - Base P1A,RVO-5317,,,,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders;Game of Thrones,,,"Consolidado com os valores de Opps que ficaram como oficiais da Gupy, na planilha final do P1A, para ser a fonte oficial dessa informação.",,,,,,,0,,BACKLOG,2,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,,,,[no field found],,,[no field found],
+Epic,RVO-5779,,Melhorias Tickets,,,,24/04/2026,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders;Game of Thrones,,,"Será realizado melhorias nos tickets, para uma resposta mais rápida e eficaz dos tickets, para que eles não fiquem travados e acumulados. Utilizaremos a documentação nova de carteirização, pedindo ajuda ao Lucca, Jessica e Matheus para eventuais dúvidas e dificuldades.
+",,,,,,,0,To Do,Concluído,6,david oliveira soares,,Medium,,,,0,24/04/2026 12:21:25,,,,,,,[no field found],,,[no field found],
+Task,RVO-5761,,Alterar regra de equipe de Negócio,RVO-4922,,28/04/2026,29/04/2026,,,,The Big Bang Theory,,,"* Permitir inclusão de mais de um papel com o nome de estratégia de relacionamento
+* Adicionar ambas assim que criado o tipo de negócio.",,,,,,,0,,Homologação e Testes,2,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-5567,,[GO UP] - A-ha Moment produto | Cronograma,RVO-5040,,,,,,,Stranger Things;The Big Bang Theory;Suits;Friends;Peaky Blinders;Game of Thrones,,,"Entender o projeto, escrever e delimitar marcos de entrega. Além de documentar o que será feito, como será feito e as premissas. Acompanhamento do GOUP",,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-5040,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-5551,,impulsionamento de vagas - mudança de conceito ,RVO-4922,,30/04/2026,30/04/2026,,,,The Big Bang Theory,,,"*Descrição da atividade:*
+
+* 
+
+
+
+*O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* 
+
+
+
+*O que deve ser entregue? (Definition of Done)*
+
+* ",,,,,,,0,,BACKLOG,4,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-5460,,RFC para casos de inadimplência,RVO-5054,,,,,,,Stranger Things;The Big Bang Theory;Suits,,,,,,,,,,0,,BACKLOG,,Natália Oliveira,,Medium,RVO-5054,,,0,,,,,,,,[no field found],,,[no field found],
+Task,RVO-5385,,Publicação da documentação,RVO-5372,,,,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders;Game of Thrones,,,,,,,,,,0,,Concluído,1,Williane Fernandes,,Medium,RVO-5372,,,0,23/04/2026 12:40:30,,,,,,,[no field found],,,[no field found],
+Task,RVO-5384,,Disponibilização dos acessos para os usuários,RVO-5372,,,,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders;Game of Thrones,,,,,,,,,,0,,Concluído,1,Williane Fernandes,,Medium,RVO-5372,,,0,23/04/2026 12:40:27,,,,,,,[no field found],,,[no field found],
+Task,RVO-5383,,Validação do projeto junto ao solicitante,RVO-5372,,,,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders;Game of Thrones,,,,,,,,,,0,,Concluído,5,Williane Fernandes,,Medium,RVO-5372,,,0,22/04/2026 13:52:52,,,,,,,[no field found],,,[no field found],
+Task,RVO-5382,,Construção da documentação,RVO-5372,,,,,,,Stranger Things;The Big Bang Theory;Suits;Peaky Blinders;Game of Thrones,,,,,,,,,,0,,Concluído,2,Williane Fernandes,,Medium,RVO-5372,,,0,22/04/2026 13:52:46,,,,,,,[no field found],,,[no field found],
+Epic,RVO-2595,,C3 - [CH] Implementação do Community,,,06/10/2025,15/12/2025,,,,Sprint 2;Sprint 3;Breaking Bad;The Big Bang Theory;Sprint 4;Suits;Sprint 5;Stranger Things;Friends;Dark;Peaky Blinders;Sprint 1;Game of Thrones,,,"Este épico tem como objetivo a implementação do Community, sendo ele um portal seguro para clientes. A principal funcionalidade será permitir que os clientes, após autenticação, acompanhem o status e o histórico de seus tickets de suporte, além de poderem criar novas solicitações diretamente na plataforma.",,,,,,,0,,Em andamento,,Alan Dantas Bernardo,,Medium,,,,0,,,,,,,,[no field found],,,[no field found],
