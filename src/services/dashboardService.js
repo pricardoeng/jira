@@ -174,14 +174,32 @@ export function processData(issues) {
     const parentName = EPIC_NAMES[parent] || issue['Epic Link.Name'] || parent;
     
     if (!epicsMap.has(parent)) {
-      epicsMap.set(parent, { id: parent, name: parentName, totalCards: 0, doneCards: 0, totalPoints: 0, donePoints: 0 });
+      epicsMap.set(parent, { 
+        id: parent, 
+        name: parentName, 
+        totalCards: 0, 
+        doneCards: 0, 
+        totalPoints: 0, 
+        donePoints: 0,
+        doneList: [],
+        pendingList: []
+      });
     }
     const eData = epicsMap.get(parent);
     eData.totalCards++;
     eData.totalPoints += points;
+    
+    const cardInfo = {
+      key: issue['Issue key'] || issue['key'] || issue['Key'],
+      summary: issue['Summary'] || issue['summary']
+    };
+
     if (isDone) {
       eData.doneCards++;
       eData.donePoints += points;
+      eData.doneList.push(cardInfo);
+    } else {
+      eData.pendingList.push(cardInfo);
     }
 
     const labelsStr = issue['Labels'] || '';

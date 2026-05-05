@@ -161,10 +161,6 @@ export default function Dashboard() {
             </div>
           </div>
 
-          <div className={styles.statusBadge}>
-            <span className={styles.dot}></span>
-            Bases Unificadas
-          </div>
         </div>
       </header>
       
@@ -434,6 +430,59 @@ export default function Dashboard() {
               );
             })}
           </div>
+        </div>
+      </section>
+
+      {/* NOVO: Detalhamento de Entregas por Parent */}
+      <section className={styles.detailsSection}>
+        <div className={styles.sectionHeader}>
+          <h2>DETALHAMENTO DE ENTREGAS</h2>
+          <p>Cards concluídos e pendentes agrupados por iniciativa</p>
+        </div>
+        
+        <div className={styles.detailsGrid}>
+          {epics.map(epic => (
+            <div key={epic.id} className={styles.epicDetailCard}>
+              <div className={styles.epicDetailHeader}>
+                <h3>{epic.name}</h3>
+                <span className={styles.epicBadge}>{epic.id}</span>
+              </div>
+              
+              <div className={styles.cardListsWrapper}>
+                {/* Coluna Concluídos */}
+                <div className={styles.cardColumn}>
+                  <div className={`${styles.columnTitle} ${styles.textSuccess}`}>
+                    CONCLUÍDOS ({epic.doneList.length})
+                  </div>
+                  <div className={styles.cardsScroll}>
+                    {epic.doneList.map(card => (
+                      <div key={card.key} className={styles.cardDetailItem}>
+                        <span className={styles.cardKey}>{card.key}</span>
+                        <span className={styles.cardSummary}>{card.summary}</span>
+                      </div>
+                    ))}
+                    {epic.doneList.length === 0 && <div className={styles.emptyState}>Nenhum card concluído</div>}
+                  </div>
+                </div>
+
+                {/* Coluna Pendentes */}
+                <div className={styles.cardColumn}>
+                  <div className={`${styles.columnTitle} ${styles.textWarning}`}>
+                    PENDENTES ({epic.pendingList.length})
+                  </div>
+                  <div className={styles.cardsScroll}>
+                    {epic.pendingList.map(card => (
+                      <div key={card.key} className={styles.cardDetailItem}>
+                        <span className={styles.cardKey}>{card.key}</span>
+                        <span className={styles.cardSummary}>{card.summary}</span>
+                      </div>
+                    ))}
+                    {epic.pendingList.length === 0 && <div className={styles.emptyState}>Nenhum card pendente</div>}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
