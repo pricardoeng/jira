@@ -97,7 +97,7 @@ const EPIC_NAMES = {
 
 const WHITELIST_PARENTS = [
   'RVO-4922', 'RVO-129', 'RVO-6674', 'RVO-4920', 
-  'RVO-4921', 'RVO-4926', 'RVO-5054', 'RVO-5779'
+  'RVO-4921', 'RVO-4926', 'RVO-5054', 'RVO-5779', 'RVO-5450'
 ];
 
 export function processData(issues) {

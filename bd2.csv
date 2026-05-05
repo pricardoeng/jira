@@ -1,0 +1,741 @@
+Issue Type,Key,Epic Name,Summary,Epic Link,Pilar,Start date,Due date,Fonte,Labels,Components,Sprint,Actual end,Actual start,Description,Pair with,Pairing with,Pairing with,Pairing with,Pairing with...,Checklist Progress,Checklist Progress %,Epic Status,Status,Story Points,Assignee,Team,Priority,parent,Parent Link,Linked Issues,Progress,Resolved,Due date,End date,Resignation date,Fix versions
+Task,RVO-6678,,Criação da visão do Forecasting para CMRR Prime e CMRR Co-Prime,RVO-4926,,05/05/2026,06/05/2026,,Vendas,,The Office,,,"h2. O que precisa ser feito?
+
+Criar duas novas visões de CMRR Prime e CMRR Co-Prime e colocar no Forecasting
+
+h2. Impacto esperado
+
+Time conseguir visualizar em tempo real como está o seu forecast, desta forma consegue se organizar melhor em quais oportunidades precisarão atacar.
+
+h2. Pronto quando... (Definition of Done)
+
+* Forecasting com a visão de CMRR Prime
+* Forecasting com a visão de CMRR Co-Prime
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|IndicadorUnicoExpansaoController|Classe apex|Usado para fazer os cálculos do CMRR de Prime e Co-Prime|
+|OpportunitySplit.CMRR_Oficial__c|Campo customizado|Usado para guardar o CMRR Oficial do opp Split|
+|Sales_AtribuirCMRROficialOpportunitySplit|Flow|Usado para fazer o cálculo do CMRR oficial no opportunity split|",,,,,,,0,,Em andamento,5,Tiago Neves,,Highest,RVO-4926,,,0,,,,,
+Task,RVO-6677,,Criação de campo de CMRR TM e criação de automação usando como base o campo ACV TM,RVO-4926,,05/05/2026,06/05/2026,,Vendas,,The Office,,,"h2. O que precisa ser feito?
+
+Criar um campo de CMRR TM e criar uma automação para atualizar o campo para ACV TM / 12 ao ser alterado o campo.
+
+h2. Impacto esperado
+
+Manter a consistência dos dados e diminuir o preenchimento de 2 campos, além de apresentar tais dados de maneira correta no forecast.
+
+h2. Pronto quando... (Definition of Done)
+
+* Campo criado em produção
+* Automação criada e funcionando
+
+----
+
+||*Nome*||*Tipo*||*Observações*||
+|CMRR_TM__c|Campo customizado|Campo usado para guardar o CMRR TM da oportunidade|
+|Sales_AjustarCMRRTMQuandoACVTMForAtualizado|Flow|Flow usado para atualizar o CMRR TM quando o ACV TM for atualizado|",,,,,,,0,,Concluído,1,Tiago Neves,,Highest,RVO-4926,,,0,05/05/2026 15:11:25,,,,
+Story,RVO-6673,,Subir novos negócios,RVO-129,,05/05/2026,08/05/2026,,,,The Office,,,"Subida de novos negócios nas contas solicitadas.
+[https://docs.google.com/spreadsheets/d/1Zj6-iKkkl9vZozn5vAP-DDIuvMsa7UzmyypXbcspH8A/edit?pli=1&gid=1667392840#gid=1667392840|https://docs.google.com/spreadsheets/d/1Zj6-iKkkl9vZozn5vAP-DDIuvMsa7UzmyypXbcspH8A/edit?pli=1&gid=1667392840#gid=1667392840|smart-link] ",,,,,,,0,,Em andamento,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,
+Sub-task,RVO-6672,,CE - SmartVagas da suzano caiu,,,,,,,,The Office,,,,,,,,,,0,,Concluído,"0,5",Tiago Neves,,Highest,RVO-6592,,,0,05/05/2026 12:29:57,,,,
+Task,RVO-6671,,Impactos mudanças de carteiras (pai e filho e geral),RVO-5317,,,12/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+Calcular os impactos das mudanças de carteiras (contas sem dono, relação pai-filho e visão geral) nas metas dos vendedores.
+
+----
+
+h3. 🎯 Impacto esperado
+
+Clareza dos impactos das inconsistências de carteira nas metas, suportando ajustes e decisões comerciais.
+
+----
+
+h3. ✅ Pronto quando...
+
+* Contas sem dono identificadas e com impacto quantificado
+* Inconsistências pai-filho mapeadas e com impacto calculado
+* Impacto consolidado nas metas dos vendedores",,,,,,,0,,Pronto para Iniciar,2,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Task,RVO-6670,,Validação Análises RV,RVO-5317,,06/05/2026,05/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+Validar as simulações de RV, analisando os impactos de cada cenário para suportar a decisão do melhor calculo para o H2.
+
+----
+
+h3. 🎯 Impacto esperado
+
+Clareza dos impactos de cada cenário de RV, suportando a tomada de decisão para o H2.
+
+----
+
+h3. ✅ Pronto quando...
+
+* Simulações revisadas e validadas
+* Impactos por cenário quantificados
+* Comparação entre cenários consolidada
+* Material pronto para apresentação na reunião",,,,,,,0,,Em andamento,3,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Task,RVO-6667,,Revisar documentação de RV,RVO-5317,,,06/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+Revisar a página de documentação de RV, garantindo alinhamento com o padrão e preparando para divulgação ao time.
+
+----
+
+h3. 🎯 Impacto esperado
+
+Clareza e padronização das regras de RV, reduzindo dúvidas e desalinhamentos no time.
+
+----
+
+h3. ✅ Pronto quando...
+
+* Conteúdo revisado conforme padrão de documentação
+* Regras de RV claras e sem ambiguidades
+* Página final validada
+* Material publicado e acessível para o time",,,,,,,0,,Pronto para Iniciar,2,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Sub-task,RVO-6666,,Ajustar busca de campanhas do indicador Go Up para buscar as campanhas de marketing,,,,,,,,The Office,,,,,,,,,,0,,Em andamento,,Tiago Neves,,Medium,RVO-6591,,,0,,,,,
+Task,RVO-6664,,Criação de Material para Reunião com Gerente de CH,RVO-105,,07/05/2026,12/05/2026,,CH,,The Office,,,"Criação de um material para apresentação do time de PBA e da minha pessoa como auxiliadora ao time de CH para o novo gerente de CH, além dos dashboards desenvolvidos e regras de negócio aplicadas. 
+
+A entrega será um material de apresentação (PPT, PDF ou HTML) com o conteúdo descrito acima.",,,,,,,0,,BACKLOG,8,Lana Reis,,Medium,RVO-105,,,0,,,,,
+Task,RVO-6663,,[GO UP] - Melhorias no indicador único,,,,,,,,The Office,,,,,,,,,,,,BACKLOG,,Gabriel Pires,,Medium,,,,0,,,,,
+Task,RVO-6662,,[ECONOMICS] - Validação retroativa,RVO-1182,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Story,RVO-6661,,CRM Ajuda - Ajustar a etapa das contas,RVO-129,,04/05/2026,11/05/2026,,,,The Office,,,"Ajustar a fase do negócio, adicionando ou excluindo alguma fase.
+
+[https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000ncSqHUAU/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000ncSqHUAU/view?queryScope=userFolders|smart-card]",,,,,,,0,,Em andamento,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6660,,Ajuste planilha Churn,RVO-5317,,,05/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+Revisar a planilha de Análise de GAP e Impactos (Churn) para o formato de reunião semanal, estruturando espaço para o time de CS registrar principais impactos.
+
+----
+
+h3. 🎯 Impacto esperado
+
+Padronização da discussão de churn, com maior clareza dos impactos e insumos do time de CS para tomada de decisão.
+
+----
+
+h3. ✅ Pronto quando...
+
+* Estrutura da planilha adaptada para o rito semanal
+* Campo/seção para input do time de CS incluído
+* Principais impactos de churn padronizados para análise
+* Planilha atualizada e compartilhada com o time",,,,,,,0,,Pronto para Iniciar,4,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Task,RVO-6659,,Cronograma Planejamento,RVO-5317,,,15/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+Estruturar o cronograma do planejamento (P1A 2027), definindo etapas, prazos e responsáveis para construção do orçamento.
+
+----
+
+h3. 🎯 Impacto esperado
+
+Organização antecipada do planejamento, garantindo previsibilidade e cumprimento dos prazos do orçamento.
+
+----
+
+h3. ✅ Pronto quando...
+
+* Etapas do planejamento mapeadas
+* Prazos definidos para cada etapa
+* Responsáveis atribuídos por etapa
+* Cronograma consolidado e compartilhado com o time",,,,,,,0,,Pronto para Iniciar,4,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Task,RVO-6658,,[GO UP] - Análise inicial de sazonalidade,RVO-24,,,,,,,The Office,,,"Por porte, produto e segmento(Qual o melhor segmento?)
+
+Levantar premissas",,,,,,,0,,BACKLOG,8,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Task,RVO-6657,,[Carteirização] - Atualização do Material de CS,RVO-24,,05/05/2026,05/05/2026,,,,The Office,,,,,,,,,,0,,Em andamento,3,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Task,RVO-6656,,[Economics] - Validação dos dados (2° Semana),RVO-1182,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6655,,[ECONOMICS] - Validação de Deals (2° Semana),RVO-1182,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6654,,[ECONOMICS] - Fechamento de Abril -26,RVO-1182,,05/05/2026,06/05/2026,,,,The Office,,,,,,,,,,0,,Em andamento,8,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6653,,Criar novo indicador para Taxa de abandono CH,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6652,,Ajuste nos Infotips dos formulários CH,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6651,,Dashboard para N2 integrações - Supervisão,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6650,,Atualização dos indicadores da central de ajuda - Mensal,RVO-129,,,,,,,The Office,,,,,,,,,,0,,Em andamento,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6649,,Tratamento de tickets - Semana 2,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6648,,Tratamento de tickets - Semana 1,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6647,,CRM Ajuda - Semana 2,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,6,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6646,,CRM Ajuda - Semana 1,RVO-129,,,,,,,The Office,,,,,,,,,,0,,Em andamento,6,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6645,,Reunião Novo Gerente CH,RVO-105,,11/05/2026,15/05/2026,,CH,,The Office,,,Realizar uma agenda com o novo gerente de CH para apresentação do time e dos dashboards.,,,,,,,0,,BACKLOG,1,Lana Reis,,Medium,RVO-105,,,0,,,,,
+Sub-task,RVO-6644,,CE - Erros na central de empresas,,,,,,,,The Office,,,,,,,,,,0,,Concluído,"0,5",Tiago Neves,,Highest,RVO-6592,,,0,04/05/2026 20:29:29,,,,
+Task,RVO-6643,,Registrar sessões de candidatos - Bot Comercial,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,1,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Sub-task,RVO-6642,,CE - Empresa Casper Libero,,,,,,,,The Office,,,,,,,,,,0,,Concluído,"0,1",Tiago Neves,,Medium,RVO-6592,,,0,04/05/2026 17:47:49,,,,
+Task,RVO-6641,,Verificar HubspotLeadId não retorna para o SF,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,5,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6640,,Ajustes e Melhorias V2 - Precificação,RVO-129,,,,,,,The Office,,,"* automatizar os valores de projeto, com base nas horas enviados (preço específico por persona);
+* automatizar os valores de mensalidades, com base na quantidade de execuções previstas;
+* deixar pré-definido as horas das personas com base no fluxo de negócio;
+* aumentar a quantidade de caracteres permitido dos campos de trigger/regra de negócios/...;
+
+
+
+
+
+o que eu queria tirar dúvida:
+
+* qual é o trigger que permite eu criar uma proposta de serviço. Queremos reutilizar para o time de cs gerar;",,,,,,,0,,BACKLOG,4,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6639,,Movimentação de Pré-Vendas,RVO-129,,,,,,,The Office,,,"h1. *Procedimento Operacional Padrão: Movimentação de Pré-Vendas (xDR)*
+
+*Objetivo:* Garantir a continuidade do pipeline e a integridade dos dados no Salesforce durante entradas, saídas ou mudanças de atuação do time de Pré-Vendas.
+
+
+
+----
+
+
+
+h2. *1. Gatilho do Processo*
+
+Sempre que houver uma movimentação, o Líder de Pré-Vendas deve preencher o fluxo no canal do Slack [+#vendas_movimentações+ |https://gupy.slack.com/archives/C02AP2L5GK0]
+
+O líder deve fazer a comunicação até 4 horas depois da movimentação.
+
+
+
+----
+
+
+
+h2. *2. Saída de xDR* 
+
+h3. *2.1 Responsabilidades do Time de CRM (Salesforce Admin)*
+
+h4. *A. Gestão de Acesso*
+
+# *Desativar Usuário*
+
+h3. *B. Gestão de Negócios*
+
+O CRM deve executar o relatório de ""Oportunidades com Atividades"" e realizar o *Mass Transfer* seguindo a lógica:
+
+* *Filtro de Etapa:* 
+** Etapa do negócio: Qualificação e
+** Etapa do lead: Lead Conectado ou Reunião Agendada.
+* *Filtro de Atividade:* Data da última atividade < últimos 20 dias.
+* *Ação 1 (Ativos):* Para registros com atividade nos últimos 20 dias, alterar o _proprietário do negócio_ para a liderança.
+* *Ação 2 (Inativos):* Para registros com atividade > 20 dias, alterar a etapa do lead para Lead Desqualificado e preencher o campo _Motivo do lead desqualificado_ como ""Expirado - Movimentação de BDR"".
+* *Ação 3 (Limpeza):* Quaisquer outros negócios ativos em outras etapas do funil de pré-vendas (Novo Lead ou Abordagem Iniciada) devem ser movidos para Lead Desqualificado  e preencher o campo _Motivo do lead desqualificado_ como ""Expirado - Movimentação de BDR"".
+
+
+
+h2. *2.2. Responsabilidades do Time de RevOps (Planning & Performance - P&P)IC (Inteligência Comercial)*
+
+h3. *A. Transferência de Contas (Accounts)*
+
+O time de P&PIC deve garantir que a carteira seja migrada sem deixar contas ""órfãs"".
+
+# Transferir as contas do BDR inativo para os BDRs que são duplas do AE Ecossistema que é dono da conta
+# *Critério de AE:* Validar quem são os BDRs duplas do AE Ecossistema dono da conta, para receber as contas ([+utilizar esta combinação de duplas+|https://docs.google.com/spreadsheets/d/1FZoPDidD-g_hBb3Iw_dy5KXy4dgJh-2PUvwd-4FL5ws/edit?gid=0#gid=0])
+
+
+
+h2. *2.3. Checklist de Validação Final*
+
+|*Item*|*Critério de Sucesso*|*Responsável*|*Prazo para conclusão*|
+|*Licença*|Licença do Salesforce desativada |CRM|1 dia útil|
+|*Integridade*|Zero oportunidades ativas no nome do xDR antigo.|CRM|5 dias úteis|
+|*Contas (para BDR Outbound)*|Todas as contas migradas para o BDR da mesma dupla AE.|P&PIC|5 dias úteis|
+|*Integridade*|Zero contas no nome do xDR antigo|P&P|5 dias úteis|
+
+
+
+
+
+
+
+----
+
+
+
+h2. *3. Entrada de xDR* 
+
+h3. *3.1 Responsabilidades do Time de CRM (Salesforce Admin)*
+
+h4. *A. Gestão de Acesso*
+
+# *Criação de Usuário*
+
+
+
+h2. *3.2. Responsabilidades do Time de RevOps (Planning & Performance - P&P)IC (Inteligência Comercial) - apenas para BDR Outbound*
+
+h3. *A. Atribuição de Contas (Accounts)*
+
+O time de P&PIC deve garantir que o BDR tenha volume de contas suficientes para trabalhar até o final do quarter.
+
+# Selecionar contas de acordo com os critérios de enriquecimento e atuação do BDR.
+# *Critério de AE:* Validar quem são os BDRs duplas do AE Ecossistema dono da conta, para receber as contas ([+utilizar esta combinação de duplas+|https://docs.google.com/spreadsheets/d/1FZoPDidD-g_hBb3Iw_dy5KXy4dgJh-2PUvwd-4FL5ws/edit?gid=0#gid=0])
+
+
+
+h2. *3.3. Checklist de Validação Final*
+
+|*Item*|*Critério de Sucesso*|*Responsável*|*Prazo para conclusão*|
+|*Licença*|Criação do usuário do Salesforce|CRM|1 dia útil|
+|*Contas (para BDR Outbound)*|Alocação de contas enriquecidas e na atuação do BDR, em volume suficiente para trabalhar até o final do quarter|P&PIC|5 dias úteis|
+|*Validação final deda alocação de contas enriquecidas*|Validação final das contas enriquecidas pelo time de IC|Liderança direta|2 dias úteis|
+|*Validação final da alocação de contas*|Validação final da alocação das contas pelo time de P&P|Liderança direta|2 dias úteis|
+
+
+
+
+
+
+
+----
+
+
+
+h2. *4. Movimentação de xDR* 
+
+h3. *4.1 Responsabilidades do Time de CRM (Salesforce Admin)*
+
+h3. *A. Gestão de Negócios*
+
+O CRM deve executar o relatório de ""Oportunidades com Atividades"" e realizar o *Mass Transfer* seguindo a lógica:
+
+* *Filtro de Etapa:* 
+** Etapa do negócio: Qualificação e
+** Etapa do lead: Lead Conectado ou Reunião Agendada.
+* *Filtro de Atividade:* Data da última atividade < últimos 20 dias.
+* *Ação 1 (Ativos):* Para registros com atividade nos últimos 20 dias, alterar o _Proprietário do negócio_ para o xDR que assumiu a conta.
+* *Ação 2 (Inativos):* Para registros com atividade > 20 dias, alterar a etapa do lead para Lead Desqualificado e preencher o campo _Motivo do lead desqualificado_ como ""Fora do SLA"".
+* *Ação 3 (Limpeza):* Quaisquer outros negócios ativos em outras etapas do funil de pré-vendas (Novo Lead ou Abordagem Iniciada) devem ser movidos para Lead Desqualificado  e preencher o campo _Motivo do lead desqualificado_ como ""Fora do SLA"".
+
+
+
+h2. *4.2. Responsabilidades do Time de RevOps (Planning & Performance - P&P)IC (Inteligência Comercial) - apenas para BDR Outbound*
+
+h3. *A. Transferência de Contas (Accounts)*
+
+O time de P&PIC deve garantir que a carteira seja migrada sem deixar contas ""órfãs"".
+
+# Acessar a ferramenta de *Transferência em Massa de Registros* (_Mass Transfer Records_) no Salesforce.
+# Selecionar *Transferir Contas*.
+# Selecionar contas que não fazem mais parte do escopo de atuação do BDR.
+# *Critério de AE:* Validar quem são os BDRs duplas do AE Ecossistema dono da conta, para receber as contas ([+utilizar esta combinação de duplas+|https://docs.google.com/spreadsheets/d/1FZoPDidD-g_hBb3Iw_dy5KXy4dgJh-2PUvwd-4FL5ws/edit?gid=0#gid=0])
+
+h3. *B. Atribuição de Contas (Accounts)*
+
+O time de P&PIC deve garantir que o BDR tenha volume de contas suficientes para trabalhar até o final do quarter.
+
+# Selecionar contas de acordo com os critérios de enriquecimento e atuação do BDR.
+# *Critério de AE:* Validar quem são os BDRs duplas do AE Ecossistema dono da conta, para receber as contas ([+utilizar esta combinação de duplas+|https://docs.google.com/spreadsheets/d/1FZoPDidD-g_hBb3Iw_dy5KXy4dgJh-2PUvwd-4FL5ws/edit?gid=0#gid=0])
+
+
+
+h2. *4.3. Checklist de Validação Final*
+
+{adf:display=block}
+{""type"":""table"",""attrs"":{""isNumberColumnEnabled"":false,""layout"":""center"",""localId"":""8aef303a-26d0-49ae-9f14-087d9b529473""},""content"":[{""type"":""tableRow"",""attrs"":{""localId"":""860b2393daad""},""content"":[{""type"":""tableCell"",""attrs"":{""localId"":""9d182121cc8c""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Item"",""marks"":[{""type"":""strong""}]}],""attrs"":{""localId"":""55e8da4f6736""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""9808d7111cbf""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Critério de Sucesso"",""marks"":[{""type"":""strong""}]}],""attrs"":{""localId"":""010b79409cec""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""6ea547cc5954""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Responsável"",""marks"":[{""type"":""strong""}]}],""attrs"":{""localId"":""dd2d6b5115f3""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""e33654679cc2""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Prazo para conclusão"",""marks"":[{""type"":""strong""}]}],""attrs"":{""localId"":""54af3ca13050""}}]}]},{""type"":""tableRow"",""attrs"":{""localId"":""9775f6c660c7""},""content"":[{""type"":""tableCell"",""attrs"":{""localId"":""8fd9d00dfee6""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Integridade"",""marks"":[{""type"":""strong""}]}],""attrs"":{""localId"":""8a60a01171d6""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""1f11a5e9d11a""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Zero oportunidades ativas no nome do xDR antigo.""}],""attrs"":{""localId"":""715dbcbcd75a""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""d1352ef37b18""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""CRM""}],""attrs"":{""localId"":""46f019c434e2""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""e275d5b99094""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""5 dias úteis""}],""attrs"":{""localId"":""86198173ac21""}}]}]},{""type"":""tableRow"",""attrs"":{""localId"":""b15d71a2c8b4""},""content"":[{""type"":""tableCell"",""attrs"":{""localId"":""481f70476e28"",""rowspan"":2},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Contas (para BDR Outbound)"",""marks"":[{""type"":""strong""}]}],""attrs"":{""localId"":""aa469993eda8""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""6e34b06e96e3""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Todas as contas da atuação anterior migradas para o BDR da mesma dupla AE.""}],""attrs"":{""localId"":""455cc20fd2d3""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""8bd38ccce425"",""rowspan"":2},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""P&PIC""}],""attrs"":{""localId"":""0f645c83ed18""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""491e6b953e96"",""rowspan"":2},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""5 dias úteis""}],""attrs"":{""localId"":""e475aff486f4""}}]}]},{""type"":""tableRow"",""attrs"":{""localId"":""f5e4959073b2""},""content"":[{""type"":""tableCell"",""attrs"":{""localId"":""07e4e2726c4d""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Alocação de contas enriquecidas e na atuação do BDR, em volume suficiente para trabalhar até o final do quarter.""}],""attrs"":{""localId"":""1dd0b693e524""}}]}]},{""type"":""tableRow"",""attrs"":{""localId"":""8e433e5e4e80""},""content"":[{""type"":""tableCell"",""attrs"":{""localId"":""f8c9498107be""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Validação final deda alocação de contas enriquecidasValidação final da alocação de contas enriquecidas"",""marks"":[{""type"":""strong""}]}],""attrs"":{""localId"":""54fe26d6cd75""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""877fd35b0517""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Validação final das contas enriquecidas pelo time de ICValidação final das contas enriquecidas pelo time de IC""}],""attrs"":{""localId"":""f28b5ae9d1b4""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""137e646bae8e""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Liderança diretaLiderança direta""}],""attrs"":{""localId"":""8f74da479420""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""7fdc114728ff""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""2 dias úteis2 dias úteis""}],""attrs"":{""localId"":""2c89941ceaa4""}}]}]},{""type"":""tableRow"",""attrs"":{""localId"":""aca7469ed394""},""content"":[{""type"":""tableCell"",""attrs"":{""localId"":""e4ce58a52386""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Validação final da alocação de contas""}],""attrs"":{""localId"":""fa8d4e35138c""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""43c864114e7e""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Validação final da alocação das contas pelo time de P&P""}],""attrs"":{""localId"":""f9fb4ba788cc""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""d5f552209184""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""Liderança direta""}],""attrs"":{""localId"":""c1a8f17a0bb0""}}]},{""type"":""tableCell"",""attrs"":{""localId"":""65b6843bbf9e""},""content"":[{""type"":""paragraph"",""content"":[{""type"":""text"",""text"":""2 dias úteis""}],""attrs"":{""localId"":""f42983c8ede6""}}]}]}]}
+{adf}
+
+
+
+
+
+
+
+----
+
+
+
+h2. *💡 Sugestão de Automação (Flow no Salesforce)*
+
+Para evitar que esse processo seja 100% manual no futuro, você pode solicitar ao seu dev/admin de Salesforce a criação de um *Flow*:
+
+# Ao marcar um usuário como ""Inativo"", o Flow dispara um e-mail para P&Po IC com o link de um relatório contendo todas as Contas que precisam de novo dono.
+
+
+
+# ""Se _Owner_ mudar para 'Inativo' E (Etapa do lead  é “Lead Conectado” ou “Reunião Agendada”) E Etapa do negócio = “Qualificação” E _Data da Última Atividade_ > 20 dias, então mudar _Status_ para 'Desqualificado'.”
+
+
+
+# ""Se _Owner_ mudar para 'Inativo' E (Etapa do lead  é “Lead Conectado” ou “Reunião Agendada”) E Etapa do negócio = “Qualificação” E _Data da Última Atividade_ <= 20 dias, então mudar _Owner_ para liderança direta do xDR.""
+
+
+
+""Se _Owner_ mudar para 'Inativo' E (Etapa do lead  é “Novo Lead” ou “Abordagem Iniciada”) E Etapa do negócio = “Qualificação”, então mudar _Status_ para 'Desqualificado'.""",,,,,,,0,,BACKLOG,18,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6638,,Validar Opp do Bot,RVO-129,,,07/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,4,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Sub-task,RVO-6637,,CE - Empresa Omatuto,,,04/05/2026,04/05/2026,,RevOps,,The Office,,,"Link da solicitação para o time da central
+[https://gupy.slack.com/archives/C0914V9MW4V/p1777916290683069|https://gupy.slack.com/archives/C0914V9MW4V/p1777916290683069]",,,,,,,0,,Concluído,"0,5",Tiago Neves,,Highest,RVO-6591,,,0,04/05/2026 19:59:24,,,,
+Task,RVO-6636,,CRM Ajuda - Semana 2,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,6,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6635,,CRM Ajuda - Semana 1,RVO-129,,,,,,,The Office,,,,,,,,,,0,,Em andamento,6,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6634,,Ajuste - CSQL - Novos Campos e Layout,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,3,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6632,,Publicar em Produção,RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Realizar as validações finais (QA) do dashboard completo, testar a funcionalidade de ""Exportar PDF"" para garantir que o layout de impressão não quebre, e mover a pasta de trabalho do ambiente de homologação para produção.
+* *DoR:* Todos os 3 blocos visuais finalizados e aprovados pelo demandante na revisão.
+* *DoD:* Dashboard publicado na pasta oficial de Account Management no Tableau, com acessos concedidos ao time.",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
+Task,RVO-6631,,Documentação do Dashboard,RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Elaborar a documentação técnica (dicionário de dados, origem das tabelas e atualização) e o guia de negócio (como usar, interpretar os riscos e exportar) para os usuários finais.
+* *DoR:* Dashboard publicado em produção (RVO-6632 concluída).
+* *DoD:* Documentação disponibilizada na base de conhecimento (ex: Confluence) e comunicada ao time de AM.",,,,,,,0,,Pronto para Iniciar,2,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
+Task,RVO-6630,,Construçao das métricas,RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Desenvolver os campos calculados e implementar as regras de negócio no Tableau para os KPIs críticos do painel, como ""Potencial da Conta"", ""Volume de Vagas"", ""MRR Atual"", ""Status do Terreno"" e lógicas de ""Risco da Conta"".
+* *DoR:* Fontes de dados integradas (RVO-6623 concluída). Regras de cálculo validadas com o time de negócios.
+* *DoD:* Todas as métricas validadas no Tableau, retornando valores corretos quando comparados aos relatórios nativos do CRM.",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
+Task,RVO-6629,,Calculadora Dealhub,RVO-4922,,11/05/2026,15/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,24,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,,,,,
+Task,RVO-6628,,CRM Ajuda - Semana 2,,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,5,Raphael Fonseca Rodrigues dos Santos,,Medium,,,,0,,,,,
+Task,RVO-6627,,Construção do Bloco ''O que estamos fazendo na conta'' ,RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Criar a seção ""3 O que estamos fazendo na conta"". Inclui o resumo de ""Último touch"", ""Negócios Perdidos/Ganhos"" e ""Próximo passo"". Deve conter também as tabelas detalhadas de ""Engajamento ABM"", ""Última proposta enviada"", o log cronológico de ""Histórico de Negociações"" e as ""Oportunidades Abertas"".
+* *DoR:* Tabelas e histórico do CRM cruzados e validados.
+* *DoD:* Timeline e tabelas de histórico operando com os filtros de conta corretamente aplicados.",,,,,,,0,,Pronto para Iniciar,4,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
+Task,RVO-6626,,Construção do Bloco ''Visão da conta'',RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Desenvolver a seção ""2 Visão da conta"". Contempla os cards de ""Status Geral"", ""Risco da Conta"", ""Inadimplência"" e ""MRR"". Além disso, deve estruturar o detalhamento de ""Motivos de risco"", métricas de ""Tickets em CS"" e as caixas de texto longo de ""Inteligência da Conta"" (Dores de RH, Fontes, Histórico e Notícias).
+* *DoR:* Bloco de Estrutura da conta finalizado.
+* *DoD:* Seção 2 funcional, garantindo que textos longos (notas de inteligência) fiquem legíveis e bem formatados no Tableau.",,,,,,,0,,Pronto para Iniciar,5,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
+Task,RVO-6625,,CRM Ajuda - Semana 1,,,,,,,,The Office,,,,,,,,,,0,,Em andamento,5,Raphael Fonseca Rodrigues dos Santos,,High,,,,0,,,,,
+Task,RVO-6624,,"Desenvolvimento do Bloco ""Estrutura da Conta""",RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Construir a seção ""1 Estrutura da conta"". Isso engloba o cabeçalho principal (Receita, Volume, Potencial, Status), o bloco de ""Dados da Conta"", ""Produtos Salesforce"" e a matriz ""White Space Gupy"". Deve incluir também os cards detalhados dos Stakeholders (Decisores e Influenciadores) com foto, contatos e histórico.
+* *DoR:* Métricas base construídas (RVO-6630 concluída).
+* *DoD:* Bloco visualmente idêntico ao protótipo, com filtros e links externos (LinkedIn/Site) operacionais.",,,,,,,0,,Pronto para Iniciar,6,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
+Task,RVO-6623,,Mapeamento de Fontes de Dados e Integração,RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Conectar e estruturar as fontes de dados necessárias para alimentar o dashboard. Isso inclui buscar dados da conta, contatos, histórico de atendimento (CS), pipeline e campos de inteligência no CRM (Salesforce/Hubspot) e nas bases financeiras.
+* *DoR:* Acessos liberados às bases de dados (BigQuery/CRM) e mapeamento dos campos necessários finalizado.
+* *DoD:* Fontes de dados unificadas, tratadas e publicadas no Tableau Server/Cloud prontas para consumo.",,,,,,,0,,Pronto para Iniciar,5,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
+Task,RVO-6621,,Configuração de Bundle - Campanhas,RVO-4922,,07/05/2026,08/05/2026,,,,The Office,,,"*Descrição da atividade:*
+
+* Ajuste na regra de desconto via bundle para campanha
+
+
+
+*O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* Disponibilizar 
+
+
+
+*O que deve ser entregue? (Definition of Done)*
+
+* À definir.",,,,,,,0,,BACKLOG,8,Raphael Fonseca Rodrigues dos Santos,,High,RVO-4922,,,0,,,,,
+Task,RVO-6615,,Criação do modelo de RLS (Row Level Security),RVO-6608,,11/05/2026,15/05/2026,,Vendas,,The Office,,,"* *Descrição da atividade:* Implementar filtros de segurança para que cada membro da equipe de Pré-vendas visualize apenas o seu próprio extrato, e gestores visualizem apenas seus liderados.
+* *DoR:* Dashboard de extrato finalizado e tabela de hierarquia/usuários de Pré-vendas mapeada.
+* *DoD:* Testes de personificação concluídos, garantindo vazamento zero de dados sensíveis entre usuários.",,,,,,,0,,Pronto para Iniciar,2,Williane Fernandes,,Medium,RVO-6608,,,0,,,,,
+Task,RVO-6614,,Construção do extrato de RV (Dashboard),RVO-6608,,11/05/2026,15/05/2026,,Vendas,,The Office,,,"* *Descrição da atividade:* Desenvolver a interface visual do extrato de pagamento para o pré-vendedor, garantindo clareza nos atingimentos, deduções, exceções e valor final a receber.
+* *DoR:* Cálculos de RV implementados no Tableau (Task 5 concluída).
+* *DoD:* Dashboard de extrato construído, formatado conforme identidade visual e aprovado pelos _stakeholders_.",,,,,,,0,,Pronto para Iniciar,6,Williane Fernandes,,Medium,RVO-6608,,,0,,,,,
+Task,RVO-6613,,Construção e implementação do cálculo de RV no Tableau,RVO-6608,,11/05/2026,15/05/2026,,Vendas,,The Office,,,"* *Descrição da atividade:* Criar os campos calculados, métricas de atingimento, aceleradores e multiplicadores de salário específicos das regras de Pré-vendas dentro do Tableau.
+* *DoR:* Bases de dados integradas (Task 4 concluída) e regras de negócio mapeadas.
+* *DoD:* Todos os cálculos refletindo os valores corretos quando comparados a simulações ou fechamentos anteriores.",,,,,,,0,,Pronto para Iniciar,8,Williane Fernandes,,Medium,RVO-6608,,,0,,,,,
+Task,RVO-6612,,Consulta e integração das bases de dados para RV de Pré-vendas,RVO-6608,,11/05/2026,15/05/2026,,Vendas,,The Office,,,"* *Descrição da atividade:* Criar as consultas (SQL) e conectar as bases de dados necessárias (CRM, BQ G&G, base de salários liberada pelo Rafael) ao Tableau.
+* *DoR:* Acessos aos bancos de dados concedidos e tabelas de exceções/campanhas finalizadas.
+* *DoD:* Fonte de dados (Data Source) unificada, tratada, publicada no Tableau Server/Cloud e atualizando corretamente.",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6608,,,0,,,,,
+Task,RVO-6611,,Estruturação da Tabela de campanhas para contabilização de RV,RVO-6608,,11/05/2026,15/05/2026,,Vendas,,The Office,,,"* *Descrição da atividade:* Mapear e estruturar os dados de campanhas pontuais (SPIFFs, bônus extras) que impactam a remuneração da equipe de Pré-vendas.
+* *DoR:* Regras de campanhas ativas ou previstas detalhadas pela gestão de Pré-vendas.
+* *DoD:* Tabela de campanhas criada e base de dados disponibilizada para cruzamento no Tableau.",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6608,,,0,,,,,
+Task,RVO-6610,,Estruturação da tabela de exceções (Pré-vendas),RVO-6608,,11/05/2026,15/05/2026,,Vendas,,The Office,,,"* *Descrição da atividade:* Estruturar, em conjunto com os responsáveis (ex: Marcela), a tabela que receberá os ajustes manuais, exceções ou contestações da equipe de Pré-vendas.
+* *DoR:* Definição clara de quais tipos de exceções ocorrem na RV de Pré-vendas.
+* *DoD:* Tabela de exceções criada (banco de dados ou Google Sheets integrado) e pronta para ser consumida pelo Tableau.",,,,,,,0,,Pronto para Iniciar,2,Williane Fernandes,,Medium,RVO-6608,,,0,,,,,
+Task,RVO-6609,,Estudar modelo de Bases/Extratos atuais de Pré-vendas,RVO-6608,,11/05/2026,15/05/2026,,Vendas,,The Office,,,"* *Descrição da atividade:* Analisar as planilhas, bases de dados e modelos de extratos que são enviados hoje para a equipe de Pré-vendas (ex: modelo enviado pela Priscila Pereira) para entender a lógica atual.
+* *DoR:* Ter acesso aos arquivos de histórico e planilhas de RV do último ciclo de Pré-vendas.
+* *DoD:* Mapeamento concluído com as fontes de dados identificadas e as lógicas de cálculo documentadas para replicação no Tableau.",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6608,,,0,,,,,
+Epic,RVO-6608,,Construção do Cálculo de RV de Pré-vendas no Tableau,,,11/05/2026,15/05/2026,,Vendas,,The Office,,,"*Descrição da atividade:* Desenvolver o cálculo de Remuneração Variável (RV) exclusivo para a equipe de Pré-vendas no Tableau. Este projeto envolve a apuração de resultados (agendamentos, qualificações, conversões, etc.), a criação de tabelas multiplicadoras/aceleradores de salários, construção do extrato individual, aplicação de segurança de dados (RLS) e automação de disparos para a equipe de pré-vendas.
+
+*O que é preciso para iniciar a tarefa? (Definition of Ready - DoR):*
+
+* Regras de negócio e métricas de remuneração variável da equipe de Pré-vendas documentadas e aprovadas pela liderança.
+* Acessos liberados às bases de dados necessárias (ex: BQ G&G) e à base de salários (com aprovações de segurança/RH).
+* Modelos de extratos e planilhas utilizadas atualmente (legado) mapeados e disponibilizados.
+
+*O que deve ser entregue? (Definition of Done - DoD):*
+
+* Cálculo de RV de Pré-vendas implementado com precisão e validado contra o modelo legado.
+* Dashboards de extratos individuais criados e formatados no Tableau.
+* Segurança a Nível de Linha (RLS) garantindo que cada pré-vendedor veja apenas seus dados.
+* Disparos automáticos dos extratos configurados e funcionando sem falhas.
+* Documentação do processo concluída.",,,,,,,0,To Do,BACKLOG,,Williane Fernandes,,Medium,,,,0,,,,,
+Sub-task,RVO-6605,,Agenda 3: Tableau Prep e Pulse,,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,1,Lana Reis,,Medium,RVO-6602,,,0,,,,,
+Sub-task,RVO-6604,,Agenda 2: Tableau Desktop e Cloud,,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,1,Lana Reis,,Medium,RVO-6602,,,0,,,,,
+Sub-task,RVO-6603,,Agenda 1: Principais Dashboards,,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,1,Lana Reis,,Medium,RVO-6602,,,0,,,,,
+Task,RVO-6602,,Onboarding Tableau - João Rezende,RVO-105,,11/05/2026,13/05/2026,,RevOps,,The Office,,,"Agendas com o João de apresentação ao ecossistema Tableau e nossos materiais em produção:
+
+* Principais dashboards
+* Tableau Desktop
+* Tableau Cloud
+* Tableau Prep
+* Tableau Pulse
+
+A entrega será a conclusão das agendas planejadas.",,,,,,,0,,BACKLOG,3,Lana Reis,,Medium,RVO-105,,,0,,,,,
+Sub-task,RVO-6601,,Auditoria de Horas,,,05/05/2026,07/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,6,Lana Reis,,Medium,RVO-6560,,,0,,,,,
+Sub-task,RVO-6600,,Horas e Atividades,,,05/05/2026,06/05/2026,,,,The Office,,,,,,,,,,0,,Em andamento,6,Lana Reis,,Medium,RVO-6560,,,0,,,,,
+Sub-task,RVO-6599,,Pipeline & Funil,,,04/05/2026,05/05/2026,,,,The Office,,,,,,,,,,0,,Concluído,6,Lana Reis,,Medium,RVO-6560,,,0,05/05/2026 13:38:04,,,,
+Sub-task,RVO-6597,,Vendas - Meetrox - Ajuste do tamanho do campo Cliente testará concorrentes,,,,,,,,The Office,,,,,,,,,,0,,Concluído,"0,3",Tiago Neves,,Medium,RVO-6591,,,0,04/05/2026 16:00:27,,,,
+Sub-task,RVO-6596,,CS - Analisar dashboard da Adriana,,,,,,,,The Office,,,,,,,,,,0,,Concluído,"0,5",Tiago Neves,,Medium,RVO-6591,,,0,04/05/2026 15:36:28,,,,
+Sub-task,RVO-6595,,CE - Renovações - EroBrasil,,,,,,,,The Office,,,,,,,,,,0,,Concluído,"0,2",Tiago Neves,,Medium,RVO-6592,,,0,04/05/2026 15:23:33,,,,
+Sub-task,RVO-6594,,CE - Beep Saúde,,,,,,,,The Office,,,,,,,,,,0,,Concluído,"0,5",Tiago Neves,,Medium,RVO-6592,,,0,04/05/2026 15:16:57,,,,
+Task,RVO-6592,,Erros e ajustes de integração,RVO-129,,04/05/2026,15/05/2026,,RevOps,,The Office,,,São os erros de integração e ajustes que precisam ser feitos e analisado,,,,,,,0,,Em andamento,6,Tiago Neves,,Highest,RVO-129,,,0,,,,,
+Task,RVO-6591,,Governança CRM,RVO-129,,04/05/2026,15/05/2026,,RevOps,,The Office,,,Aqui são todos os pedidos de ajuda de times que solicitam através do Slack ou por outros meios.,,,,,,,0,,Em andamento,6,Tiago Neves,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6590,,Incluir um co-responsável na tarefa e subtarefa,RVO-5054,,,,,CSM,,The Office,,,"h2. Descrição da atividade
+
+* Ajustar o código para ser possível adicionar um co-reponsável na tarefa e na subtarefa.
+
+h2. O que é preciso para iniciar a tarefa ? (Definition of Ready)
+
+* 
+
+h2. O que deve ser entregue? (Definition of Done)
+
+* Possibilidade de adiciona um co-responsável na tarefa e subtarefa.
+
+----",,,,,,,0,,BACKLOG,6,Tiago Neves,,Medium,RVO-5054,,,0,,,,,
+Task,RVO-6589,,Incluir opção de selecionar cliente como responsável da tarefa e subtarefa,RVO-5054,,,,,CSM,,The Office,,,"h2. Descrição da atividade
+
+* Alterar o código para deixar disponível a opção de alocar o cliente como responsável da tarefa e da subtarefa.
+
+h2. O que é preciso para iniciar a tarefa ? (Definition of Ready)
+
+* 
+
+h2. O que deve ser entregue? (Definition of Done)
+
+* Código ajustado e funcional da opção de selecionar cliente.
+
+----",,,,,,,0,,BACKLOG,6,Tiago Neves,,Medium,RVO-5054,,,0,,,,,
+Task,RVO-6587,,P2 - Ajustar macros e micros do Agente de CH,RVO-4920,,,,,CH,,The Office,,,"h2. Descrição da atividade
+
+* Ajustar o macro e o micro dos que estão como P1
+* Testar elas e depois subir pra produção as que foram validadas.
+
+h2. O que é preciso para iniciar a tarefa ? (Definition of Ready)
+
+* 
+
+h2. O que deve ser entregue? (Definition of Done)
+
+* Planilha com os dados testados e validados pela amanda
+
+----",,,,,,,0,,BACKLOG,6,Tiago Neves,,Highest,RVO-4920,,,0,,,,,
+Task,RVO-6586,,P1 - Ajustar macro do Agente de CH,RVO-4920,,,,,CH,,The Office,,,"h2. Descrição da atividade
+
+* Ajustar o macro e o micro dos que estão como P1
+* Testar elas e depois subir pra produção as que foram validadas.
+
+h2. O que é preciso para iniciar a tarefa ? (Definition of Ready)
+
+* 
+
+h2. O que deve ser entregue? (Definition of Done)
+
+* Planilha com os dados testados e validados pela amanda
+
+----",,,,,,,0,,BACKLOG,6,Tiago Neves,,Highest,RVO-4920,,,0,,,,,
+Task,RVO-6584,,Analisar problema no Trial de módulos após ganho de oportunidade,RVO-129,,,13/05/2026,,Vendas,,The Office,,,"h2. Descrição da atividade
+
+* O Bug é o seguinte: 
+Quando um Trial é aprovado ele tem uma vida útil para ficar na central de empresas. 
+Mas se tiver uma negociação acontecendo e o cliente contratar o módulo por definitivo, quando chega na data final do Trial do módulo desativa a funcionalidade na Central de Empresas
+
+h2. O que é preciso para iniciar a tarefa ? (Definition of Ready)
+
+* Analisar o documento atual;
+
+h2. O que deve ser entregue? (Definition of Done)
+
+* Automação ajustada
+
+----",,,,,,,0,,BACKLOG,4,Tiago Neves,,Highest,RVO-129,,,0,,,,,
+Task,RVO-6580,,Ajuste das descrições de macro motivos e micro motivos de TA - P0,RVO-4920,,29/04/2026,08/05/2026,,CH,,The Office,,,"Planilha onde tem as descrições novas
+
+[https://docs.google.com/spreadsheets/d/1-DBD1_oeiAnGAcUy_58utAbh6ps2S9i9X_Z352ZCaGc/edit?pli=1&gid=1279265627#gid=1279265627|https://docs.google.com/spreadsheets/d/1-DBD1_oeiAnGAcUy_58utAbh6ps2S9i9X_Z352ZCaGc/edit?pli=1&gid=1279265627#gid=1279265627|smart-link] 
+
+----
+
+Para cada uma testar para entender como ela se comporta na classificação.",,,,,,,0,,Em andamento,5,Tiago Neves,,Highest,RVO-4920,,,0,,,,,
+Task,RVO-6576,,Validação - Dash Arquitetura de Soluções,RVO-105,,06/05/2026,07/05/2026,,Arquitetura,,The Office,,,"Reuniões de validação do dashboard.
+
+A entrega será o dashboard publicado em ambiente de produção.",,,,,,,0,,BACKLOG,2,Lana Reis,,Medium,RVO-105,,,0,,,,,
+Task,RVO-6573,,Base de Conhecimento (atualizar conteúdo ou criar nova página),RVO-5025,,,,,,,The Office,,,"O time de compras precisa receber pedidos/solicitações para coffee break com 48h de antecedência e precisa de aprovação de FP&A.  Não há nenhuma informação a respeito do processo de solicitação. quando um CSM precisa receber um cliente presencial, não sabemos o caminho correto: precisa acionar a liderança? não precisa? quem precisa aprovar? onde e como solicitar? na ausência  da liderança (exemplo: férias) quem pode responder pela liderança?",,,,,,,0,,BACKLOG,1,Taina Labarba,,Medium,RVO-5025,,,0,,,,,
+Task,RVO-6566,,Dados do produto de TA e TM,RVO-5450,,28/04/2026,08/05/2026,,RevOps,,The Office,,,Começar a puxar dados dos produtos.,,,,,,,0,,Em andamento,3,Tiago Neves,,Medium,RVO-5450,,,0,,,,,
+Task,RVO-6560,,Construção das páginas - Dash Arquitetura de Soluções,RVO-105,,29/04/2026,07/05/2026,,Arquitetura,,The Office,,,"Construção das páginas do dashboard de Arquitetura de Soluções.
+
+A entrega será o dashboard em ambiente de homologação para validação da área.",,,,,,,0,,Em andamento,18,Lana Reis,,Medium,RVO-105,,,0,,,,,
+Task,RVO-6554,,[Carteirização] - Organização da Reunião de acompanhamento de Carteiras,RVO-24,,,,,,,The Office,,,,,,,,,,0,,Em refinamento,4,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Task,RVO-6553,,[Carteirização] - Alteração de Tempo de Posse,RVO-24,,,,,,,The Office,,,,,,,,,,0,,Pronto para Iniciar,1,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Task,RVO-6552,,[Carteirização] - Revisão da documentação e Processos,RVO-24,,07/05/2026,20/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Task,RVO-6551,,[Carteirização] - Revisão de Carteira e Metas,RVO-24,,05/05/2026,18/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,8,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Story,RVO-6546,,Atualizar contas no SF sem domínio,RVO-129,,,07/05/2026,,,,The Office,,,"Configurar as contas no SF que estão sem domínio, puxar os domínios mais predominantes e atualizar
+[https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4ynsUAA/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4ynsUAA/view?queryScope=userFolders|smart-link] 
+[https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4bcgUAA/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4bcgUAA/view?queryScope=userFolders|smart-link] ",,,,,,,0,,Em andamento,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6522,,Documentação do processo,RVO-6510,,23/04/2026,06/05/2026,,,,The Office,,,"h3. Resumo
+
+Construir a documentação do dashboard e do processo no Tableau.
+
+h3. Contexto
+
+N/A
+
+h3. Critérios de aceitação
+
+* Documentação do dashboard no Tableau.
+* Documentação do processo no Tableau.
+
+h3. Outras informações
+
+N/A",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,
+Task,RVO-6521,,Comunicação a equipe de vendas,RVO-6510,,,,,,,The Office,,,"h3. Resumo
+
+Realizar plano de comunicaçao com o time de rv + gc para falar sobre as mudanças à equipe de vendas.
+
+h3. Outras informações
+
+N/A",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,
+Task,RVO-6519,,Validação dos resultados e testes de ponta a ponta,RVO-6510,,23/04/2026,06/05/2026,,,,The Office,,,"Realizar testes completos de ponta a ponta para validar o cálculo, extrato, automações e integrações, garantindo que todos os critérios de sucesso sejam atendidos.",,,,,,,0,,Em andamento,4,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,
+Epic,RVO-6510,,Construção do Cálculo de RV de Vendas no Tableau,,,23/04/2026,04/05/2026,,,,The Office,,,"h3. Objetivo
+
+Desenvolver o cálculo de remuneração variável no Tableau.
+
+h3. Contexto
+
+Este projeto envolve a apuração de resultados e a criação de uma tabela multiplicadora de salários. Também inclui a construção de um extrato e a automação de disparos para a equipe de vendas.
+
+h3. Escopo
+
+* Inclusões:
+** Cálculo de remuneração variável.
+** Tabela multiplicadora de salários.
+** Construção do extrato.
+** Disparos automáticos para a equipe de vendas.
+** Estruturação da tabela de exceções com a Marcela.
+** Criação de campanhas para rastreamento e contabilização.
+* Exclusões:
+** N/A
+
+h3. Critérios de sucesso
+
+* Cálculo de remuneração variável implementado com precisão.
+* Tabela multiplicadora de salários funcionando corretamente.
+* Extrato gerado conforme esperado.
+* Disparos automáticos realizados sem falhas.
+* Tabela de exceções e campanhas estruturadas adequadamente.
+
+h3. Riscos e dependências
+
+* Dependência de colaboração com a Marcela para a tabela de exceções e envio dos modelos de arquivos que sao disparados hoje pela Priscila Pereira.
+* Liberação do Rafael a base de salários para cálculo no usuário disponibilizado para conexao tableau <> BQ G&G.
+* Risco de atrasos na implementação se houver falta de dados.
+
+h3. Outras informações
+
+Materiais de remuneração variável serão criados no Tableau.",,,,,,,0,To Do,BACKLOG,,Williane Fernandes,,Medium,,,,0,,,,,
+Task,RVO-6504,,Melhorias Agente CS,RVO-105,,08/05/2026,13/05/2026,,CSM,,The Office,,,"Acrescentar ao contexto os planos de ação.
+
+Pegar feedback dos CSM’s que estão testando e aprimorar o prompt de acordo com a devolutiva deles.
+
+A entrega será o agente de CS em ambiente de produção.",,,,,,,0,,BACKLOG,8,Lana Reis,,Medium,RVO-105,,,0,,,,,
+Task,RVO-6502,,[ECONOMICS] - Melhorias no acompanhamento,RVO-1182,,,,,,,The Office,,,,,,,,,,0,,Pronto para Iniciar,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6477,,Validação automated process,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6475,,Criação de novo fluxo de pausas para PB de PMO,RVO-129,,,,,,,The Office,,,,,,,,,,0,,Em refinamento,4,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6463,,Ajustes e Testes - Fluxo PP,RVO-129,,23/04/2026,08/05/2026,,,,The Office,,,"*RESUMO*
+
+As otimizações cobrem dois eixos principais:
+
+*UX e interação*
+
+* Respostas de seleção mudam de digitação de números para cards interativos, reduzindo fricção e risco de abandono no fluxo.
+
+*Copywriting e tom de voz*
+
+* Tom geral: saída da linguagem burocrática e formal para um tom mais humano e conversacional. Ex: ""Agradecemos o seu interesse"" → ""Que bom ter você aqui.""
+* Terminologia de IA: ocorrências de ""inteligência artificial"" e ""IA"" substituídas por ""Agentes de IA"", conforme nomenclatura oficial da marca.
+* Glossário: ""funcionários"" → ""pessoas colaboradoras""; ""talentos"" → ""pessoas colaboradoras"".
+* Mensagem de e-mail inválido: versão anterior soava robótica e acusatória. Nova versão orienta sem constranger.
+* Gramática: ""empresa que você trabalha"" → ""empresa em que você trabalha"".
+* Padronização de cargos: sem espaço antes dos parênteses em toda a lista. Ex: ""Coordenador (a)"" → ""Coordenador(a)"".
+* Fluidez geral: ajustes de ritmo em todas as mensagens para soar mais natural.",,,,,,,0,,Em andamento,5,Iago Jants David,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6460,,Capacitação IA,RVO-4966,,20/04/2026,30/04/2026,,,,The Office,,,"📝 *Descrição da atividade*
+
+* Estratégia de certificação sobre IA para operação Comercial e de CS
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* N/A
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Definição da estrutura, tempos e formatos.",,,,,,,0,,BACKLOG,2,Heloisa Spigolon,,Medium,RVO-4966,,,0,,,,,
+Task,RVO-6457,,Lançamento IAra,RVO-4965,,20/04/2026,30/04/2026,,,,The Office,,,"📝 *Descrição da atividade*
+
+* Preparação do que falta para que a IAra seja lançada para a Operação.
+
+🧩 *O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* Aguardando Xavier/Turri
+
+🏆 *O que deve ser entregue? (Definition of Done)*
+
+* Entrada nas agendas dos times - alinhar com lideranças",,,,,,,0,,Em andamento,5,Heloisa Spigolon,,Highest,RVO-4965,,,0,,,,,
+Task,RVO-6438,,Jornada Ágil - Preço de Integração distinto,RVO-129,,05/05/2026,05/05/2026,,,,The Office,,,"*Descrição da atividade:*
+
+Criar campo dentro do Dealhub e ajustar assignment e pricing rule dos itens one shot de integração.
+
+
+
+*O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+Regra definida:[https://docs.google.com/spreadsheets/d/1XtL5M6OMThDLff-JsaWZgAAikkaPapUCBqv_OPG6Fhw/edit?gid=0#gid=0|https://docs.google.com/spreadsheets/d/1XtL5M6OMThDLff-JsaWZgAAikkaPapUCBqv_OPG6Fhw/edit?gid=0#gid=0]
+
+
+
+*O que deve ser entregue? (Definition of Done)*
+
+Produtos configurados no Dealhub.",,,,,,,0,,Em andamento,2,Raphael Fonseca Rodrigues dos Santos,,Highest,RVO-129,,,0,,,,,
+Task,RVO-6335,,Cloud run Job,RVO-4965,,13/04/2026,16/04/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,18,Luis Bueno,,Medium,RVO-4965,,,0,,,,,
+Task,RVO-6238,,Alteração do processo de Equipe do Negócio,RVO-129,,05/05/2026,05/05/2026,,,,The Office,,,"*Descrição da atividade:*
+
+Ajuste de regra que permita mais de um papel de estratégia de relacionamento na equipe do negócio.
+
+
+
+*O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+N/A
+
+
+
+*O que deve ser entregue? (Definition of Done)*
+
+Ajuste de regra que permita mais de um papel de estratégia de relacionamento na equipe do negócio.",,,,,,,0,,Em andamento,2,Raphael Fonseca Rodrigues dos Santos,,Highest,RVO-129,,,0,,,,,
+Task,RVO-6237,,Estudo de Alavancas de Crescimento - P1A,RVO-5317,,24/03/2026,15/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+Analisar as alavancas de crescimento com base em Q1, decompondo drivers de receita e projetando impacto no H1.
+
+----
+
+h3. 🎯 Impacto esperado
+
+Clareza das principais alavancas de crescimento e impacto no atingimento da receita de H1.
+
+----
+
+h3. ✅ Pronto quando...
+
+* Drivers de receita (oportunidades, conversão, ticket) analisados com impacto quantificado
+* Impacto no atingimento da receita de H1 projetado
+* Principais alavancas de crescimento identificadas
+* Recomendações objetivas definidas e documentadas (material atualizado)",,,,,,,0,,Pronto para Iniciar,6,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Task,RVO-6232,,Análise de GAP e impactos - P1A,RVO-5317,,24/03/2026,15/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+Analisar o GAP de Q1 vs orçamento, decompondo em oportunidades, conversão e ticket médio, e projetar impacto no ano.
+
+----
+
+h3. 🎯 Impacto esperado
+
+Clareza dos desvios de Q1 e projeção de risco/atingimento da meta anual.
+
+----
+
+h3. ✅ Pronto quando...
+
+* GAP de Q1 calculado (absoluto e %)
+* Drivers decompostos com impacto quantificado
+* Projeção anual consolidada",,,,,,,0,,Pronto para Iniciar,6,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Task,RVO-6158,,Verificar Schema Trino,RVO-105,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,,Williane Fernandes,,Medium,RVO-105,,,0,,,,,
+Task,RVO-5782,,Consolidado de Opps - Base P1A,RVO-5317,,,,,,,The Office,,,"Consolidado com os valores de Opps que ficaram como oficiais da Gupy, na planilha final do P1A, para ser a fonte oficial dessa informação.",,,,,,,0,,BACKLOG,2,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Task,RVO-5567,,[GO UP] - A-ha Moment produto | Cronograma,RVO-5040,,,,,,,The Office,,,"Entender o projeto, escrever e delimitar marcos de entrega. Além de documentar o que será feito, como será feito e as premissas. Acompanhamento do GOUP",,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-5040,,,0,,,,,
+Task,RVO-5551,,impulsionamento de vagas - alterações na seleção ,RVO-129,,06/05/2026,07/05/2026,,,,The Office,,,"*Descrição da atividade:*
+
+* Ajuste de regras de assignment, preço e quantidade
+
+
+
+*O que é preciso para iniciar a tarefa ? (Definition of Ready)*
+
+* Definição de regras pelo Diogo.
+!image-20260504-175947.png|width=242,alt=""image-20260504-175947.png""!
+
+
+
+*O que deve ser entregue? (Definition of Done)*
+
+* À definir.",,,,,,,0,,BACKLOG,8,Raphael Fonseca Rodrigues dos Santos,,High,RVO-129,,,0,,,,,
+Epic,RVO-2595,,C3 - [CH] Implementação do Community,,,06/10/2025,15/12/2025,,,,The Office,,,"Este épico tem como objetivo a implementação do Community, sendo ele um portal seguro para clientes. A principal funcionalidade será permitir que os clientes, após autenticação, acompanhem o status e o histórico de seus tickets de suporte, além de poderem criar novas solicitações diretamente na plataforma.",,,,,,,0,,Em andamento,,Alan Dantas Bernardo,,Medium,,,,0,,,,,

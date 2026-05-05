@@ -16,28 +16,34 @@ export async function GET(request) {
       }
     }
 
-    const filePath = path.join(process.cwd(), 'bd.csv');
-    
-    if (!fs.existsSync(filePath)) {
-      return NextResponse.json({ error: 'Data file not found' }, { status: 404 });
+    const files = ['bd.csv', 'bd2.csv'];
+    let allRecords = [];
+
+    for (const fileName of files) {
+      const filePath = path.join(process.cwd(), fileName);
+      if (fs.existsSync(filePath)) {
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        const records = parse(fileContent, { 
+          skip_empty_lines: true, 
+          trim: true,
+          relax_column_count: true,
+          columns: header => {
+            const counts = {};
+            return header.map(col => {
+              counts[col] = (counts[col] || 0) + 1;
+              return counts[col] > 1 ? `${col}_${counts[col]}` : col;
+            });
+          }
+        });
+        allRecords = [...allRecords, ...records];
+      }
     }
 
-    const fileContent = fs.readFileSync(filePath, 'utf-8');
-    
-    // Parse the CSV
-    const records = parse(fileContent, { 
-      skip_empty_lines: true, 
-      trim: true,
-      columns: header => {
-        const counts = {};
-        return header.map(col => {
-          counts[col] = (counts[col] || 0) + 1;
-          return counts[col] > 1 ? `${col}_${counts[col]}` : col;
-        });
-      }
-    });
+    if (allRecords.length === 0) {
+      return NextResponse.json({ error: 'No data files found' }, { status: 404 });
+    }
 
-    const response = NextResponse.json({ data: records });
+    const response = NextResponse.json({ data: allRecords });
     response.headers.set('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0');
     return response;
   } catch (error) {

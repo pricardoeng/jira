@@ -10,16 +10,26 @@ import {
 import { Loader2, AlertCircle } from 'lucide-react';
 
 export default function Dashboard() {
+  const [allIssues, setAllIssues] = useState([]);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [selectedSprint, setSelectedSprint] = useState('');
 
   useEffect(() => {
     async function loadData() {
       try {
         const issues = await fetchRawIssues();
-        const result = processData(issues);
-        setData(result);
+        setAllIssues(issues);
+        
+        // Find unique sprints and set the last one as default
+        const sprints = Array.from(new Set(issues.map(i => i['Sprint']).filter(Boolean))).sort();
+        if (sprints.length > 0) {
+          setSelectedSprint(sprints[sprints.length - 1]);
+        } else {
+          setData(processData(issues));
+        }
+        
         setLoading(false);
       } catch (err) {
         setError(err.message);
@@ -28,6 +38,13 @@ export default function Dashboard() {
     }
     loadData();
   }, []);
+
+  useEffect(() => {
+    if (allIssues.length > 0 && selectedSprint) {
+      const filtered = allIssues.filter(issue => issue['Sprint'] === selectedSprint);
+      setData(processData(filtered));
+    }
+  }, [selectedSprint, allIssues]);
 
   if (loading) {
     return (
@@ -53,6 +70,8 @@ export default function Dashboard() {
 
   const { metrics, burndownData, assignees, epics, areas, types } = data;
 
+  const uniqueSprints = Array.from(new Set(allIssues.map(i => i['Sprint']).filter(Boolean))).sort();
+
 
   
   const sprintProgress = metrics.totalPoints > 0 ? Math.round((metrics.donePoints / metrics.totalPoints) * 100) : 0;
@@ -76,9 +95,21 @@ export default function Dashboard() {
           <p>Análise de performance por time e responsável</p>
         </div>
         <div className={styles.headerFilters}>
+          <div className={styles.filterGroup}>
+            <label>Sprint:</label>
+            <select 
+              value={selectedSprint} 
+              onChange={(e) => setSelectedSprint(e.target.value)}
+              className={styles.filterSelect}
+            >
+              {uniqueSprints.map(s => (
+                <option key={s} value={s}>{s}</option>
+              ))}
+            </select>
+          </div>
           <div className={styles.statusBadge}>
             <span className={styles.dot}></span>
-            Épicos Filtrados
+            Bases Unificadas
           </div>
         </div>
       </header>
