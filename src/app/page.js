@@ -361,7 +361,7 @@ export default function Dashboard() {
       <section className={styles.fullRow}>
         <div className={`${styles.card} ${styles.projectsCard}`}>
           <div className={styles.cardHeader}>
-            <span className={styles.cardTitle}>SAÚDE DOS PROJETOS (EPICS S*)</span>
+            <span className={styles.cardTitle}>SAÚDE DOS PROJETOS (ÉPICOS)</span>
             <div className={styles.legendTags}>
               <span className={styles.tagSuccess}>No prazo</span>
               <span className={styles.tagWarning}>Atenção</span>
@@ -389,7 +389,7 @@ export default function Dashboard() {
                 <div key={epic.id} className={styles.projectItem}>
                   <div className={styles.projectInfo}>
                     <div className={styles.projectName}>{epic.name}</div>
-                    <div className={styles.projectSub}>{epic.totalCards} cards</div>
+                    <div className={styles.projectSub}>{Math.round(epic.donePoints)}h de {Math.round(epic.totalPoints)}h · {epic.totalCards} cards</div>
                   </div>
                   <div className={styles.projectProgressWrapper}>
                     <div className={styles.projectProgressLabel}>PROGRESSO</div>

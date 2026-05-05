@@ -95,6 +95,11 @@ const EPIC_NAMES = {
   "RVO-6510": "Construção do Cálculo de RV no Tableau"
 };
 
+const WHITELIST_PARENTS = [
+  'RVO-4922', 'RVO-129', 'RVO-6674', 'RVO-4920', 
+  'RVO-4921', 'RVO-4926', 'RVO-5054', 'RVO-5779'
+];
+
 export function processData(issues) {
   const metrics = {
     totalPoints: 0,
@@ -116,6 +121,12 @@ export function processData(issues) {
   issues.forEach(issue => {
     const issueType = (issue['Issue Type'] || '').toLowerCase();
     if (issueType === 'epic' || issueType === 'sub-task' || issueType === 'subtask') return;
+
+    const rawParent = issue['parent'] || issue['Parent'] || issue['Parent Link'];
+    const parent = rawParent ? rawParent.trim() : (issue['Epic Link'] ? issue['Epic Link'].trim() : 'No Parent');
+
+    // Filter by specific Parents (Epics) as requested
+    if (!WHITELIST_PARENTS.includes(parent)) return;
 
     metrics.totalCards++;
     
@@ -161,8 +172,6 @@ export function processData(issues) {
       aData.donePoints += points;
     }
 
-    const rawParent = issue['parent'] || issue['Parent'] || issue['Parent Link'];
-    const parent = rawParent ? rawParent.trim() : (issue['Epic Link'] ? issue['Epic Link'].trim() : 'No Parent');
     const parentName = EPIC_NAMES[parent] || issue['Epic Link.Name'] || parent;
     
     if (!epicsMap.has(parent)) {
@@ -272,7 +281,7 @@ export function processData(issues) {
     burndownData,
     assignees,
     epics: Array.from(epicsMap.values())
-      .filter(e => e.id !== 'No Parent' && e.name && e.name.trim().toUpperCase().startsWith('S'))
+      .filter(e => e.id !== 'No Parent' && e.name)
       .sort((a, b) => a.name.localeCompare(b.name)),
     areas: Array.from(areaMap.entries()).map(([name, value]) => ({ name, value })).sort((a, b) => b.value - a.value).filter(a => a.name !== 'Geral'),
     types: Array.from(typeMap.values())
