@@ -98,7 +98,7 @@ Task,RVO-6664,,Criação de Material para Reunião com Gerente de CH,RVO-105,,07
 A entrega será um material de apresentação (PPT, PDF ou HTML) com o conteúdo descrito acima.",,,,,,,0,,BACKLOG,8,Lana Reis,,Medium,RVO-105,,,0,,,,,
 Task,RVO-6663,,[GO UP] - Melhorias no indicador único,,,,,,,,The Office,,,,,,,,,,,,BACKLOG,,Gabriel Pires,,Medium,,,,0,,,,,
 Task,RVO-6662,,[ECONOMICS] - Validação retroativa,RVO-1182,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
-Story,RVO-6661,,CRM Ajuda - Ajustar a etapa das contas,RVO-129,,04/05/2026,11/05/2026,,,,The Office,,,"Ajustar a fase do negócio, adicionando ou excluindo alguma fase.
+Story,RVO-6661,,CRM Ajuda - Ajustar a etapa das contas,RVO-129,,04/05/2026,11/05/2026,,,,The Big Bang Theory;The Office,,,"Ajustar a fase do negócio, adicionando ou excluindo alguma fase.
 
 [https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000ncSqHUAU/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000ncSqHUAU/view?queryScope=userFolders|smart-card]",,,,,,,0,,Em andamento,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,
 Task,RVO-6660,,Ajuste planilha Churn,RVO-5317,,,05/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
@@ -368,14 +368,14 @@ Task,RVO-6630,,Construçao das métricas,RVO-6622,,04/05/2026,12/05/2026,,Vendas
 * *DoR:* Fontes de dados integradas (RVO-6623 concluída). Regras de cálculo validadas com o time de negócios.
 * *DoD:* Todas as métricas validadas no Tableau, retornando valores corretos quando comparados aos relatórios nativos do CRM.",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
 Task,RVO-6629,,Calculadora Dealhub,RVO-4922,,11/05/2026,15/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,24,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-4922,,,0,,,,,
-Task,RVO-6628,,CRM Ajuda - Semana 2,,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,5,Raphael Fonseca Rodrigues dos Santos,,Medium,,,,0,,,,,
+Task,RVO-6628,,CRM Ajuda - Semana 2,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,5,Raphael Fonseca Rodrigues dos Santos,,Medium,RVO-129,,,0,,,,,
 Task,RVO-6627,,Construção do Bloco ''O que estamos fazendo na conta'' ,RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Criar a seção ""3 O que estamos fazendo na conta"". Inclui o resumo de ""Último touch"", ""Negócios Perdidos/Ganhos"" e ""Próximo passo"". Deve conter também as tabelas detalhadas de ""Engajamento ABM"", ""Última proposta enviada"", o log cronológico de ""Histórico de Negociações"" e as ""Oportunidades Abertas"".
 * *DoR:* Tabelas e histórico do CRM cruzados e validados.
 * *DoD:* Timeline e tabelas de histórico operando com os filtros de conta corretamente aplicados.",,,,,,,0,,Pronto para Iniciar,4,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
 Task,RVO-6626,,Construção do Bloco ''Visão da conta'',RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Desenvolver a seção ""2 Visão da conta"". Contempla os cards de ""Status Geral"", ""Risco da Conta"", ""Inadimplência"" e ""MRR"". Além disso, deve estruturar o detalhamento de ""Motivos de risco"", métricas de ""Tickets em CS"" e as caixas de texto longo de ""Inteligência da Conta"" (Dores de RH, Fontes, Histórico e Notícias).
 * *DoR:* Bloco de Estrutura da conta finalizado.
 * *DoD:* Seção 2 funcional, garantindo que textos longos (notas de inteligência) fiquem legíveis e bem formatados no Tableau.",,,,,,,0,,Pronto para Iniciar,5,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
-Task,RVO-6625,,CRM Ajuda - Semana 1,,,,,,,,The Office,,,,,,,,,,0,,Em andamento,5,Raphael Fonseca Rodrigues dos Santos,,High,,,,0,,,,,
+Task,RVO-6625,,CRM Ajuda - Semana 1,RVO-129,,,,,,,The Office,,,,,,,,,,0,,Em andamento,5,Raphael Fonseca Rodrigues dos Santos,,High,RVO-129,,,0,,,,,
 Task,RVO-6624,,"Desenvolvimento do Bloco ""Estrutura da Conta""",RVO-6622,,04/05/2026,12/05/2026,,Vendas,,The Office,,,"* *Descrição:* Construir a seção ""1 Estrutura da conta"". Isso engloba o cabeçalho principal (Receita, Volume, Potencial, Status), o bloco de ""Dados da Conta"", ""Produtos Salesforce"" e a matriz ""White Space Gupy"". Deve incluir também os cards detalhados dos Stakeholders (Decisores e Influenciadores) com foto, contatos e histórico.
 * *DoR:* Métricas base construídas (RVO-6630 concluída).
 * *DoD:* Bloco visualmente idêntico ao protótipo, com filtros e links externos (LinkedIn/Site) operacionais.",,,,,,,0,,Pronto para Iniciar,6,Williane Fernandes,,Medium,RVO-6622,,,0,,,,,
@@ -523,7 +523,7 @@ h2. O que deve ser entregue? (Definition of Done)
 * Automação ajustada
 
 ----",,,,,,,0,,BACKLOG,4,Tiago Neves,,Highest,RVO-129,,,0,,,,,
-Task,RVO-6580,,Ajuste das descrições de macro motivos e micro motivos de TA - P0,RVO-4920,,29/04/2026,08/05/2026,,CH,,The Office,,,"Planilha onde tem as descrições novas
+Task,RVO-6580,,Ajuste das descrições de macro motivos e micro motivos de TA - P0,RVO-4920,,29/04/2026,08/05/2026,,CH,,The Big Bang Theory;The Office,,,"Planilha onde tem as descrições novas
 
 [https://docs.google.com/spreadsheets/d/1-DBD1_oeiAnGAcUy_58utAbh6ps2S9i9X_Z352ZCaGc/edit?pli=1&gid=1279265627#gid=1279265627|https://docs.google.com/spreadsheets/d/1-DBD1_oeiAnGAcUy_58utAbh6ps2S9i9X_Z352ZCaGc/edit?pli=1&gid=1279265627#gid=1279265627|smart-link] 
 
@@ -534,7 +534,7 @@ Task,RVO-6576,,Validação - Dash Arquitetura de Soluções,RVO-105,,06/05/2026,
 
 A entrega será o dashboard publicado em ambiente de produção.",,,,,,,0,,BACKLOG,2,Lana Reis,,Medium,RVO-105,,,0,,,,,
 Task,RVO-6573,,Base de Conhecimento (atualizar conteúdo ou criar nova página),RVO-5025,,,,,,,The Office,,,"O time de compras precisa receber pedidos/solicitações para coffee break com 48h de antecedência e precisa de aprovação de FP&A.  Não há nenhuma informação a respeito do processo de solicitação. quando um CSM precisa receber um cliente presencial, não sabemos o caminho correto: precisa acionar a liderança? não precisa? quem precisa aprovar? onde e como solicitar? na ausência  da liderança (exemplo: férias) quem pode responder pela liderança?",,,,,,,0,,BACKLOG,1,Taina Labarba,,Medium,RVO-5025,,,0,,,,,
-Task,RVO-6566,,Dados do produto de TA e TM,RVO-5450,,28/04/2026,08/05/2026,,RevOps,,The Office,,,Começar a puxar dados dos produtos.,,,,,,,0,,Em andamento,3,Tiago Neves,,Medium,RVO-5450,,,0,,,,,
+Task,RVO-6566,,Dados do produto de TA e TM,RVO-5450,,28/04/2026,08/05/2026,,RevOps,,The Big Bang Theory;The Office,,,Começar a puxar dados dos produtos.,,,,,,,0,,Em andamento,3,Tiago Neves,,Medium,RVO-5450,,,0,,,,,
 Task,RVO-6560,,Construção das páginas - Dash Arquitetura de Soluções,RVO-105,,29/04/2026,07/05/2026,,Arquitetura,,The Office,,,"Construção das páginas do dashboard de Arquitetura de Soluções.
 
 A entrega será o dashboard em ambiente de homologação para validação da área.",,,,,,,0,,Em andamento,18,Lana Reis,,Medium,RVO-105,,,0,,,,,
@@ -542,10 +542,10 @@ Task,RVO-6554,,[Carteirização] - Organização da Reunião de acompanhamento d
 Task,RVO-6553,,[Carteirização] - Alteração de Tempo de Posse,RVO-24,,,,,,,The Office,,,,,,,,,,0,,Pronto para Iniciar,1,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
 Task,RVO-6552,,[Carteirização] - Revisão da documentação e Processos,RVO-24,,07/05/2026,20/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
 Task,RVO-6551,,[Carteirização] - Revisão de Carteira e Metas,RVO-24,,05/05/2026,18/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,8,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
-Story,RVO-6546,,Atualizar contas no SF sem domínio,RVO-129,,,07/05/2026,,,,The Office,,,"Configurar as contas no SF que estão sem domínio, puxar os domínios mais predominantes e atualizar
+Story,RVO-6546,,Atualizar contas no SF sem domínio,RVO-129,,,07/05/2026,,,,The Big Bang Theory;The Office,,,"Configurar as contas no SF que estão sem domínio, puxar os domínios mais predominantes e atualizar
 [https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4ynsUAA/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4ynsUAA/view?queryScope=userFolders|smart-link] 
 [https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4bcgUAA/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4bcgUAA/view?queryScope=userFolders|smart-link] ",,,,,,,0,,Em andamento,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,
-Task,RVO-6522,,Documentação do processo,RVO-6510,,23/04/2026,06/05/2026,,,,The Office,,,"h3. Resumo
+Task,RVO-6522,,Documentação do processo,RVO-6510,,23/04/2026,06/05/2026,,,,The Big Bang Theory;The Office,,,"h3. Resumo
 
 Construir a documentação do dashboard e do processo no Tableau.
 
@@ -568,8 +568,8 @@ Realizar plano de comunicaçao com o time de rv + gc para falar sobre as mudanç
 h3. Outras informações
 
 N/A",,,,,,,0,,Pronto para Iniciar,3,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,
-Task,RVO-6519,,Validação dos resultados e testes de ponta a ponta,RVO-6510,,23/04/2026,06/05/2026,,,,The Office,,,"Realizar testes completos de ponta a ponta para validar o cálculo, extrato, automações e integrações, garantindo que todos os critérios de sucesso sejam atendidos.",,,,,,,0,,Em andamento,4,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,
-Epic,RVO-6510,,Construção do Cálculo de RV de Vendas no Tableau,,,23/04/2026,04/05/2026,,,,The Office,,,"h3. Objetivo
+Task,RVO-6519,,Validação dos resultados e testes de ponta a ponta,RVO-6510,,23/04/2026,06/05/2026,,,,The Big Bang Theory;The Office,,,"Realizar testes completos de ponta a ponta para validar o cálculo, extrato, automações e integrações, garantindo que todos os critérios de sucesso sejam atendidos.",,,,,,,0,,Em andamento,4,Williane Fernandes,,Medium,RVO-6510,,,0,,,,,
+Epic,RVO-6510,,Construção do Cálculo de RV de Vendas no Tableau,,,23/04/2026,04/05/2026,,,,The Big Bang Theory;The Office,,,"h3. Objetivo
 
 Desenvolver o cálculo de remuneração variável no Tableau.
 
@@ -612,9 +612,9 @@ Pegar feedback dos CSM’s que estão testando e aprimorar o prompt de acordo co
 
 A entrega será o agente de CS em ambiente de produção.",,,,,,,0,,BACKLOG,8,Lana Reis,,Medium,RVO-105,,,0,,,,,
 Task,RVO-6502,,[ECONOMICS] - Melhorias no acompanhamento,RVO-1182,,,,,,,The Office,,,,,,,,,,0,,Pronto para Iniciar,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
-Task,RVO-6477,,Validação automated process,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
-Task,RVO-6475,,Criação de novo fluxo de pausas para PB de PMO,RVO-129,,,,,,,The Office,,,,,,,,,,0,,Em refinamento,4,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
-Task,RVO-6463,,Ajustes e Testes - Fluxo PP,RVO-129,,23/04/2026,08/05/2026,,,,The Office,,,"*RESUMO*
+Task,RVO-6477,,Validação automated process,RVO-129,,,,,,,The Big Bang Theory;The Office,,,,,,,,,,0,,BACKLOG,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6475,,Criação de novo fluxo de pausas para PB de PMO,RVO-129,,,,,,,The Big Bang Theory;The Office,,,,,,,,,,0,,Em refinamento,4,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6463,,Ajustes e Testes - Fluxo PP,RVO-129,,23/04/2026,08/05/2026,,,,The Big Bang Theory;The Office,,,"*RESUMO*
 
 As otimizações cobrem dois eixos principais:
 
@@ -631,7 +631,7 @@ As otimizações cobrem dois eixos principais:
 * Gramática: ""empresa que você trabalha"" → ""empresa em que você trabalha"".
 * Padronização de cargos: sem espaço antes dos parênteses em toda a lista. Ex: ""Coordenador (a)"" → ""Coordenador(a)"".
 * Fluidez geral: ajustes de ritmo em todas as mensagens para soar mais natural.",,,,,,,0,,Em andamento,5,Iago Jants David,,Medium,RVO-129,,,0,,,,,
-Task,RVO-6460,,Capacitação IA,RVO-4966,,20/04/2026,30/04/2026,,,,The Office,,,"📝 *Descrição da atividade*
+Task,RVO-6460,,Capacitação IA,RVO-4966,,20/04/2026,30/04/2026,,,,The Big Bang Theory;The Office,,,"📝 *Descrição da atividade*
 
 * Estratégia de certificação sobre IA para operação Comercial e de CS
 
@@ -642,7 +642,7 @@ Task,RVO-6460,,Capacitação IA,RVO-4966,,20/04/2026,30/04/2026,,,,The Office,,,
 🏆 *O que deve ser entregue? (Definition of Done)*
 
 * Definição da estrutura, tempos e formatos.",,,,,,,0,,BACKLOG,2,Heloisa Spigolon,,Medium,RVO-4966,,,0,,,,,
-Task,RVO-6457,,Lançamento IAra,RVO-4965,,20/04/2026,30/04/2026,,,,The Office,,,"📝 *Descrição da atividade*
+Task,RVO-6457,,Lançamento IAra,RVO-4965,,20/04/2026,30/04/2026,,,,The Big Bang Theory;The Office,,,"📝 *Descrição da atividade*
 
 * Preparação do que falta para que a IAra seja lançada para a Operação.
 
@@ -653,7 +653,7 @@ Task,RVO-6457,,Lançamento IAra,RVO-4965,,20/04/2026,30/04/2026,,,,The Office,,,
 🏆 *O que deve ser entregue? (Definition of Done)*
 
 * Entrada nas agendas dos times - alinhar com lideranças",,,,,,,0,,Em andamento,5,Heloisa Spigolon,,Highest,RVO-4965,,,0,,,,,
-Task,RVO-6438,,Jornada Ágil - Preço de Integração distinto,RVO-129,,05/05/2026,05/05/2026,,,,The Office,,,"*Descrição da atividade:*
+Task,RVO-6438,,Jornada Ágil - Preço de Integração distinto,RVO-129,,05/05/2026,05/05/2026,,,,The Big Bang Theory;The Office,,,"*Descrição da atividade:*
 
 Criar campo dentro do Dealhub e ajustar assignment e pricing rule dos itens one shot de integração.
 
@@ -668,8 +668,8 @@ Regra definida:[https://docs.google.com/spreadsheets/d/1XtL5M6OMThDLff-JsaWZgAAi
 *O que deve ser entregue? (Definition of Done)*
 
 Produtos configurados no Dealhub.",,,,,,,0,,Em andamento,2,Raphael Fonseca Rodrigues dos Santos,,Highest,RVO-129,,,0,,,,,
-Task,RVO-6335,,Cloud run Job,RVO-4965,,13/04/2026,16/04/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,18,Luis Bueno,,Medium,RVO-4965,,,0,,,,,
-Task,RVO-6238,,Alteração do processo de Equipe do Negócio,RVO-129,,05/05/2026,05/05/2026,,,,The Office,,,"*Descrição da atividade:*
+Task,RVO-6335,,Cloud run Job,RVO-4965,,13/04/2026,16/04/2026,,,,The Big Bang Theory;Suits;The Office,,,,,,,,,,0,,BACKLOG,18,Luis Bueno,,Medium,RVO-4965,,,0,,,,,
+Task,RVO-6238,,Alteração do processo de Equipe do Negócio,RVO-129,,05/05/2026,05/05/2026,,,,The Big Bang Theory;The Office,,,"*Descrição da atividade:*
 
 Ajuste de regra que permita mais de um papel de estratégia de relacionamento na equipe do negócio.
 
@@ -684,7 +684,7 @@ N/A
 *O que deve ser entregue? (Definition of Done)*
 
 Ajuste de regra que permita mais de um papel de estratégia de relacionamento na equipe do negócio.",,,,,,,0,,Em andamento,2,Raphael Fonseca Rodrigues dos Santos,,Highest,RVO-129,,,0,,,,,
-Task,RVO-6237,,Estudo de Alavancas de Crescimento - P1A,RVO-5317,,24/03/2026,15/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+Task,RVO-6237,,Estudo de Alavancas de Crescimento - P1A,RVO-5317,,24/03/2026,15/05/2026,,,,Stranger Things;The Office,,,"h3. ⚙️ O que precisa ser feito?
 
 Analisar as alavancas de crescimento com base em Q1, decompondo drivers de receita e projetando impacto no H1.
 
@@ -702,7 +702,7 @@ h3. ✅ Pronto quando...
 * Impacto no atingimento da receita de H1 projetado
 * Principais alavancas de crescimento identificadas
 * Recomendações objetivas definidas e documentadas (material atualizado)",,,,,,,0,,Pronto para Iniciar,6,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
-Task,RVO-6232,,Análise de GAP e impactos - P1A,RVO-5317,,24/03/2026,15/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+Task,RVO-6232,,Análise de GAP e impactos - P1A,RVO-5317,,24/03/2026,15/05/2026,,,,Stranger Things;The Office,,,"h3. ⚙️ O que precisa ser feito?
 
 Analisar o GAP de Q1 vs orçamento, decompondo em oportunidades, conversão e ticket médio, e projetar impacto no ano.
 
@@ -719,9 +719,9 @@ h3. ✅ Pronto quando...
 * GAP de Q1 calculado (absoluto e %)
 * Drivers decompostos com impacto quantificado
 * Projeção anual consolidada",,,,,,,0,,Pronto para Iniciar,6,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
-Task,RVO-6158,,Verificar Schema Trino,RVO-105,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,,Williane Fernandes,,Medium,RVO-105,,,0,,,,,
-Task,RVO-5782,,Consolidado de Opps - Base P1A,RVO-5317,,,,,,,The Office,,,"Consolidado com os valores de Opps que ficaram como oficiais da Gupy, na planilha final do P1A, para ser a fonte oficial dessa informação.",,,,,,,0,,BACKLOG,2,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
-Task,RVO-5567,,[GO UP] - A-ha Moment produto | Cronograma,RVO-5040,,,,,,,The Office,,,"Entender o projeto, escrever e delimitar marcos de entrega. Além de documentar o que será feito, como será feito e as premissas. Acompanhamento do GOUP",,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-5040,,,0,,,,,
+Task,RVO-6158,,Verificar Schema Trino,RVO-105,,,,,,,Stranger Things;The Big Bang Theory;Suits;The Office;Peaky Blinders,,,,,,,,,,0,,BACKLOG,,Williane Fernandes,,Medium,RVO-105,,,0,,,,,
+Task,RVO-5782,,Consolidado de Opps - Base P1A,RVO-5317,,,,,,,Stranger Things;The Big Bang Theory;Suits;The Office;Peaky Blinders;Game of Thrones,,,"Consolidado com os valores de Opps que ficaram como oficiais da Gupy, na planilha final do P1A, para ser a fonte oficial dessa informação.",,,,,,,0,,BACKLOG,2,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
+Task,RVO-5567,,[GO UP] - A-ha Moment produto | Cronograma,RVO-5040,,,,,,,Stranger Things;Suits;The Office;Friends;Peaky Blinders;Game of Thrones,,,"Entender o projeto, escrever e delimitar marcos de entrega. Além de documentar o que será feito, como será feito e as premissas. Acompanhamento do GOUP",,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-5040,,,0,,,,,
 Task,RVO-5551,,impulsionamento de vagas - alterações na seleção ,RVO-129,,06/05/2026,07/05/2026,,,,The Office,,,"*Descrição da atividade:*
 
 * Ajuste de regras de assignment, preço e quantidade
@@ -738,4 +738,4 @@ Task,RVO-5551,,impulsionamento de vagas - alterações na seleção ,RVO-129,,06
 *O que deve ser entregue? (Definition of Done)*
 
 * À definir.",,,,,,,0,,BACKLOG,8,Raphael Fonseca Rodrigues dos Santos,,High,RVO-129,,,0,,,,,
-Epic,RVO-2595,,C3 - [CH] Implementação do Community,,,06/10/2025,15/12/2025,,,,The Office,,,"Este épico tem como objetivo a implementação do Community, sendo ele um portal seguro para clientes. A principal funcionalidade será permitir que os clientes, após autenticação, acompanhem o status e o histórico de seus tickets de suporte, além de poderem criar novas solicitações diretamente na plataforma.",,,,,,,0,,Em andamento,,Alan Dantas Bernardo,,Medium,,,,0,,,,,
+Epic,RVO-2595,,C3 - [CH] Implementação do Community,,,06/10/2025,15/12/2025,,,,Sprint 2;Sprint 3;Breaking Bad;The Big Bang Theory;Sprint 4;Suits;Sprint 5;Stranger Things;The Office;Friends;Dark;Peaky Blinders;Sprint 1;Game of Thrones,,,"Este épico tem como objetivo a implementação do Community, sendo ele um portal seguro para clientes. A principal funcionalidade será permitir que os clientes, após autenticação, acompanhem o status e o histórico de seus tickets de suporte, além de poderem criar novas solicitações diretamente na plataforma.",,,,,,,0,,Em andamento,,Alan Dantas Bernardo,,Medium,,,,0,,,,,
