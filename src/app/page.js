@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import { fetchDashboardData } from '../services/dashboardService';
+import { fetchRawIssues, processData } from '../services/dashboardService';
 import styles from './page.module.css';
 import { 
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, Cell,
@@ -10,23 +10,50 @@ import {
 import { Loader2, AlertCircle } from 'lucide-react';
 
 export default function Dashboard() {
+  const [allIssues, setAllIssues] = useState([]);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [selectedAssignees, setSelectedAssignees] = useState([]);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
     async function loadData() {
       try {
-        const result = await fetchDashboardData();
+        const issues = await fetchRawIssues();
+        setAllIssues(issues);
+        const result = processData(issues);
         setData(result);
+        setLoading(false);
       } catch (err) {
         setError(err.message);
-      } finally {
         setLoading(false);
       }
     }
     loadData();
   }, []);
+
+  useEffect(() => {
+    if (allIssues.length > 0) {
+      const filtered = selectedAssignees.length === 0 
+        ? allIssues 
+        : allIssues.filter(issue => {
+            const name = issue['Assignee'] || 'Unassigned';
+            return selectedAssignees.includes(name);
+          });
+      setData(processData(filtered));
+    }
+  }, [selectedAssignees, allIssues]);
+
+  const toggleAssignee = (name) => {
+    setSelectedAssignees(prev => 
+      prev.includes(name) 
+        ? prev.filter(n => n !== name) 
+        : [...prev, name]
+    );
+  };
+
+  const selectAll = () => setSelectedAssignees([]);
 
   if (loading) {
     return (
@@ -48,7 +75,13 @@ export default function Dashboard() {
     );
   }
 
+  if (!data) return null;
+
   const { metrics, burndownData, assignees, epics, areas, types } = data;
+
+  const uniqueAssignees = Array.from(new Set(allIssues.map(i => i['Assignee'] || 'Unassigned')))
+    .filter(Boolean)
+    .sort();
   
   const sprintProgress = metrics.totalPoints > 0 ? Math.round((metrics.donePoints / metrics.totalPoints) * 100) : 0;
   
@@ -64,6 +97,45 @@ export default function Dashboard() {
 
   return (
     <main className={styles.main}>
+      
+      <header className={styles.header}>
+        <div className={styles.headerTitle}>
+          <h1>Sprint Analytics Dashboard</h1>
+          <p>Análise de performance por time e responsável</p>
+        </div>
+        <div className={styles.headerFilters}>
+          <div className={styles.filterGroup}>
+            <label>Filtrar Responsáveis:</label>
+            <div className={styles.multiSelectWrapper}>
+              <button 
+                className={styles.multiSelectBtn}
+                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+              >
+                {selectedAssignees.length === 0 
+                  ? 'Time Completo' 
+                  : `${selectedAssignees.length} selecionados`}
+                <span className={styles.chevron}>{isDropdownOpen ? '▲' : '▼'}</span>
+              </button>
+              
+              {isDropdownOpen && (
+                <div className={styles.multiSelectDropdown}>
+                  <div className={styles.dropdownOption} onClick={selectAll}>
+                    <input type="checkbox" checked={selectedAssignees.length === 0} readOnly />
+                    <span>Time Completo (Todos)</span>
+                  </div>
+                  <div className={styles.divider} />
+                  {uniqueAssignees.map(name => (
+                    <div key={name} className={styles.dropdownOption} onClick={() => toggleAssignee(name)}>
+                      <input type="checkbox" checked={selectedAssignees.includes(name)} readOnly />
+                      <span>{name}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </header>
       
       {/* TOP ROW */}
       <section className={styles.topRow}>

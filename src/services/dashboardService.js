@@ -1,9 +1,14 @@
-export async function fetchDashboardData() {
+export async function fetchRawIssues() {
   const res = await fetch('/api/dashboard', { cache: 'no-store', headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' } });
   if (!res.ok) {
     throw new Error('Failed to fetch data');
   }
   const { data } = await res.json();
+  return data;
+}
+
+export async function fetchDashboardData() {
+  const data = await fetchRawIssues();
   return processData(data);
 }
 
@@ -90,7 +95,7 @@ const EPIC_NAMES = {
   "RVO-6510": "Construção do Cálculo de RV no Tableau"
 };
 
-function processData(issues) {
+export function processData(issues) {
   const metrics = {
     totalPoints: 0,
     donePoints: 0,
