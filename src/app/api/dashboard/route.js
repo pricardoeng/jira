@@ -16,11 +16,14 @@ export async function GET(request) {
       }
     }
 
-    const files = ['bd.csv', 'bd2.csv'];
+    const sprintFiles = [
+      { name: 'Sprint 1', file: 'Sprint 1.csv' },
+      { name: 'Sprint 2', file: 'Sprint 2.csv' }
+    ];
     let allRecords = [];
 
-    for (const fileName of files) {
-      const filePath = path.join(process.cwd(), fileName);
+    for (const item of sprintFiles) {
+      const filePath = path.join(process.cwd(), item.file);
       if (fs.existsSync(filePath)) {
         const fileContent = fs.readFileSync(filePath, 'utf-8');
         const records = parse(fileContent, { 
@@ -35,12 +38,19 @@ export async function GET(request) {
             });
           }
         });
-        allRecords = [...allRecords, ...records];
+        
+        // Force the Sprint name based on the filename
+        const normalized = records.map(r => ({
+          ...r,
+          'Sprint': item.name
+        }));
+        
+        allRecords = [...allRecords, ...normalized];
       }
     }
 
     if (allRecords.length === 0) {
-      return NextResponse.json({ error: 'No data files found' }, { status: 404 });
+      return NextResponse.json({ error: 'No sprint files found' }, { status: 404 });
     }
 
     const response = NextResponse.json({ data: allRecords });

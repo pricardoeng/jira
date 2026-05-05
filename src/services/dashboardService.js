@@ -231,8 +231,10 @@ export function processData(issues) {
     if (day <= today) {
       let resolvedOnOrBefore = 0;
       issues.forEach(issue => {
-        const issueType = (issue['Issue Type'] || '').toLowerCase();
-        if (issueType === 'epic' || issueType === 'sub-task' || issueType === 'subtask') return;
+        const rawParent = issue['parent'] || issue['Parent'] || issue['Parent Link'];
+        const parent = rawParent ? rawParent.trim() : (issue['Epic Link'] ? issue['Epic Link'].trim() : 'No Parent');
+
+        if (!WHITELIST_PARENTS.includes(parent)) return;
         
         const resolvedStr = issue['Resolved'];
         if (resolvedStr && resolvedStr !== '[no field found]' && resolvedStr.includes('/')) {
