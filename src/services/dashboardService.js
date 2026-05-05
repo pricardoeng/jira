@@ -120,8 +120,7 @@ export function processData(issues) {
 
   issues.forEach(issue => {
     const issueType = (issue['Issue Type'] || '').toLowerCase();
-    if (issueType === 'epic' || issueType === 'sub-task' || issueType === 'subtask') return;
-
+    
     const rawParent = issue['parent'] || issue['Parent'] || issue['Parent Link'];
     const parent = rawParent ? rawParent.trim() : (issue['Epic Link'] ? issue['Epic Link'].trim() : 'No Parent');
 
