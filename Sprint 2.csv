@@ -1,4 +1,157 @@
 Issue Type,Key,Epic Name,Summary,Epic Link,Pilar,Start date,Due date,Fonte,Labels,Components,Sprint,Actual end,Actual start,Description,Pair with,Pairing with,Pairing with,Pairing with,Pairing with...,Checklist Progress,Checklist Progress %,Epic Status,Status,Story Points,Assignee,Team,Priority,parent,Parent Link,Linked Issues,Progress,Resolved,Due date,End date,Resignation date,Fix versions
+Task,RVO-6694,,Tratamento e subida de contatos em massa,RVO-129,,06/05/2026,,,,,The Office,,,"
+
+[https://docs.google.com/spreadsheets/d/17UT-hbVwaVtrHwpzKVk8B5J8kFtbOCFkrK6bM0nT9I4/edit?gid=1084877013#gid=1084877013|https://docs.google.com/spreadsheets/d/17UT-hbVwaVtrHwpzKVk8B5J8kFtbOCFkrK6bM0nT9I4/edit?gid=1084877013#gid=1084877013|smart-card]",,,,,,,0,,Em andamento,1,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6693,,Inclusão e Exclusão de associações nas campanhas,RVO-129,,05/05/2026,,,,,The Office,,,"h3. 📖 Contexto
+
+As campanhas de contratação ""Ponta a Ponta"" e ""NR-1"" precisam ser alteradas as contas vinculadas a elas. Sendo necessário a exclusão e inclusão com base na solicitação da planilha: [https://docs.google.com/spreadsheets/d/16EqkoDclZ0S-PMHz1nvM7sVOEq5iqLvwkxjMLP3hzBM/edit?gid=342708622#gid=342708622|https://docs.google.com/spreadsheets/d/16EqkoDclZ0S-PMHz1nvM7sVOEq5iqLvwkxjMLP3hzBM/edit?gid=342708622#gid=342708622|smart-link] 
+
+h3. ⚙️ O que precisa ser feito?
+
+# *Exclusão de Contas:* Identificar e remover a lista de Contas, para isso é necessário fazer um levantamento de membros da campanha através dos ids da conta e campanha.
+# *Inclusão de Novas Associações:* Inserir a nova lista de contas/associações fornecida pelo planejamento para ambas as frentes (Contratação Ponta a Ponta e NR-1).
+
+h3. 🎯 Impacto esperado
+
+* *Dados atualizados:* Manter a base no salesforce atualizada. 
+
+h3. ✅ Pronto quando... (Definition of Done)
+
+# [ ] A lista de exclusão foi processada e as contas não constam mais nas campanhas.
+# [ ] A nova lista de associações foi inserida.
+# [ ] O volume final de contas pós-alteração foi validado pelo solicitante/planejamento.
+# [ ] Não foram identificados registros duplicados ou erros de sintaxe nas tabelas atualizadas.",,,,,,,0,,Concluído,1,Alan Dantas Bernardo,,Medium,RVO-129,,,0,05/05/2026 20:55:56,,,,
+Sub-task,RVO-6692,,Ajuste do flow para aceita o CUIT argentino na conta e na oportunidade,,,,,,,,The Office,,,,,,,,,,0,,Concluído,1,Tiago Neves,,Medium,RVO-6591,,,0,05/05/2026 20:44:35,,,,
+Task,RVO-6691,,[Governança] Ajuste da Estrutura,RVO-5025,,06/05/2026,15/05/2026,,,,The Office,,,"
+
+{quote}*⚙️ O que precisa ser feito?*
+
+Retirar da planilha de estrutura todos os usuários que já foram desligados e não foi avisado via fluxos do Slack.
+
+
+
+*🎯 Impacto esperado*
+Evitar erros em RV, por exemplo.
+
+
+
+*✅ Pronto quando... (Definition of Done)*
+
+* Estrutura Atualizada.
+
+
+
+📑 *Materiais de Apoio:*{quote}
+
+* [https://docs.google.com/spreadsheets/d/1s2JM8KXS6si3KXHazC9OJAIq_Iej_HbRlyYeDic-XXo/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1s2JM8KXS6si3KXHazC9OJAIq_Iej_HbRlyYeDic-XXo/edit?usp=sharing|smart-link] 
+* [https://docs.google.com/spreadsheets/d/1mInIizG2rDBcZD7K-AYjItcRp5e--nlpznHFn8zWRhg/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1mInIizG2rDBcZD7K-AYjItcRp5e--nlpznHFn8zWRhg/edit?usp=sharing|smart-link] 
+* [https://script.google.com/a/macros/gupy.com.br/s/AKfycbxkDERpsM9CF2B5elB-lRiW47cx_Zeoz1f0pXtGW-V9KDMFLCFRAx-aYrg47OJTx4o4/exec|https://script.google.com/a/macros/gupy.com.br/s/AKfycbxkDERpsM9CF2B5elB-lRiW47cx_Zeoz1f0pXtGW-V9KDMFLCFRAx-aYrg47OJTx4o4/exec]
+* [https://sites.google.com/gupy.com.br/novobussula/visão-geral|https://sites.google.com/gupy.com.br/novobussula/vis%C3%A3o-geral]",,,,,,,0,,BACKLOG,2,Taina Labarba,,Low,RVO-5025,,RVO-6685,0,,,,,
+Task,RVO-6690,,Melhorar Home de CS,RVO-6676,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,,Alan Dantas Bernardo,,Medium,RVO-6676,,,0,,,,,
+Task,RVO-6689,,[Onboarding] Caroline Matildes,RVO-5025,,06/05/2026,15/05/2026,,,,The Office,,,"
+
+{quote}*⚙️ O que precisa ser feito?*
+
+* Atividades relacionadas ao Onboarding de CSMs.
+
+
+
+*🎯 Impacto esperado*
+Conclusão do Cronograma de Onboarding, ramp up do novo Gupier.
+
+
+
+*✅ Pronto quando... (Definition of Done)*
+
+* 
+
+📑 *Materiais de Apoio:*{quote}
+
+[https://docs.google.com/spreadsheets/d/1NldcdMR995B7N14vo6RBLT4qavMJ4ho-4P4qtHrVcRc/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1NldcdMR995B7N14vo6RBLT4qavMJ4ho-4P4qtHrVcRc/edit?usp=sharing|smart-link] ",,,,,,,0,,BACKLOG,6,Taina Labarba,,High,RVO-5025,,RVO-6686,0,,,,,
+Task,RVO-6688,,Melhorar processo de pipeline de Co-Prime,RVO-6676,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,6,Alan Dantas Bernardo,,High,RVO-6676,,,0,,,,,
+Task,RVO-6687,,[AJU] [AE] Atualizar Dashboards Home de Sales,RVO-6676,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,6,Alan Dantas Bernardo,,High,RVO-6676,,,0,,,,,
+Task,RVO-6686,,[Onboarding] Isabela Ciccio e Kerolaine Nascimento,RVO-5025,,06/05/2026,15/05/2026,,,,The Office,,,"
+
+{quote}*⚙️ O que precisa ser feito?*
+
+* Atividades relacionadas ao Onboarding de CSMs.
+
+
+
+*🎯 Impacto esperado*
+Conclusão do Cronograma de Onboarding, ramp up do novo Gupier.
+
+
+
+*✅ Pronto quando... (Definition of Done)*
+
+* 
+
+📑 *Materiais de Apoio:*{quote}
+
+[https://docs.google.com/spreadsheets/d/1XSK7L2HQqnMild8b_v9PxTUlAgfqeVW0t2N92kVV5ow/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1XSK7L2HQqnMild8b_v9PxTUlAgfqeVW0t2N92kVV5ow/edit?usp=sharing|smart-link]  
+
+[https://docs.google.com/spreadsheets/d/1Z6qTtSPqhbmLIQzfJPD4Y0yLNOg3WqrQIDci3nNDMSU/edit?usp=sharing|https://docs.google.com/spreadsheets/d/1Z6qTtSPqhbmLIQzfJPD4Y0yLNOg3WqrQIDci3nNDMSU/edit?usp=sharing|smart-link] ",,,,,,,0,,BACKLOG,4,Taina Labarba,,High,RVO-5025,,RVO-6377;RVO-6689,0,,,,,
+Task,RVO-6685,,[Governança] Comunicados e solicitações,RVO-5025,,06/05/2026,15/05/2026,,,,The Office,,,"
+
+{quote}*⚙️ O que precisa ser feito?*
+
+* Tempo destinado para demandas de comunicados e páginas via fluxo de solicitação do Slack
+
+
+
+*🎯 Impacto esperado*
+_O que muda no negócio quando essa task estiver pronta? Seja mensurável sempre que possível. Ex: reduzir de 3 dias para 1 dia o tempo de criação de proposta._
+
+
+
+*✅ Pronto quando... (Definition of Done)*
+
+* Comunicados feitos
+* Páginas atualizadas e/ou criadas
+
+
+
+📑 *Materiais de Apoio:*{quote}
+
+* [https://datastudio.google.com/reporting/1b0dc5fd-652c-4bd0-8645-130c8643e842/page/p_ol3wfy1bhd|https://datastudio.google.com/reporting/1b0dc5fd-652c-4bd0-8645-130c8643e842/page/p_ol3wfy1bhd]",,,,,,,0,,BACKLOG,3,Taina Labarba,,Medium,RVO-5025,,RVO-6458;RVO-6691,0,,,,,
+Task,RVO-6684,,Sinergias lideranças CSM,RVO-5025,,05/05/2026,14/05/2026,,,,The Office,,,"{quote}*⚙️ O que precisa ser feito?*
+_Descrição objetiva da atividade. Específico o suficiente para que outra pessoa do time consiga executar sem perguntar o que fazer._
+
+* Iniciar atividades oficialmente como Enabler do time de CSM como, por exemplo, sinergias com lideranças, estudo das necessidades de CS e etc.
+
+
+
+*🎯 Impacto esperado*
+_O que muda no negócio quando essa task estiver pronta? Seja mensurável sempre que possível. Ex: reduzir de 3 dias para 1 dia o tempo de criação de proposta._
+
+* 
+
+*✅ Pronto quando... (Definition of Done)*
+
+* 
+
+📑 *Materiais de Apoio:*{quote}
+
+* [https://datastudio.google.com/reporting/1b0dc5fd-652c-4bd0-8645-130c8643e842/page/p_ol3wfy1bhd|https://datastudio.google.com/reporting/1b0dc5fd-652c-4bd0-8645-130c8643e842/page/p_ol3wfy1bhd]",,,,,,,0,,BACKLOG,4,Taina Labarba,,High,RVO-5025,,RVO-6464,0,,,,,
+Task,RVO-6683,,Segunda fase de testes IAra,RVO-4965,,06/05/2026,13/05/2026,,,,The Office,,,"{quote}*⚙️ O que precisa ser feito?*
+_Descrição objetiva da atividade. Específico o suficiente para que outra pessoa do time consiga executar sem perguntar o que fazer._
+
+* Realizar segunda rodada de testes com Embaixadores e principalmente com lideranças pra aumentar assertividade para 80%
+
+
+*🎯 Impacto esperado*
+_O que muda no negócio quando essa task estiver pronta? Seja mensurável sempre que possível. Ex: reduzir de 3 dias para 1 dia o tempo de criação de proposta._
+
+* Taxa de assertividade de 60% para, no mínimo 80%, mas o desejável seria 90%.
+
+
+
+📑 *Materiais de Apoio:*{quote}
+
+* [https://datastudio.google.com/reporting/1b0dc5fd-652c-4bd0-8645-130c8643e842/page/p_ol3wfy1bhd|https://datastudio.google.com/reporting/1b0dc5fd-652c-4bd0-8645-130c8643e842/page/p_ol3wfy1bhd]",,,,,,,0,,BACKLOG,4,Taina Labarba,,Highest,RVO-4965,,RVO-6454,0,,,,,
+Task,RVO-6682,,Tickets Carteirzação 11/05 a 15/05,RVO-6680,,,15/05/2026,,Vendas,,The Office,,,,,,,,,,0,,BACKLOG,10,david oliveira soares,,Medium,RVO-6680,,,0,,,,,
+Task,RVO-6681,,Tickets Carteirzação 04/05 a 08/05,RVO-6680,,,08/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,10,david oliveira soares,,Medium,RVO-6680,,,0,,,,,
 Task,RVO-6678,,Criação da visão do Forecasting para CMRR Prime e CMRR Co-Prime,RVO-4926,,05/05/2026,06/05/2026,,Vendas,,The Office,,,"h2. O que precisa ser feito?
 
 Criar duas novas visões de CMRR Prime e CMRR Co-Prime e colocar no Forecasting
@@ -92,12 +245,22 @@ h3. ✅ Pronto quando...
 * Regras de RV claras e sem ambiguidades
 * Página final validada
 * Material publicado e acessível para o time",,,,,,,0,,Pronto para Iniciar,2,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
-Sub-task,RVO-6666,,Ajustar busca de campanhas do indicador Go Up para buscar as campanhas de marketing,,,,,,,,The Office,,,,,,,,,,0,,Em andamento,,Tiago Neves,,Medium,RVO-6591,,,0,,,,,
+Sub-task,RVO-6666,,Ajustar busca de campanhas do indicador Go Up para buscar as campanhas de marketing,,,,,,,,The Office,,,,,,,,,,0,,Concluído,1,Tiago Neves,,Medium,RVO-6591,,,0,05/05/2026 20:43:52,,,,
 Task,RVO-6664,,Criação de Material para Reunião com Gerente de CH,RVO-105,,07/05/2026,12/05/2026,,CH,,The Office,,,"Criação de um material para apresentação do time de PBA e da minha pessoa como auxiliadora ao time de CH para o novo gerente de CH, além dos dashboards desenvolvidos e regras de negócio aplicadas. 
 
 A entrega será um material de apresentação (PPT, PDF ou HTML) com o conteúdo descrito acima.",,,,,,,0,,BACKLOG,8,Lana Reis,,Medium,RVO-105,,,0,,,,,
 Task,RVO-6663,,[GO UP] - Melhorias no indicador único,,,,,,,,The Office,,,,,,,,,,,,BACKLOG,,Gabriel Pires,,Medium,,,,0,,,,,
-Task,RVO-6662,,[ECONOMICS] - Validação retroativa,RVO-1182,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6662,,[ECONOMICS] - Validação retroativa,RVO-1182,,,,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* Validar retroativamente os meses e resolver eventuais divergências.
+
+h3. 🎯 Impacto esperado
+
+* Manter a qualidade e sanidade dos dados.
+
+h3. ✅ Pronto quando...
+
+* Resolver eventuais divergências",,,,,,,0,,BACKLOG,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
 Story,RVO-6661,,CRM Ajuda - Ajustar a etapa das contas,RVO-129,,04/05/2026,11/05/2026,,,,The Big Bang Theory;The Office,,,"Ajustar a fase do negócio, adicionando ou excluindo alguma fase.
 
 [https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000ncSqHUAU/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000ncSqHUAU/view?queryScope=userFolders|smart-card]",,,,,,,0,,Em andamento,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,
@@ -137,17 +300,95 @@ h3. ✅ Pronto quando...
 * Prazos definidos para cada etapa
 * Responsáveis atribuídos por etapa
 * Cronograma consolidado e compartilhado com o time",,,,,,,0,,Pronto para Iniciar,4,Marcela Pontes de Mendonça,,Medium,RVO-5317,,,0,,,,,
-Task,RVO-6658,,[GO UP] - Análise inicial de sazonalidade,RVO-24,,,,,,,The Office,,,"Por porte, produto e segmento(Qual o melhor segmento?)
+Task,RVO-6658,,[GO UP] - Análise inicial de sazonalidade,RVO-24,,,,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* Análise de sazonalidade de vendas, quando acontece mais.
+* Crossell ou Novo entrante???
+
+h3. 🎯 Impacto esperado
+
+* Uma análise que ajude a identificar o melhor momento de vender para um cliente.
+
+h3. ✅ Pronto quando...
+
+* Análise pronta e validada, com resposta
+
+
+
+
+
+
+Por porte, produto e segmento(Qual o melhor segmento?)
 
 Levantar premissas",,,,,,,0,,BACKLOG,8,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
-Task,RVO-6657,,[Carteirização] - Atualização do Material de CS,RVO-24,,05/05/2026,05/05/2026,,,,The Office,,,,,,,,,,0,,Em andamento,3,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
-Task,RVO-6656,,[Economics] - Validação dos dados (2° Semana),RVO-1182,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
-Task,RVO-6655,,[ECONOMICS] - Validação de Deals (2° Semana),RVO-1182,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
-Task,RVO-6654,,[ECONOMICS] - Fechamento de Abril -26,RVO-1182,,05/05/2026,06/05/2026,,,,The Office,,,,,,,,,,0,,Em andamento,8,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
-Task,RVO-6653,,Criar novo indicador para Taxa de abandono CH,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
-Task,RVO-6652,,Ajuste nos Infotips dos formulários CH,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6657,,[Carteirização] - Atualização do Material de CS,RVO-24,,05/05/2026,05/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* *Análise:* Criar comparativo entre carteirização Vendas vs Nova sugestão
+* *Slides:* Criar apresentação com a nova lógica de divisão de carteiras.
+* *Definição:* Estabelecer critérios de atendimento por nível de conta.
+
+h3. 🎯 Impacto esperado
+
+* Otimização da carga de trabalho dos CSMs e foco estratégico em contas de maior valor financeiro.
+
+h3. ✅ Pronto quando...
+
+# O material apresenta a nova divisão de contas por ACV
+# Apresentação para a liderança",,,,,,,0,,Concluído,3,Gabriel Pires,,Medium,RVO-24,,,0,05/05/2026 20:36:59,,,,
+Task,RVO-6656,,[Economics] - Validação dos dados (2° Semana),RVO-1182,,,,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* Validar se os dados gerados pelas validações correspondem com o que foi negociado pelo cliente em cada Deal.
+
+h3. 🎯 Impacto esperado
+
+* Manter os registros econômicos em ordem.
+
+h3. ✅ Pronto quando...
+
+* Divergência 0 ou justificável.",,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6655,,[ECONOMICS] - Validação de Deals (2° Semana),RVO-1182,,,,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* Validar negócios e contratos dos negócios disponíveis no Salesforce.
+
+h3. 🎯 Impacto esperado
+
+* Negócios validados
+
+h3. ✅ Pronto quando...
+
+* Validar 100% das negociações.",,,,,,,0,,BACKLOG,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6654,,[ECONOMICS] - Fechamento de Abril -26,RVO-1182,,05/05/2026,06/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* *Auditoria:* Validar contratos vs. vendas do mês.
+* *Saneamento:* Cobrar e regularizar pendências contratuais.
+* *Reporte:* Consolidar e enviar o levantamento contábil à Controladoria.
+
+h3. 🎯 Impacto esperado
+
+* 100% de conformidade entre receita e contratos, eliminando riscos de auditoria.
+
+h3. ✅ Pronto quando...
+
+# Todos os negócios de abril possuem contratos validados? *(Sim/Não)*
+# O levantamento contábil foi enviado? *(Sim/Não)*",,,,,,,0,,Em andamento,8,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6653,,Criar novo indicador para Taxa de abandono CH,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6652,,Ajuste nos Infotips dos formulários CH,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,1,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
 Task,RVO-6651,,Dashboard para N2 integrações - Supervisão,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
-Task,RVO-6650,,Atualização dos indicadores da central de ajuda - Mensal,RVO-129,,,,,,,The Office,,,,,,,,,,0,,Em andamento,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6650,,Atualização dos indicadores da central de ajuda - Mensal,RVO-129,,05/05/2026,,,,,The Office,,,"*Resumo:* Atualização dos indicadores de suporte e autoatendimento (Help Center) referentes ao mês anterior, garantindo que a liderança tenha visibilidade sobre a eficiência do autoatendimento e principais gargalos de busca.
+
+*⚙️ O que precisa ser feito?*
+
+# *Extração de Dados;*
+# *Tratamento de dados;*
+# *Atualização do Painel e formulas de cálculos para o novo período;*
+
+*🎯 Impacto esperado*
+
+* *Eficiência Operacional:* Identificação de lacunas no autoatendimento.
+
+*✅ Pronto quando... (Definition of Done)*
+
+* Os indicadores estiverem com os dados completos do último dia do mês anterior.",,,,,,,0,,Concluído,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,05/05/2026 20:44:32,,,,
 Task,RVO-6649,,Tratamento de tickets - Semana 2,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
 Task,RVO-6648,,Tratamento de tickets - Semana 1,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
 Task,RVO-6647,,CRM Ajuda - Semana 2,RVO-129,,,,,,,The Office,,,,,,,,,,0,,BACKLOG,6,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
@@ -533,15 +774,45 @@ Para cada uma testar para entender como ela se comporta na classificação.",,,,
 Task,RVO-6576,,Validação - Dash Arquitetura de Soluções,RVO-105,,06/05/2026,07/05/2026,,Arquitetura,,The Office,,,"Reuniões de validação do dashboard.
 
 A entrega será o dashboard publicado em ambiente de produção.",,,,,,,0,,BACKLOG,2,Lana Reis,,Medium,RVO-105,,,0,,,,,
-Task,RVO-6573,,Base de Conhecimento (atualizar conteúdo ou criar nova página),RVO-5025,,,,,,,The Office,,,"O time de compras precisa receber pedidos/solicitações para coffee break com 48h de antecedência e precisa de aprovação de FP&A.  Não há nenhuma informação a respeito do processo de solicitação. quando um CSM precisa receber um cliente presencial, não sabemos o caminho correto: precisa acionar a liderança? não precisa? quem precisa aprovar? onde e como solicitar? na ausência  da liderança (exemplo: férias) quem pode responder pela liderança?",,,,,,,0,,BACKLOG,1,Taina Labarba,,Medium,RVO-5025,,,0,,,,,
+Sub-task,RVO-6573,,Base de Conhecimento (atualizar conteúdo ou criar nova página),,,,,,,,The Office,,,"O time de compras precisa receber pedidos/solicitações para coffee break com 48h de antecedência e precisa de aprovação de FP&A.  Não há nenhuma informação a respeito do processo de solicitação. quando um CSM precisa receber um cliente presencial, não sabemos o caminho correto: precisa acionar a liderança? não precisa? quem precisa aprovar? onde e como solicitar? na ausência  da liderança (exemplo: férias) quem pode responder pela liderança?",,,,,,,0,,BACKLOG,,Taina Labarba,,Lowest,RVO-6685,,,0,,,,,
 Task,RVO-6566,,Dados do produto de TA e TM,RVO-5450,,28/04/2026,08/05/2026,,RevOps,,The Big Bang Theory;The Office,,,Começar a puxar dados dos produtos.,,,,,,,0,,Em andamento,3,Tiago Neves,,Medium,RVO-5450,,,0,,,,,
 Task,RVO-6560,,Construção das páginas - Dash Arquitetura de Soluções,RVO-105,,29/04/2026,07/05/2026,,Arquitetura,,The Office,,,"Construção das páginas do dashboard de Arquitetura de Soluções.
 
 A entrega será o dashboard em ambiente de homologação para validação da área.",,,,,,,0,,Em andamento,18,Lana Reis,,Medium,RVO-105,,,0,,,,,
-Task,RVO-6554,,[Carteirização] - Organização da Reunião de acompanhamento de Carteiras,RVO-24,,,,,,,The Office,,,,,,,,,,0,,Em refinamento,4,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Task,RVO-6554,,[Carteirização] - Organização da Reunião de acompanhamento de Carteiras,RVO-24,,,,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* Criar um material para definição e consulta do projeto de Carteirização para liderança de vendas. Individualmente.
+
+h3. 🎯 Impacto esperado
+
+* Fóruns recorrentes sobre o processo de carteirização e saúde da carteira de vendas.
+
+h3. ✅ Pronto quando...
+
+* Material ficar pronto e marcar a reunião de lançamento.",,,,,,,0,,Em refinamento,4,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
 Task,RVO-6553,,[Carteirização] - Alteração de Tempo de Posse,RVO-24,,,,,,,The Office,,,,,,,,,,0,,Pronto para Iniciar,1,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
-Task,RVO-6552,,[Carteirização] - Revisão da documentação e Processos,RVO-24,,07/05/2026,20/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
-Task,RVO-6551,,[Carteirização] - Revisão de Carteira e Metas,RVO-24,,05/05/2026,18/05/2026,,,,The Office,,,,,,,,,,0,,BACKLOG,8,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Task,RVO-6552,,[Carteirização] - Revisão da documentação e Processos,RVO-24,,07/05/2026,20/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* Revisar a documentação do projeto de carteirização visando resolver os problemas processuais que estão acontecendo e principalmente dar mais responsabilidade e visibilidade aos líderes do que está acontecendo.
+
+h3. 🎯 Impacto esperado
+
+* Um acompanhamento maior da liderança de vendas no processo.
+
+h3. ✅ Pronto quando...
+
+* Documento revisado e publicado.",,,,,,,0,,BACKLOG,2,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
+Task,RVO-6551,,[Carteirização] - Revisão de Carteira e Metas,RVO-24,,05/05/2026,18/05/2026,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* Revisar a carteira inteira da empresa e entender se tem erros de processo e se existem contas farmers não alocadas
+
+h3. 🎯 Impacto esperado
+
+* Corrigir problemas de carteirização.
+
+h3. ✅ Pronto quando...
+
+* Lista de alterações ficar pronta, validada, redesignada e subida no salesforce.",,,,,,,0,,BACKLOG,8,Gabriel Pires,,Medium,RVO-24,,,0,,,,,
 Story,RVO-6546,,Atualizar contas no SF sem domínio,RVO-129,,,07/05/2026,,,,The Big Bang Theory;The Office,,,"Configurar as contas no SF que estão sem domínio, puxar os domínios mais predominantes e atualizar
 [https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4ynsUAA/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4ynsUAA/view?queryScope=userFolders|smart-link] 
 [https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4bcgUAA/view?queryScope=userFolders|https://gupy.lightning.force.com/lightning/r/Report/00ObJ00000n4bcgUAA/view?queryScope=userFolders|smart-link] ",,,,,,,0,,Em andamento,3,david oliveira soares,,Medium,RVO-129,,,0,,,,,
@@ -611,9 +882,19 @@ Task,RVO-6504,,Melhorias Agente CS,RVO-105,,08/05/2026,13/05/2026,,CSM,,The Offi
 Pegar feedback dos CSM’s que estão testando e aprimorar o prompt de acordo com a devolutiva deles.
 
 A entrega será o agente de CS em ambiente de produção.",,,,,,,0,,BACKLOG,8,Lana Reis,,Medium,RVO-105,,,0,,,,,
-Task,RVO-6502,,[ECONOMICS] - Melhorias no acompanhamento,RVO-1182,,,,,,,The Office,,,,,,,,,,0,,Pronto para Iniciar,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
+Task,RVO-6502,,[ECONOMICS] - Melhorias no acompanhamento,RVO-1182,,,,,,,The Office,,,"h3. ⚙️ O que precisa ser feito?
+
+* Melhorar o acompanhamento do Economics.
+
+h3. 🎯 Impacto esperado
+
+* Identificar melhor os erros e problemas que acontecem com frequência no Economics.
+
+h3. ✅ Pronto quando...
+
+* Identificar e criar gatilhos de avisos sobre os erros encontrados.",,,,,,,0,,Pronto para Iniciar,4,Gabriel Pires,,Medium,RVO-1182,,,0,,,,,
 Task,RVO-6477,,Validação automated process,RVO-129,,,,,,,The Big Bang Theory;The Office,,,,,,,,,,0,,BACKLOG,3,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
-Task,RVO-6475,,Criação de novo fluxo de pausas para PB de PMO,RVO-129,,,,,,,The Big Bang Theory;The Office,,,,,,,,,,0,,Em refinamento,4,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
+Task,RVO-6475,,Criação de novo fluxo de pausas para PB de PMO,RVO-129,,,,,,,The Big Bang Theory;The Office,,,,,,,,,,0,,Em andamento,4,Alan Dantas Bernardo,,Medium,RVO-129,,,0,,,,,
 Task,RVO-6463,,Ajustes e Testes - Fluxo PP,RVO-129,,23/04/2026,08/05/2026,,,,The Big Bang Theory;The Office,,,"*RESUMO*
 
 As otimizações cobrem dois eixos principais:
@@ -667,9 +948,9 @@ Regra definida:[https://docs.google.com/spreadsheets/d/1XtL5M6OMThDLff-JsaWZgAAi
 
 *O que deve ser entregue? (Definition of Done)*
 
-Produtos configurados no Dealhub.",,,,,,,0,,Em andamento,2,Raphael Fonseca Rodrigues dos Santos,,Highest,RVO-129,,,0,,,,,
+Produtos configurados no Dealhub.",,,,,,,0,,Homologação e Testes,3,Raphael Fonseca Rodrigues dos Santos,,Highest,RVO-129,,,0,,,,,
 Task,RVO-6335,,Cloud run Job,RVO-4965,,13/04/2026,16/04/2026,,,,The Big Bang Theory;Suits;The Office,,,,,,,,,,0,,BACKLOG,18,Luis Bueno,,Medium,RVO-4965,,,0,,,,,
-Task,RVO-6238,,Alteração do processo de Equipe do Negócio,RVO-129,,05/05/2026,05/05/2026,,,,The Big Bang Theory;The Office,,,"*Descrição da atividade:*
+Task,RVO-6238,,Alteração do processo de Equipe do Negócio,RVO-129,,05/05/2026,06/05/2026,,,,The Big Bang Theory;The Office,,,"*Descrição da atividade:*
 
 Ajuste de regra que permita mais de um papel de estratégia de relacionamento na equipe do negócio.
 
@@ -737,5 +1018,5 @@ Task,RVO-5551,,impulsionamento de vagas - alterações na seleção ,RVO-129,,06
 
 *O que deve ser entregue? (Definition of Done)*
 
-* À definir.",,,,,,,0,,BACKLOG,8,Raphael Fonseca Rodrigues dos Santos,,High,RVO-129,,,0,,,,,
+* À definir.",,,,,,,0,,Em andamento,8,Raphael Fonseca Rodrigues dos Santos,,High,RVO-129,,,0,,,,,
 Epic,RVO-2595,,C3 - [CH] Implementação do Community,,,06/10/2025,15/12/2025,,,,Sprint 2;Sprint 3;Breaking Bad;The Big Bang Theory;Sprint 4;Suits;Sprint 5;Stranger Things;The Office;Friends;Dark;Peaky Blinders;Sprint 1;Game of Thrones,,,"Este épico tem como objetivo a implementação do Community, sendo ele um portal seguro para clientes. A principal funcionalidade será permitir que os clientes, após autenticação, acompanhem o status e o histórico de seus tickets de suporte, além de poderem criar novas solicitações diretamente na plataforma.",,,,,,,0,,Em andamento,,Alan Dantas Bernardo,,Medium,,,,0,,,,,
