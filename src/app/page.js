@@ -7,6 +7,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, Cell,
   PieChart, Pie, LineChart, Line, CartesianGrid, ComposedChart, ReferenceLine
 } from 'recharts';
+import { Loader2, AlertCircle } from 'lucide-react';
 export default function Dashboard() {
   const [allIssues, setAllIssues] = useState([]);
   const [data, setData] = useState(null);
