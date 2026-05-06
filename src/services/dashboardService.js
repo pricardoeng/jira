@@ -96,9 +96,12 @@ const EPIC_NAMES = {
   "RVO-5779": "Melhorias Tickets"
 };
 
-const WHITELIST_PARENTS = [
-  'RVO-4922', 'RVO-129', 'RVO-6674', 'RVO-4920', 
-  'RVO-4921', 'RVO-4926', 'RVO-5054', 'RVO-5779', 'RVO-5450'
+const WHITELIST_ASSIGNEES = [
+  'david oliveira soares',
+  'Alan Dantas Bernardo',
+  'Tiago Neves',
+  'Iago Jants David',
+  'Raphael Fonseca Rodrigues dos Santos'
 ];
 
 export function processData(issues) {
@@ -125,8 +128,8 @@ export function processData(issues) {
     const rawParent = issue['parent'] || issue['Parent'] || issue['Parent Link'];
     const parent = rawParent ? rawParent.trim() : (issue['Epic Link'] ? issue['Epic Link'].trim() : 'No Parent');
 
-    // Filter by specific Parents (Epics) as requested
-    if (!WHITELIST_PARENTS.includes(parent)) return;
+    const assignee = issue['Assignee'] || 'Unassigned';
+    if (!WHITELIST_ASSIGNEES.includes(assignee)) return;
 
     metrics.totalCards++;
     
@@ -160,7 +163,7 @@ export function processData(issues) {
       metrics.todoPoints += points;
     }
 
-    const assignee = issue['Assignee'] || 'Unassigned';
+
     if (!assigneesMap.has(assignee)) {
       assigneesMap.set(assignee, { name: assignee, totalCards: 0, doneCards: 0, totalPoints: 0, donePoints: 0 });
     }
@@ -250,10 +253,8 @@ export function processData(issues) {
     if (day <= today) {
       let resolvedOnOrBefore = 0;
       issues.forEach(issue => {
-        const rawParent = issue['parent'] || issue['Parent'] || issue['Parent Link'];
-        const parent = rawParent ? rawParent.trim() : (issue['Epic Link'] ? issue['Epic Link'].trim() : 'No Parent');
-
-        if (!WHITELIST_PARENTS.includes(parent)) return;
+        const assignee = issue['Assignee'] || 'Unassigned';
+        if (!WHITELIST_ASSIGNEES.includes(assignee)) return;
         
         const resolvedStr = issue['Resolved'];
         if (resolvedStr && resolvedStr !== '[no field found]' && resolvedStr.includes('/')) {

@@ -7,15 +7,12 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, Cell,
   PieChart, Pie, LineChart, Line, CartesianGrid, ComposedChart, ReferenceLine
 } from 'recharts';
-import { Loader2, AlertCircle } from 'lucide-react';
 export default function Dashboard() {
   const [allIssues, setAllIssues] = useState([]);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedSprint, setSelectedSprint] = useState('');
-  const [selectedAssignees, setSelectedAssignees] = useState([]);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
     async function loadData() {
@@ -42,25 +39,10 @@ export default function Dashboard() {
 
   useEffect(() => {
     if (allIssues.length > 0 && selectedSprint) {
-      const filtered = allIssues.filter(issue => {
-        const matchesSprint = issue['Sprint'] === selectedSprint;
-        const name = issue['Assignee'] || 'Unassigned';
-        const matchesAssignee = selectedAssignees.length === 0 || selectedAssignees.includes(name);
-        return matchesSprint && matchesAssignee;
-      });
+      const filtered = allIssues.filter(issue => issue['Sprint'] === selectedSprint);
       setData(processData(filtered));
     }
-  }, [selectedSprint, selectedAssignees, allIssues]);
-
-  const toggleAssignee = (name) => {
-    setSelectedAssignees(prev => 
-      prev.includes(name) 
-        ? prev.filter(n => n !== name) 
-        : [...prev, name]
-    );
-  };
-
-  const selectAll = () => setSelectedAssignees([]);
+  }, [selectedSprint, allIssues]);
 
   if (loading) {
     return (
@@ -87,12 +69,6 @@ export default function Dashboard() {
   const { metrics, burndownData, assignees, epics, areas, types } = data;
 
   const uniqueSprints = Array.from(new Set(allIssues.map(i => i['Sprint']).filter(Boolean))).sort();
-  
-  // Extract unique assignees based on the selected sprint
-  const sprintIssues = allIssues.filter(i => i['Sprint'] === selectedSprint);
-  const uniqueAssignees = Array.from(new Set(sprintIssues.map(i => i['Assignee'] || 'Unassigned')))
-    .filter(Boolean)
-    .sort();
 
 
   
@@ -129,38 +105,6 @@ export default function Dashboard() {
               ))}
             </select>
           </div>
-
-          <div className={styles.filterGroup}>
-            <label>Responsáveis:</label>
-            <div className={styles.multiSelectWrapper}>
-              <button 
-                className={styles.multiSelectBtn}
-                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              >
-                {selectedAssignees.length === 0 
-                  ? 'Time Completo' 
-                  : `${selectedAssignees.length} selecionados`}
-                <span className={styles.chevron}>{isDropdownOpen ? '▲' : '▼'}</span>
-              </button>
-              
-              {isDropdownOpen && (
-                <div className={styles.multiSelectDropdown}>
-                  <div className={styles.dropdownOption} onClick={selectAll}>
-                    <input type="checkbox" checked={selectedAssignees.length === 0} readOnly />
-                    <span>Time Completo (Todos)</span>
-                  </div>
-                  <div className={styles.divider} />
-                  {uniqueAssignees.map(name => (
-                    <div key={name} className={styles.dropdownOption} onClick={() => toggleAssignee(name)}>
-                      <input type="checkbox" checked={selectedAssignees.includes(name)} readOnly />
-                      <span>{name}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          </div>
-
         </div>
       </header>
       
