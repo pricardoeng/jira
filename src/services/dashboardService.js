@@ -92,7 +92,8 @@ const EPIC_NAMES = {
   "RVO-5786": "Priorizações Operação - S1 2026",
   "RVO-5927": "Funil de Churn no Economics",
   "RVO-5997": "s5",
-  "RVO-6510": "Construção do Cálculo de RV no Tableau"
+  "RVO-6510": "Construção do Cálculo de RV no Tableau",
+  "RVO-5779": "Melhorias Tickets"
 };
 
 const WHITELIST_PARENTS = [
